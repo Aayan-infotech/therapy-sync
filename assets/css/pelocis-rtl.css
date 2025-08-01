@@ -4649,7 +4649,7 @@ h6 {
 .main-header__btn {
   display: none;
   padding: 10px 26px;
-  margin-right: 40px;
+  /* margin-right: 40px; */
 }
 @media (min-width: 768px) {
   .main-header__btn {

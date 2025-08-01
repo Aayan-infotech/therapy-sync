@@ -145,7 +145,7 @@
           <div
             class="main-header__inner main-menu w-100 justify-content-between"
           >
-            <div class="main-header__logo w-100">
+            <div class="main-header__logo">
               <a href="index.html">
                 <img src="assets/images/logo-dark.jpg" alt="Logo" width="224" />
               </a>
@@ -159,29 +159,23 @@
                 <a href="#">About</a>
               </li>
 
-              <li class="dropdown">
-                <a href="#">Services</a>
-                <ul>
-                  <li><a href="#">Services</a></li>
-                  <li>
-                    <a href="#">Services Carousel</a>
-                  </li>
-                  <li>
-                    <a href="#">Cognitive Psychology</a>
-                  </li>
+              <li class="">
+                <a href="#">Individual Therapy</a>
+              </li>
 
-                  <li>
-                    <a href="#">Psychiatric Treatment</a>
-                  </li>
-                  <li><a href="#">Family Therapy</a></li>
-                </ul>
+              <li class="">
+                <a href="#">Couple Therapy</a>
+              </li>
+
+              <li class="">
+                <a href="#">Excecutive Therapy</a>
               </li>
 
               <li>
                 <a href="#">Contact</a>
               </li>
             </ul>
-            <div class="main-header__right w-100 justify-content-end">
+            <div class="main-header__right justify-content-end">
               <div class="mobile-nav__btn mobile-nav__toggler">
                 <span></span>
                 <span></span>
@@ -476,12 +470,7 @@
                   <div class="feature-card__icon">
                     <span class="icon-cognitive"></span>
                   </div>
-                  <h2
-                    class="feature-card__title"
-                    data-i18n="feature.cognitive.title"
-                  >
-                    Cognitive Counselling
-                  </h2>
+                  <h2 class="feature-card__title">Individual Therapy</h2>
                   <p
                     class="feature-card__text"
                     data-i18n="feature.cognitive.description"
@@ -500,12 +489,7 @@
                   <div class="feature-card__icon">
                     <span class="icon-hand"></span>
                   </div>
-                  <h2
-                    class="feature-card__title"
-                    data-i18n="feature.academic.title"
-                  >
-                    Academic Counselling
-                  </h2>
+                  <h2 class="feature-card__title">Couple Therapy</h2>
                   <p
                     class="feature-card__text"
                     data-i18n="feature.academic.description"
@@ -524,12 +508,7 @@
                   <div class="feature-card__icon">
                     <span class="icon-idea"></span>
                   </div>
-                  <h2
-                    class="feature-card__title"
-                    data-i18n="feature.career.title"
-                  >
-                    Career Coaching
-                  </h2>
+                  <h2 class="feature-card__title">Executive Coaching</h2>
                   <p
                     class="feature-card__text"
                     data-i18n="feature.career.description"
@@ -688,7 +667,10 @@
             </div>
             <div class="col-lg-4 wow fadeInUp" data-wow-delay="100ms">
               <div class="call-area-one__btn">
-                <a href="#" class="pelocis-btn">
+                <a
+                  href="#"
+                  class="pelocis-btn d-flex flex-row gap-2 align-items-center"
+                >
                   <span data-i18n="call.button">make an appointment</span>
                   <i class="icon-right-arrow-white"></i>
                 </a>
@@ -753,33 +735,8 @@
               </p>
             </div>
           </div>
-
-          <div
-            class="service-one-home__carousel pelocis-owl__carousel owl-carousel"
-            data-owl-options='{
-          "items": 1,
-          "margin": 30,
-          "loop": false,
-          "smartSpeed": 700,
-          "nav": false,
-          "navText": ["<i class=\"flaticon-up-left-arrow\"></i>","<i class=\"flaticon-up-right-arrow\"></i>"],
-          "dots": true,
-          "autoplay": false,
-          "responsive": {
-            "0": {
-              "items": 1
-            },
-            "768": {
-              "items": 2
-            },
-            "992": {
-              "items": 3
-            }
-          }
-        }'
-          >
-            <!-- Item 1 - Cognitive Psychology -->
-            <div class="item">
+          <div class="row gy-4">
+            <div class="item col-lg-4">
               <div class="home-services__card">
                 <div class="home-services__card__shape--one"></div>
                 <div class="home-services__card__shape--two"></div>
@@ -788,11 +745,8 @@
                     <i class="icon-partnership"></i>
                   </div>
                   <h4 class="home-services__card__count">--</h4>
-                  <h2
-                    class="home-services__card__title"
-                    data-i18n="services.cognitive.title"
-                  >
-                    <a href="#">Cognitive Psychology</a>
+                  <h2 class="home-services__card__title">
+                    <a href="#">Individual Therapy</a>
                   </h2>
                   <p
                     class="home-services__card__text"
@@ -819,9 +773,7 @@
                 </div>
               </div>
             </div>
-
-            <!-- Item 2 - Academic Psychology -->
-            <div class="item">
+            <div class="item col-lg-4">
               <div class="home-services__card">
                 <div class="home-services__card__shape--one"></div>
                 <div class="home-services__card__shape--two"></div>
@@ -830,11 +782,8 @@
                     <i class="icon-hand1"></i>
                   </div>
                   <h4 class="home-services__card__count">--</h4>
-                  <h2
-                    class="home-services__card__title"
-                    data-i18n="services.academic.title"
-                  >
-                    <a href="#">Academic Psychology</a>
+                  <h2 class="home-services__card__title">
+                    <a href="#">Couple Therapy</a>
                   </h2>
                   <p
                     class="home-services__card__text"
@@ -863,7 +812,7 @@
             </div>
 
             <!-- Item 3 - Specialized Areas -->
-            <div class="item">
+            <div class="item col-lg-4">
               <div class="home-services__card">
                 <div class="home-services__card__shape--one"></div>
                 <div class="home-services__card__shape--two"></div>
@@ -872,11 +821,8 @@
                     <i class="icon-cooperation"></i>
                   </div>
                   <h4 class="home-services__card__count">--</h4>
-                  <h2
-                    class="home-services__card__title"
-                    data-i18n="services.specialized.title"
-                  >
-                    <a href="#">Specialized Areas</a>
+                  <h2 class="home-services__card__title">
+                    <a href="#">Executive Coaching</a>
                   </h2>
                   <p
                     class="home-services__card__text"
@@ -903,9 +849,35 @@
                 </div>
               </div>
             </div>
+          </div>
 
-            <!-- Additional items (repeats of the above) -->
-            <!-- Item 4 -->
+          <!-- Item 2 - Academic Psychology -->
+
+          <!-- <div
+            class="service-one-home__carousel pelocis-owl__carousel owl-carousel"
+            data-owl-options='{
+          "items": 1,
+          "margin": 30,
+          "loop": false,
+          "smartSpeed": 700,
+          "nav": false,
+          "navText": ["<i class=\"flaticon-up-left-arrow\"></i>","<i class=\"flaticon-up-right-arrow\"></i>"],
+          "dots": true,
+          "autoplay": false,
+          "responsive": {
+            "0": {
+              "items": 1
+            },
+            "768": {
+              "items": 2
+            },
+            "992": {
+              "items": 3
+            }
+          }
+        }'
+          >
+          
             <div class="item">
               <div class="home-services__card">
                 <div class="home-services__card__shape--one"></div>
@@ -947,7 +919,7 @@
               </div>
             </div>
 
-            <!-- Item 5 -->
+          
             <div class="item">
               <div class="home-services__card">
                 <div class="home-services__card__shape--one"></div>
@@ -989,7 +961,7 @@
               </div>
             </div>
 
-            <!-- Item 6 -->
+          
             <div class="item">
               <div class="home-services__card">
                 <div class="home-services__card__shape--one"></div>
@@ -1031,8 +1003,134 @@
               </div>
             </div>
 
-            <!-- Items 7-9 would follow the same pattern -->
-          </div>
+           
+            <div class="item">
+              <div class="home-services__card">
+                <div class="home-services__card__shape--one"></div>
+                <div class="home-services__card__shape--two"></div>
+                <div class="home-services__card__content">
+                  <div class="home-services__card__icon">
+                    <i class="icon-partnership"></i>
+                  </div>
+                  <h4 class="home-services__card__count">--</h4>
+                  <h2
+                    class="home-services__card__title"
+                    data-i18n="services.cognitive.title"
+                  >
+                    <a href="#">Cognitive Psychology</a>
+                  </h2>
+                  <p
+                    class="home-services__card__text"
+                    data-i18n="services.cognitive.description"
+                  >
+                    Supporting individuals in overcoming challenges, and
+                    enhancing their quality of life whether it's
+                  </p>
+                </div>
+                <div class="home-services__card__image">
+                  <img
+                    src="assets/images/resources/service-1-1.png"
+                    data-i18n="[alt]services.cognitive.image_alt"
+                    alt="Cognitive Therapy"
+                  />
+                  <div class="home-services__card__hover">
+                    <a href="#" class="home-services__card__hover-link">
+                      <i class="icon-arrow-small-right"></i>
+                    </a>
+                  </div>
+                  <a href="#" class="home-services__card__link">
+                    <i class="icon-arrow-small-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+           
+            <div class="item">
+              <div class="home-services__card">
+                <div class="home-services__card__shape--one"></div>
+                <div class="home-services__card__shape--two"></div>
+                <div class="home-services__card__content">
+                  <div class="home-services__card__icon">
+                    <i class="icon-hand1"></i>
+                  </div>
+                  <h4 class="home-services__card__count">--</h4>
+                  <h2
+                    class="home-services__card__title"
+                    data-i18n="services.academic.title"
+                  >
+                    <a href="#">Academic Psychology</a>
+                  </h2>
+                  <p
+                    class="home-services__card__text"
+                    data-i18n="services.academic.description"
+                  >
+                    Supporting individuals in overcoming challenges, and
+                    enhancing their quality of life whether it's
+                  </p>
+                </div>
+                <div class="home-services__card__image">
+                  <img
+                    src="assets/images/resources/service-1-2.png"
+                    data-i18n="[alt]services.academic.image_alt"
+                    alt="Academic Therapy"
+                  />
+                  <div class="home-services__card__hover">
+                    <a href="#" class="home-services__card__hover-link">
+                      <i class="icon-arrow-small-right"></i>
+                    </a>
+                  </div>
+                  <a href="#" class="home-services__card__link">
+                    <i class="icon-arrow-small-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+           
+            <div class="item">
+              <div class="home-services__card">
+                <div class="home-services__card__shape--one"></div>
+                <div class="home-services__card__shape--two"></div>
+                <div class="home-services__card__content">
+                  <div class="home-services__card__icon">
+                    <i class="icon-cooperation"></i>
+                  </div>
+                  <h4 class="home-services__card__count">--</h4>
+                  <h2
+                    class="home-services__card__title"
+                    data-i18n="services.specialized.title"
+                  >
+                    <a href="#">Specialized Areas</a>
+                  </h2>
+                  <p
+                    class="home-services__card__text"
+                    data-i18n="services.specialized.description"
+                  >
+                    Supporting individuals in overcoming challenges, and
+                    enhancing their quality of life whether it's
+                  </p>
+                </div>
+                <div class="home-services__card__image">
+                  <img
+                    src="assets/images/resources/service-1-3.png"
+                    data-i18n="[alt]services.specialized.image_alt"
+                    alt="Specialized Therapy"
+                  />
+                  <div class="home-services__card__hover">
+                    <a href="#" class="home-services__card__hover-link">
+                      <i class="icon-arrow-small-right"></i>
+                    </a>
+                  </div>
+                  <a href="#" class="home-services__card__link">
+                    <i class="icon-arrow-small-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+           
+          </div> -->
         </div>
       </section>
 
@@ -1911,7 +2009,18 @@
                       >
                     </a>
                     <a href="https://twitter.com">
-                      <i class="fab fa-twitter" aria-hidden="true"></i>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="bi bi-twitter-x"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"
+                        />
+                      </svg>
                       <span class="sr-only" data-i18n="footer.social.twitter"
                         >Twitter</span
                       >
@@ -1945,7 +2054,7 @@
                     class="footer-widget__title footer-widget__title--ml-18"
                     data-i18n="footer.services_title"
                   >
-                    Service
+                    Important Links
                   </h2>
                   <!-- /.footer-widget__title -->
                   <ul class="list-styled footer-widget__links">
@@ -1958,12 +2067,13 @@
                       >
                     </li>
                     <li>
-                      <a href="#" data-i18n="footer.services.blog"
-                        >Latest Post</a
-                      >
+                      <a href="#">Individual Therapy</a>
                     </li>
                     <li>
-                      <a href="#" data-i18n="footer.services.team">Our Team</a>
+                      <a href="#">Couple Therapy</a>
+                    </li>
+                    <li>
+                      <a href="#">Executive Coaching</a>
                     </li>
                     <li>
                       <a href="#" data-i18n="footer.services.contact"
@@ -2043,10 +2153,21 @@
           />
         </div>
         <!-- /.main-footer__top -->
-        <div class="main-footer__bottom">
+        <div
+          class="main-footer__bottom d-flex flex-column flex-lg-row justify-content-between gap-3 px-1 px-lg-5"
+        >
           <p class="main-footer__copyright" data-i18n="[html]footer.copyright">
             Copyright Therapy Sync <span class="dynamic-year"></span>, All Right
             Reserved
+          </p>
+          <p class="main-footer__copyright">
+            Designed & Developed by
+            <a
+              href="https://aayaninfotech.com/"
+              class="text-decoration-none text-light"
+              target="_blank"
+              >Aayan Infotech</a
+            >
           </p>
         </div>
         <!-- /.main-footer__bottom -->
@@ -2102,7 +2223,18 @@
             >
           </a>
           <a href="https://twitter.com">
-            <i class="fab fa-twitter" aria-hidden="true"></i>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-twitter-x"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"
+              />
+            </svg>
             <span class="sr-only" data-i18n="mobile.social.twitter"
               >Twitter</span
             >
@@ -2209,7 +2341,18 @@
             >
           </a>
           <a href="https://twitter.com">
-            <i class="fab fa-twitter" aria-hidden="true"></i>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-twitter-x"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"
+              />
+            </svg>
             <span class="sr-only" data-i18n="sidebar.social.twitter"
               >Twitter</span
             >
