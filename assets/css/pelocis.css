@@ -4664,14 +4664,13 @@ h6 {
 }
 @media (max-width: 767px) {
   .main-header__inner {
-    padding: 20px 25px;
+    padding: 10px 15px;
+  }
+  .sticky-header--cloned.active .main-header__inner {
+     padding: 10px 5px !important;
   }
 }
-@media (max-width: 375px) {
-  .main-header__inner {
-    padding: 20px 10px;
-  }
-}
+
 .main-header__logo {
   display: flex;
   width: 100%;
