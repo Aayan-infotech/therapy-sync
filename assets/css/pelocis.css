@@ -756,12 +756,12 @@ h6 {
 }
 
 .sec-title {
-  padding-bottom: 50px;
+  padding-bottom: 10px;
   position: relative;
 }
 @media (max-width: 767px) {
   .sec-title {
-    padding-bottom: 40px;
+    padding-bottom: 10px;
   }
 }
 .sec-title__shape {
