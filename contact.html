@@ -204,8 +204,8 @@
                   <label for="program" class="appointment__form__lable">Program</label>
                   <select id="program" class="form-select" required>
                     <option value="">Select a Program</option>
-                    <option value="Individual Therapy">Individual Therapy</option>
-                    <option value="Executive Coaching">Executive Coaching</option>
+                    <option value="individual therapy">Individual Therapy</option>
+                    <option value="executive coaching">Executive Coaching</option>
                     <option value="Couple Therapy">Couple Therapy</option>
                   </select>
                 </div>
@@ -509,7 +509,7 @@
       };
 
       try {
-        const response = await fetch("http://34.226.30.17:5050/api/help-support/enquiry", {
+        const response = await fetch("http://34.226.30.17:5050/api/webEnquiry", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
