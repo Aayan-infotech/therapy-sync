@@ -2756,6 +2756,9 @@ h6 {
   .blog-three {
     padding: 70px 0 80px;
   }
+  .mobile-nav__wrapper.expanded .main-header__logo img {
+    display: none;
+  }
 }
 .blog-three .blog-card-three {
   position: relative;
@@ -3170,8 +3173,8 @@ h6 {
   opacity: 0;
   filter: blur(10px);
 }
-.form-select{
-  height:48px
+.form-select {
+  height: 48px;
 }
 /*--------------------------------------------------------------
 # Form
@@ -4641,7 +4644,7 @@ h6 {
 }
 @media (max-width: 766px) {
   .main-header {
-    top: 15px;
+    top: 0px;
   }
 }
 .main-header .container-fluid {
