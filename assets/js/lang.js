@@ -49,7 +49,7 @@
 
               //call one
               "call.title":
-                "Psychology and counseling include specialized areas forensic",
+                "When you live and work across borders, your challenges don’t wait…”",
               "call.description":
                 "Business tailored design, management & support services<br>business agency elit, sed do eiusmod tempor majority have<br>in some we form, by injected humour solution.",
               "call.button": "make an appointment",
@@ -87,7 +87,7 @@
               // Achievements Section - German
               "achievements.tagline": "UNSERE ERFOLGE",
               "achievements.title":
-                "Psychologie und Beratung Fakten <br>Spezialgebiete Forensik",
+                "When you live and work across borders, your challenges don’t wait…”",
               "achievements.shape_alt": "Therapie Sync dekorative Form",
               "achievements.card_shape": "Therapie Sync Karten-Dekoration",
 
@@ -98,7 +98,7 @@
               "achievements.awards": "Gewonnene Auszeichnungen",
 
               // Why Choose Us Section - German
-              "why_choose.tagline": "WARUM UNS WÄHLEN",
+              "why_choose.tagline": "WARUM EXPAT THERAPY WÄHLEN",
               "why_choose.title":
                 "Wir bieten entscheidende psychologische Förderung",
               "why_choose.shape_alt": "Therapie Sync dekorative Form",
@@ -316,7 +316,7 @@
 
               // call one
               "call.title":
-                "Psychology and counseling include specialized areas forensic",
+                "When you live and work across borders, your challenges don’t wait…”",
               "call.description":
                 "Business tailored design, management & support services<br>business agency elit, sed do eiusmod tempor majority have<br>in some we form, by injected humour solution.",
               "call.button": "make an appointment",
@@ -353,7 +353,7 @@
 
               "achievements.tagline": "OUR FUN FACTS",
               "achievements.title":
-                "Psychology and Counseling Fan Fact <br>Specialized Areas Forensic",
+                "When you live and work across borders, your challenges don’t wait…”",
               "achievements.shape_alt": "Therapy Sync decorative shape",
               "achievements.card_shape": "Therapy Sync card decoration",
 
@@ -365,7 +365,7 @@
 
               //why choose us
 
-              "why_choose.tagline": "WHY CHOOSE US",
+              "why_choose.tagline": " WHY CHOOSE EXPAT THERAPY",
               "why_choose.title":
                 "We Providing Psychology Crucial Choose of Promoting",
               "why_choose.shape_alt": "Therapy Sync decorative shape",
