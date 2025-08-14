@@ -528,6 +528,7 @@ h6 {
   .block-title h3 {
     font-size: 50px;
   }
+ 
 }
 
 .ul-list-one {
@@ -3338,6 +3339,7 @@ h6 {
   right: 0;
   bottom: 0;
   animation: zumpBottom 2s linear infinite;
+  display: none;
 }
 @media (max-width: 1200px) {
   .main-footer__shape-2 {
