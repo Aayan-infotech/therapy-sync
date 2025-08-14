@@ -232,8 +232,8 @@
                 },
                 contact_title: "Kontaktieren Sie uns",
                 contact: {
-                  phone: "+11234 751 328",
-                  email: "therapie@therapysync.de",
+                  phone: "+49 157 300 20 315",
+                  email: "contact@psychotherapy-dombrowe.com",
                   address: "8/05 Mozilla Golden",
                 },
                 copyright:
@@ -243,8 +243,8 @@
               mobile: {
                 logo_alt: "Therapie Sync",
                 contact: {
-                  email: "therapie@therapysync.de",
-                  phone: "666 888 0000",
+                  email: "contact@psychotherapy-dombrowe.com",
+                  phone: "+49 157 300 20 315",
                 },
                 social: {
                   facebook: "Facebook",
@@ -264,8 +264,8 @@
                 contact_title: "Kontaktinformation:",
                 contact: {
                   address: "85 Ketch Harbour Road Bensalem, PA 19020",
-                  email: "therapie@therapysync.de",
-                  phone: "099 695 695 35",
+                  email: "contact@psychotherapy-dombrowe.com",
+                  phone: "+49 157 300 20 315",
                 },
                 social: {
                   facebook: "Facebook",
@@ -497,8 +497,8 @@
                 },
                 contact_title: "Contact Us",
                 contact: {
-                  phone: "+11234 751 328",
-                  email: "therapy@therapysync.com",
+                  phone: "+49 157 300 20 315",
+                  email: "contact@psychotherapy-dombrowe.com",
                   address: "8/05 Mozilla Golden",
                 },
                 copyright:
@@ -508,8 +508,8 @@
               mobile: {
                 logo_alt: "Therapy Sync",
                 contact: {
-                  email: "therapy@therapysync.com",
-                  phone: "666 888 0000",
+                  email: "contact@psychotherapy-dombrowe.com",
+                  phone: "+49 157 300 20 315",
                 },
                 social: {
                   facebook: "Facebook",
@@ -529,8 +529,8 @@
                 contact_title: "Contact Info:",
                 contact: {
                   address: "85 Ketch Harbour Road Bensalem, PA 19020",
-                  email: "therapy@therapysync.com",
-                  phone: "099 695 695 35",
+                  email: "contact@psychotherapy-dombrowe.com",
+                  phone: "+49 157 300 20 315",
                 },
                 social: {
                   facebook: "Facebook",

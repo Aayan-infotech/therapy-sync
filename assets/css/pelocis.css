@@ -3409,8 +3409,21 @@ h6 {
   margin-left: -18px;
 }
 @media (max-width: 1028px) {
+  .pelocis-btn {
+   
+    font-size: 14px;
+    font-weight: 500;
+    font-family: var(--pelocis-heading-font, "Solway", serif);
+    padding: 10px 20px;
+   
+}
   .footer-widget__title--ml-18 {
     margin-left: 0px;
+  }
+  .image-background-viewer-support img{
+        min-height: 600px;
+    object-fit: cover;
+    object-position: top;
   }
 }
 .footer-widget__info {
@@ -3444,6 +3457,14 @@ h6 {
   color: var(--pelocis-white, #fff);
   font-weight: 400;
   line-height: 30px;
+  display: flex;
+    flex-direction: row;
+    align-items: start;
+        gap: 10px;
+    justify-content: left;
+}
+.footer-widget--links span.fas {
+  margin-top:10px
 }
 .footer-widget__links li a {
   color: inherit;
@@ -5899,7 +5920,7 @@ body.megamenu-popup-active .mobile-nav__content {
   }
 }
 .why-choose-one__list {
-  margin-top: 32px;
+  margin-top: 10px;
   border: 1px solid var(--pelocis-border-color, #dddddd);
   border-radius: 5px;
 }
@@ -19200,7 +19221,7 @@ body.boxed-wrapper .topbar-one__inner__shape {
 }
 .business-solutions .business-solutions__card {
   position: relative;
-  padding: 148px 0 0;
+  /* padding: 148px 0 0; */
 }
 @media (max-width: 1199px) {
   .business-solutions .business-solutions__card {
@@ -21046,3 +21067,49 @@ body.boxed-wrapper .topbar-one__inner__shape {
     border: 25px solid #8b5c3e;
   }
 }
+
+/* cta section */
+
+ .cta-section {
+            background: linear-gradient(135deg, #e0a129 0%, #8b5c3e 100%);
+            padding: 5rem 0;
+            border-radius: 10px;
+            margin: 3rem 0;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        
+        .cta-headline {
+            color: #fff;
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 2rem;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+        }
+        
+        .cta-btn {
+            background-color: #000;
+            color: white;
+            font-weight: 600;
+            padding: 1rem 2.5rem;
+            font-size: 1.2rem;
+            border: none;
+            border-radius: 50px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        
+        .cta-btn:hover {
+             background-color: #000;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+        }
+        
+        @media (max-width: 768px) {
+            .cta-headline {
+                font-size: 2rem;
+            }
+            
+            .cta-section {
+                padding: 3rem 1rem;
+            }
+        }
