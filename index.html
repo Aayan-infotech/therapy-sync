@@ -201,276 +201,127 @@
       <!-- /.main-header -->
 
       <!-- main-slider-start -->
-      <section class="main-slider-one">
+    <section class="main-slider-one">
+  <div
+    class="main-slider-one__carousel pelocis-owl__carousel owl-carousel"
+    data-owl-options='{
+      "loop": true,
+      "animateOut": "fadeOut",
+      "animateIn": "fadeIn",
+      "items": 1,
+      "autoplay": true,
+      "autoplayTimeout": 7000,
+      "smartSpeed": 1000,
+      "nav": true,
+      "navText": ["<span class=\"icon-left-arrow-white\"></span>","<span class=\"icon-right-arrow-white\"></span>"],
+      "dots": false,
+      "margin": 0
+    }'
+  >
+    <!-- Slide One -->
+    <div class="item">
+      <div class="main-slider-one__item">
         <div
-          class="main-slider-one__carousel pelocis-owl__carousel owl-carousel"
-          data-owl-options='{
-		"loop": true,
-		"animateOut": "fadeOut",
-		"animateIn": "fadeIn",
-		"items": 1,
-		"autoplay": true,
-		"autoplayTimeout": 7000,
-		"smartSpeed": 1000,
-		"nav": true,
-		"navText": ["<span class=\"icon-left-arrow-white\"></span>","<span class=\"icon-right-arrow-white\"></span>"],
-		"dots": false,
-		"margin": 0
-	    }'
-        >
-          <div class="item">
-            <div class="main-slider-one__item">
-              <div
-                class="main-slider-one__bg"
-                style="
-                  background-image: url(assets/images/backgrounds/slider-1-1.jpg);
-                "
-              ></div>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-              >
-                <circle
-                  class="circle0 steap"
-                  cx="50%"
-                  cy="55%"
-                  r="5.2%"
-                ></circle>
-                <circle
-                  class="circle1 steap"
-                  cx="50%"
-                  cy="55%"
-                  r="15.6%"
-                ></circle>
-                <circle
-                  class="circle2 steap"
-                  cx="50%"
-                  cy="55%"
-                  r="26%"
-                ></circle>
-                <circle
-                  class="circle3 steap"
-                  cx="50%"
-                  cy="55%"
-                  r="36.4%"
-                ></circle>
-                <circle
-                  class="circle4 steap"
-                  cx="50%"
-                  cy="55%"
-                  r="46.8%"
-                ></circle>
-                <circle
-                  class="circle5 steap"
-                  cx="50%"
-                  cy="55%"
-                  r="57%"
-                ></circle>
-                <circle
-                  class="circle6 steap"
-                  cx="50%"
-                  cy="55%"
-                  r="67.7%"
-                ></circle>
-                <circle
-                  class="circle7 steap"
-                  cx="50%"
-                  cy="55%"
-                  r="78.1%"
-                ></circle>
-                <circle
-                  class="circle8 steap"
-                  cx="50%"
-                  cy="55%"
-                  r="88.5%"
-                ></circle>
-                <circle
-                  class="circle9 steap"
-                  cx="50%"
-                  cy="55%"
-                  r="100%"
-                ></circle>
-              </svg>
-              <div class="container h-100">
-                <div class="row align-items-center h-100">
-                  <div class="col-md-12">
-                    <div class="main-slider-one__content">
-                      <!-- <h5 class="main-slider-one__sub-title">
-                        <img
-                          src="assets/images/resources/home-one-img-1.png"
-                          alt="Therapy room with leather sofa and warm lighting"
-                        />
-                        Psychology & Counseling
-                      </h5> -->
-                      <!-- slider-sub-title -->
-                      <h2 class="main-slider-one__title">
-                        Psychodynamic Therapy for Expats — <br />
-                        <span class="main-slider-one__title--thin"
-                          >Wherever Life Takes</span
-                        ><span class="main-slider-one__title--base">You</span>
-                        <img
-                          src="assets/images/shapes/text-shape-1.png"
-                          alt="Therapy room with leather sofa and warm lighting"
-                          class="main-slider-one__title--shape"
-                        />
-                      </h2>
-                      <!-- slider-title -->
-                      <p class="main-slider-one__text">
-                        Specialized support for internationally mobile
-                        individuals and couples… anywhere in the world.
-                      </p>
-                      <div
-                        class="d-flex flex-column flex-lg-row gap-2 align-items-center"
-                      >
-                        <div class="main-slider-one__btn">
-                          <a href="make-appointment.html" class="pelocis-btn"
-                            ><span
-                              >Schedule Your Consultation
-                              <i class="icon-right-arrow-white"></i></span
-                          ></a>
-                        </div>
-                        <div class="main-slider-one__btn">
-                          <a href="excecutive-therapy.html" class="pelocis-btn"
-                            ><span
-                              >Learn More
-                              <i class="icon-right-arrow-white"></i></span
-                          ></a>
-                        </div>
-                      </div>
-                      <!-- slider-btn -->
-                    </div>
+          class="main-slider-one__bg"
+          style="background-image: url(assets/images/backgrounds/slider-1-1.jpg);"
+        ></div>
+
+        <div class="container h-100">
+          <div class="row align-items-center h-100">
+            <div class="col-md-12">
+              <div class="main-slider-one__content">
+                <h2 class="main-slider-one__title">
+                  <span data-i18n="slider1.title">
+                    Psychodynamic Therapy for Expats —
+                  </span><br />
+                  <span class="main-slider-one__title--thin" data-i18n="slider1.title_thin">
+                    Wherever Life Takes
+                  </span>
+                  <span class="main-slider-one__title--base" data-i18n="slider1.title_base">
+                    You
+                  </span>
+                  <img
+                    src="assets/images/shapes/text-shape-1.png"
+                    class="main-slider-one__title--shape"
+                    alt="Therapy room with leather sofa and warm lighting"
+                    data-i18n="[alt]slider1.shape_alt"
+                  />
+                </h2>
+
+                <p class="main-slider-one__text" data-i18n="slider1.text">
+                  Specialized support for internationally mobile individuals and couples… anywhere in the world.
+                </p>
+
+                <div class="d-flex flex-column flex-lg-row gap-2 align-items-center">
+                  <div class="main-slider-one__btn">
+                    <a href="make-appointment.html" class="pelocis-btn">
+                      <span data-i18n="slider1.cta1">
+                        Schedule Your Consultation <i class="icon-right-arrow-white"></i>
+                      </span>
+                    </a>
+                  </div>
+                  <div class="main-slider-one__btn">
+                    <a href="excecutive-therapy.html" class="pelocis-btn">
+                      <span data-i18n="slider1.cta2">
+                        Learn More <i class="icon-right-arrow-white"></i>
+                      </span>
+                    </a>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <div class="main-slider-one__item">
-              <div
-                class="main-slider-one__bg"
-                style="
-                  background-image: url(assets/images/backgrounds/slider-1-1.jpg);
-                "
-              ></div>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-              >
-                <circle
-                  class="circle0 steap"
-                  cx="50%"
-                  cy="55%"
-                  r="5.2%"
-                ></circle>
-                <circle
-                  class="circle1 steap"
-                  cx="50%"
-                  cy="55%"
-                  r="15.6%"
-                ></circle>
-                <circle
-                  class="circle2 steap"
-                  cx="50%"
-                  cy="55%"
-                  r="26%"
-                ></circle>
-                <circle
-                  class="circle3 steap"
-                  cx="50%"
-                  cy="55%"
-                  r="36.4%"
-                ></circle>
-                <circle
-                  class="circle4 steap"
-                  cx="50%"
-                  cy="55%"
-                  r="46.8%"
-                ></circle>
-                <circle
-                  class="circle5 steap"
-                  cx="50%"
-                  cy="55%"
-                  r="57%"
-                ></circle>
-                <circle
-                  class="circle6 steap"
-                  cx="50%"
-                  cy="55%"
-                  r="67.7%"
-                ></circle>
-                <circle
-                  class="circle7 steap"
-                  cx="50%"
-                  cy="55%"
-                  r="78.1%"
-                ></circle>
-                <circle
-                  class="circle8 steap"
-                  cx="50%"
-                  cy="55%"
-                  r="88.5%"
-                ></circle>
-                <circle
-                  class="circle9 steap"
-                  cx="50%"
-                  cy="55%"
-                  r="100%"
-                ></circle>
-              </svg>
-              <div class="container h-100">
-                <div class="row align-items-center h-100">
-                  <div class="col-md-12">
-                    <div class="main-slider-one__content">
-                      <!-- <h5 class="main-slider-one__sub-title">
-                        <img
-                          src="assets/images/resources/home-one-img-1.png"
-                          alt="Therapy room with leather sofa and warm lighting"
-                        />
-                        Coaching
-                      </h5> -->
-                      <!-- slider-sub-title -->
-                      <h2 class="main-slider-one__title">
-                        Welcome to Expat Therapy !
-
-                        <img
-                          src="assets/images/shapes/text-shape-1.png"
-                          alt="Therapy room with leather sofa and warm lighting"
-                          class="main-slider-one__title--shape"
-                        />
-                      </h2>
-                      <!-- slider-title -->
-                      <p class="main-slider-one__text">
-                        At Expat Therapy, we understand the unique challenges
-                        that come with living in a new country.
-                      </p>
-                      <div
-                        class="d-flex flex-column flex-lg-row gap-2 align-items-center"
-                      >
-                        <div class="main-slider-one__btn">
-                          <a href="make-appointment.html" class="pelocis-btn"
-                            ><span
-                              >Schedule Your Consultation
-                              <i class="icon-right-arrow-white"></i></span
-                          ></a>
-                        </div>
-                        <div class="main-slider-one__btn">
-                          <a href="excecutive-therapy.html" class="pelocis-btn"
-                            ><span
-                              >Learn More
-                              <i class="icon-right-arrow-white"></i></span
-                          ></a>
-                        </div>
-                      </div>
-
-                      <!-- slider-btn -->
-                    </div>
-                  </div>
-                </div>
+                <!-- /.buttons -->
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </div>
+
+    <!-- Slide Two -->
+    <div class="item">
+      <div class="main-slider-one__item">
+        <div
+          class="main-slider-one__bg"
+          style="background-image: url(assets/images/backgrounds/slider-1-1.jpg);"
+        ></div>
+
+        <div class="container h-100">
+          <div class="row align-items-center h-100">
+            <div class="col-md-12">
+              <div class="main-slider-one__content">
+                <h2 class="main-slider-one__title" data-i18n="slider2.title">
+                  Welcome to Expat Therapy!
+                </h2>
+
+                <p class="main-slider-one__text" data-i18n="slider2.text">
+                  At Expat Therapy, we understand the unique challenges that come with living in a new country.
+                </p>
+
+                <div class="d-flex flex-column flex-lg-row gap-2 align-items-center">
+                  <div class="main-slider-one__btn">
+                    <a href="make-appointment.html" class="pelocis-btn">
+                      <span data-i18n="slider2.cta1">
+                        Schedule Your Consultation <i class="icon-right-arrow-white"></i>
+                      </span>
+                    </a>
+                  </div>
+                  <div class="main-slider-one__btn">
+                    <a href="excecutive-therapy.html" class="pelocis-btn">
+                      <span data-i18n="slider2.cta2">
+                        Learn More <i class="icon-right-arrow-white"></i>
+                      </span>
+                    </a>
+                  </div>
+                </div>
+                <!-- /.buttons -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
       <!-- main-slider-end -->
 
       <section class="opening-message" id="opening-message">

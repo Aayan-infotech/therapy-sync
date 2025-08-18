@@ -15,6 +15,21 @@
         resources: {
           de: {
             translation: {
+                slider1: {
+      title: "Psychodynamische Therapie für Expats —",
+      title_thin: "Wo auch immer das Leben",
+      title_base: "Sie hinführt",
+      shape_alt: "Dekorative Textform",
+      text: "Spezialisierte Unterstützung für international mobile Einzelpersonen und Paare – überall auf der Welt.",
+      cta1: "Vereinbaren Sie Ihre Beratung",
+      cta2: "Mehr erfahren"
+    },
+    slider2: {
+      title: "Willkommen bei Expat Therapy!",
+      text: "Bei Expat Therapy verstehen wir die einzigartigen Herausforderungen, die mit dem Leben in einem neuen Land verbunden sind.",
+      cta1: "Vereinbaren Sie Ihre Beratung",
+      cta2: "Mehr erfahren"
+    },
               // Feature Section
               "feature.cognitive.title": "Kognitive Beratung",
               "feature.cognitive.description":
@@ -196,7 +211,7 @@
               "contact.phone_label": "Telefon",
               "contact.program_label": "Programm",
               "contact.program_sr": "Programm auswählen",
-
+a
               // Placeholders
               "contact.name_placeholder": "Ihr Name *",
               "contact.email_placeholder": "Ihre E-Mail *",
@@ -282,6 +297,21 @@
           },
           en: {
             translation: {
+              slider1: {
+      title: "Psychodynamic Therapy for Expats —",
+      title_thin: "Wherever Life Takes",
+      title_base: "You",
+      shape_alt: "Decorative text shape",
+      text: "Specialized support for internationally mobile individuals and couples… anywhere in the world.",
+      cta1: "Schedule Your Consultation",
+      cta2: "Learn More"
+    },
+    slider2: {
+      title: "Welcome to Expat Therapy!",
+      text: "At Expat Therapy, we understand the unique challenges that come with living in a new country.",
+      cta1: "Schedule Your Consultation",
+      cta2: "Learn More"
+    },
               // Feature Section
               "feature.cognitive.title": "Cognitive Counselling",
               "feature.cognitive.description":
