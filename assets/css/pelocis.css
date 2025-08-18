@@ -3428,7 +3428,7 @@ h6 {
     margin-left: 0px;
   }
   .image-background-viewer-support img {
-    min-height: 600px;
+    min-height: 700px;
     object-fit: cover;
     object-position: top;
   }
@@ -3951,6 +3951,7 @@ h6 {
 @media (max-width: 510px) {
   .home-contact-one .home-contact__card__list li {
     padding: 15px 32px;
+    flex-direction: column;
   }
 }
 .home-contact-one .home-contact__card__list li:last-child {
