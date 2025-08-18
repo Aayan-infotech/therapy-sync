@@ -105,38 +105,39 @@
             <ul class="list-unstyled topbar-one__info">
               <li class="topbar-one__info__item">
                 <i class="icon-mail"></i>
-                <a href="mailto:expacttheraphy@gmail.com"
+                <a
+                  href="mailto:expacttheraphy@gmail.com"
+                  data-i18n="topbar.email"
                   >expacttheraphy@gmail.com</a
                 >
               </li>
               <li class="topbar-one__info__item__divider"></li>
               <li class="topbar-one__info__item">
                 <i class="icon-location"></i>
-                <a href="https://www.google.com/maps"
+                <a href="https://www.google.com/maps" data-i18n="topbar.address"
                   >8/05 Mozilla Golden Street</a
                 >
               </li>
             </ul>
-            <!-- /.list-unstyled topbar-one__info -->
             <div class="topbar-one__right">
               <ul class="topbar-one__right__item">
-                <li><a href="#">Help you</a></li>
+                <li><a href="#" data-i18n="topbar.help">Help you</a></li>
                 <li class="topbar-one__right__item__divider"></li>
                 <li>
                   <select class="selectpicker" id="language-select">
-                    <option value="en">English</option>
-                    <option value="de">German</option>
+                    <option value="en" data-i18n="language.english">
+                      English
+                    </option>
+                    <option value="de" data-i18n="language.german">
+                      German
+                    </option>
                   </select>
                 </li>
               </ul>
             </div>
-            <!-- /.topbar-one__right -->
           </div>
-          <!-- /.topbar-one__inner -->
         </div>
-        <!-- /.container-fluid -->
       </div>
-      <!-- /.topbar-one -->
 
       <header class="main-header sticky-header sticky-header--normal">
         <div class="container-fluid p-0">
@@ -145,30 +146,38 @@
           >
             <div class="main-header__logo">
               <a href="index.html">
-                <img src="assets/images/logo-dark.jpg" alt="Logo" width="150" />
+                <img
+                  src="assets/images/logo-dark.jpg"
+                  data-i18n="[alt]header.logo_alt"
+                  alt="Logo"
+                  width="150"
+                />
               </a>
             </div>
             <ul class="main-menu__list w-100">
               <li>
-                <a href="index.html">Home</a>
-              </li>
-
-              <li>
-                <a href="individual-therapy.html">Individual Therapy</a>
-              </li>
-
-              <li>
-                <a href="couple-therapy.html">Couples Therapy</a>
-              </li>
-
-              <li>
-                <a href="excecutive-therapy.html">Excecutive Coaching</a>
+                <a href="index.html" data-i18n="menu.home">Home</a>
               </li>
               <li>
-                <a href="about.html">About</a>
+                <a href="individual-therapy.html" data-i18n="menu.individual"
+                  >Individual Therapy</a
+                >
               </li>
               <li>
-                <a href="contact.html">Contact</a>
+                <a href="couple-therapy.html" data-i18n="menu.couples"
+                  >Couples Therapy</a
+                >
+              </li>
+              <li>
+                <a href="excecutive-therapy.html" data-i18n="menu.executive"
+                  >Executive Coaching</a
+                >
+              </li>
+              <li>
+                <a href="about.html" data-i18n="menu.about">About</a>
+              </li>
+              <li>
+                <a href="contact.html" data-i18n="menu.contact">Contact</a>
               </li>
             </ul>
             <div class="main-header__right justify-content-end">
@@ -177,34 +186,26 @@
                 <span></span>
                 <span></span>
               </div>
-              <!-- /.mobile-nav__toggler -->
-
               <a
                 href="make-appointment.html"
                 class="pelocis-btn main-header__btn"
               >
-                <span
+                <span data-i18n="menu.book"
                   >Book Consultation<i class="icon-right-arrow-white"></i
-                ></span> </a
-              ><!-- /.thm-btn main-header__btn -->
+                ></span>
+              </a>
             </div>
-            <!-- /.main-header__logo -->
-            <nav class="main-header__nav main-menu d-flex">
-              <!-- /.main-header__right -->
-            </nav>
-            <!-- /.main-header__nav -->
+            <nav class="main-header__nav main-menu d-flex"></nav>
           </div>
-          <!-- /.main-header__inner -->
         </div>
-        <!-- /.container-fluid -->
       </header>
       <!-- /.main-header -->
 
       <!-- main-slider-start -->
-    <section class="main-slider-one">
-  <div
-    class="main-slider-one__carousel pelocis-owl__carousel owl-carousel"
-    data-owl-options='{
+      <section class="main-slider-one">
+        <div
+          class="main-slider-one__carousel pelocis-owl__carousel owl-carousel"
+          data-owl-options='{
       "loop": true,
       "animateOut": "fadeOut",
       "animateIn": "fadeIn",
@@ -217,110 +218,131 @@
       "dots": false,
       "margin": 0
     }'
-  >
-    <!-- Slide One -->
-    <div class="item">
-      <div class="main-slider-one__item">
-        <div
-          class="main-slider-one__bg"
-          style="background-image: url(assets/images/backgrounds/slider-1-1.jpg);"
-        ></div>
+        >
+          <!-- Slide One -->
+          <div class="item">
+            <div class="main-slider-one__item">
+              <div
+                class="main-slider-one__bg"
+                style="
+                  background-image: url(assets/images/backgrounds/slider-1-1.jpg);
+                "
+              ></div>
 
-        <div class="container h-100">
-          <div class="row align-items-center h-100">
-            <div class="col-md-12">
-              <div class="main-slider-one__content">
-                <h2 class="main-slider-one__title">
-                  <span data-i18n="slider1.title">
-                    Psychodynamic Therapy for Expats —
-                  </span><br />
-                  <span class="main-slider-one__title--thin" data-i18n="slider1.title_thin">
-                    Wherever Life Takes
-                  </span>
-                  <span class="main-slider-one__title--base" data-i18n="slider1.title_base">
-                    You
-                  </span>
-                  <img
-                    src="assets/images/shapes/text-shape-1.png"
-                    class="main-slider-one__title--shape"
-                    alt="Therapy room with leather sofa and warm lighting"
-                    data-i18n="[alt]slider1.shape_alt"
-                  />
-                </h2>
+              <div class="container h-100">
+                <div class="row align-items-center h-100">
+                  <div class="col-md-12">
+                    <div class="main-slider-one__content">
+                      <h2 class="main-slider-one__title">
+                        <span data-i18n="slider1.title">
+                          Psychodynamic Therapy for Expats — </span
+                        ><br />
+                        <span
+                          class="main-slider-one__title--thin"
+                          data-i18n="slider1.title_thin"
+                        >
+                          Wherever Life Takes
+                        </span>
+                        <span
+                          class="main-slider-one__title--base"
+                          data-i18n="slider1.title_base"
+                        >
+                          You
+                        </span>
+                        <img
+                          src="assets/images/shapes/text-shape-1.png"
+                          class="main-slider-one__title--shape"
+                          alt="Therapy room with leather sofa and warm lighting"
+                          data-i18n="[alt]slider1.shape_alt"
+                        />
+                      </h2>
 
-                <p class="main-slider-one__text" data-i18n="slider1.text">
-                  Specialized support for internationally mobile individuals and couples… anywhere in the world.
-                </p>
+                      <p class="main-slider-one__text" data-i18n="slider1.text">
+                        Specialized support for internationally mobile
+                        individuals and couples… anywhere in the world.
+                      </p>
 
-                <div class="d-flex flex-column flex-lg-row gap-2 align-items-center">
-                  <div class="main-slider-one__btn">
-                    <a href="make-appointment.html" class="pelocis-btn">
-                      <span data-i18n="slider1.cta1">
-                        Schedule Your Consultation <i class="icon-right-arrow-white"></i>
-                      </span>
-                    </a>
-                  </div>
-                  <div class="main-slider-one__btn">
-                    <a href="excecutive-therapy.html" class="pelocis-btn">
-                      <span data-i18n="slider1.cta2">
-                        Learn More <i class="icon-right-arrow-white"></i>
-                      </span>
-                    </a>
+                      <div
+                        class="d-flex flex-column flex-lg-row gap-2 align-items-center"
+                      >
+                        <div class="main-slider-one__btn">
+                          <a href="make-appointment.html" class="pelocis-btn">
+                            <span data-i18n="slider1.cta1">
+                              Schedule Your Consultation
+                              <i class="icon-right-arrow-white"></i>
+                            </span>
+                          </a>
+                        </div>
+                        <div class="main-slider-one__btn">
+                          <a href="excecutive-therapy.html" class="pelocis-btn">
+                            <span data-i18n="slider1.cta2">
+                              Learn More <i class="icon-right-arrow-white"></i>
+                            </span>
+                          </a>
+                        </div>
+                      </div>
+                      <!-- /.buttons -->
+                    </div>
                   </div>
                 </div>
-                <!-- /.buttons -->
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide Two -->
+          <div class="item">
+            <div class="main-slider-one__item">
+              <div
+                class="main-slider-one__bg"
+                style="
+                  background-image: url(assets/images/backgrounds/slider-1-1.jpg);
+                "
+              ></div>
+
+              <div class="container h-100">
+                <div class="row align-items-center h-100">
+                  <div class="col-md-12">
+                    <div class="main-slider-one__content">
+                      <h2
+                        class="main-slider-one__title"
+                        data-i18n="slider2.title"
+                      >
+                        Welcome to Expat Therapy!
+                      </h2>
+
+                      <p class="main-slider-one__text" data-i18n="slider2.text">
+                        At Expat Therapy, we understand the unique challenges
+                        that come with living in a new country.
+                      </p>
+
+                      <div
+                        class="d-flex flex-column flex-lg-row gap-2 align-items-center"
+                      >
+                        <div class="main-slider-one__btn">
+                          <a href="make-appointment.html" class="pelocis-btn">
+                            <span data-i18n="slider2.cta1">
+                              Schedule Your Consultation
+                              <i class="icon-right-arrow-white"></i>
+                            </span>
+                          </a>
+                        </div>
+                        <div class="main-slider-one__btn">
+                          <a href="excecutive-therapy.html" class="pelocis-btn">
+                            <span data-i18n="slider2.cta2">
+                              Learn More <i class="icon-right-arrow-white"></i>
+                            </span>
+                          </a>
+                        </div>
+                      </div>
+                      <!-- /.buttons -->
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-
-    <!-- Slide Two -->
-    <div class="item">
-      <div class="main-slider-one__item">
-        <div
-          class="main-slider-one__bg"
-          style="background-image: url(assets/images/backgrounds/slider-1-1.jpg);"
-        ></div>
-
-        <div class="container h-100">
-          <div class="row align-items-center h-100">
-            <div class="col-md-12">
-              <div class="main-slider-one__content">
-                <h2 class="main-slider-one__title" data-i18n="slider2.title">
-                  Welcome to Expat Therapy!
-                </h2>
-
-                <p class="main-slider-one__text" data-i18n="slider2.text">
-                  At Expat Therapy, we understand the unique challenges that come with living in a new country.
-                </p>
-
-                <div class="d-flex flex-column flex-lg-row gap-2 align-items-center">
-                  <div class="main-slider-one__btn">
-                    <a href="make-appointment.html" class="pelocis-btn">
-                      <span data-i18n="slider2.cta1">
-                        Schedule Your Consultation <i class="icon-right-arrow-white"></i>
-                      </span>
-                    </a>
-                  </div>
-                  <div class="main-slider-one__btn">
-                    <a href="excecutive-therapy.html" class="pelocis-btn">
-                      <span data-i18n="slider2.cta2">
-                        Learn More <i class="icon-right-arrow-white"></i>
-                      </span>
-                    </a>
-                  </div>
-                </div>
-                <!-- /.buttons -->
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+      </section>
 
       <!-- main-slider-end -->
 
@@ -328,8 +350,10 @@
         <div class="opening-container container">
           <div class="opening-content">
             <div class="">
-              <h2>Navigating Life Abroad Can Be Tough.</h2>
-              <p class="opening-intro">
+              <h2 data-i18n="opening.title">
+                Navigating Life Abroad Can Be Tough.
+              </h2>
+              <p class="opening-intro" data-i18n="opening.intro">
                 When you live and work across borders, your challenges don't
                 wait for the "right time" or "right place" to arise.
               </p>
@@ -345,14 +369,16 @@
                   <div class="why-choose-one__list__icon">
                     <span class="icon-cognitive"></span>
                   </div>
-
-                  <h5 class="mt-3">Feeling Overwhelmed at Work?</h5>
-                  <p>
+                  <h5 class="mt-3" data-i18n="opening.scenario1.title">
+                    Feeling Overwhelmed at Work?
+                  </h5>
+                  <p data-i18n="opening.scenario1.text">
                     A crisis at work can hit while you're between time zones,
                     making it hard to cope without your usual support network.
                   </p>
                 </div>
               </div>
+
               <div class="col-lg-4">
                 <div
                   class="scenario text-start wow fadeInRight"
@@ -366,14 +392,16 @@
                       style="width: 50px"
                     />
                   </div>
-
-                  <h5 class="mt-3">Struggling with Your Relationship?</h5>
-                  <p>
+                  <h5 class="mt-3" data-i18n="opening.scenario2.title">
+                    Struggling with Your Relationship?
+                  </h5>
+                  <p data-i18n="opening.scenario2.text">
                     Tension with your partner might surface miles away from your
                     usual support system, leaving you feeling isolated.
                   </p>
                 </div>
               </div>
+
               <div class="col-lg-4">
                 <div
                   class="scenario text-start wow fadeInDown"
@@ -383,9 +411,10 @@
                   <div class="why-choose-one__list__icon">
                     <span class="icon-mental-health"></span>
                   </div>
-
-                  <h5 class="mt-3">Is Loneliness Creeping In?</h5>
-                  <p>
+                  <h5 class="mt-3" data-i18n="opening.scenario3.title">
+                    Is Loneliness Creeping In?
+                  </h5>
+                  <p data-i18n="opening.scenario3.text">
                     And sometimes, despite your achievements, the loneliness,
                     uncertainty, or exhaustion feels overwhelming.
                   </p>
@@ -398,14 +427,23 @@
               data-wow-duration="1500ms"
               data-wow-delay="000ms"
             >
-              <h2 class="text-light">You Don't Have to Face It Alone</h2>
-              With <span class="emphasis">Expat Therapy</span>, you don't have
-              to put your mental health on hold until you're back home or
-              settled somewhere new. <br /><br />
+              <h2 class="text-light" data-i18n="opening.conclusion.title">
+                You Don't Have to Face It Alone
+              </h2>
+              <p data-i18n="[html]opening.conclusion.text">
+                With <span class="emphasis">Expat Therapy</span>, you don't have
+                to put your mental health on hold until you're back home or
+                settled somewhere new.
+              </p>
+              <br /><br />
               <div
                 class="d-flex flex-row gap-2 align-items-center justify-content-center"
               >
-                <a href="#" class="pelocis-btn">
+                <a
+                  href="#"
+                  class="pelocis-btn"
+                  data-i18n="opening.conclusion.cta"
+                >
                   <span>You can start here, now.</span>
                 </a>
               </div>
@@ -528,76 +566,80 @@
         <div class="container">
           <div class="feature-one__wrapper">
             <div class="row gutter-y-30">
+              <!-- Feature 1 -->
               <div class="col-lg-3 wow fadeInUp" data-wow-delay="00ms">
                 <div class="feature-card">
                   <div class="feature-card__icon">
                     <span class="icon-cognitive"></span>
                   </div>
-                  <h2 class="feature-card__title">
+                  <h2 class="feature-card__title" data-i18n="feature.one.title">
                     Bilingual – English & German
                   </h2>
-                  <p class="feature-card__text">
+                  <p class="feature-card__text" data-i18n="feature.one.text">
                     Therapy designed for people whose lives don’t fit in one
                     place.
                   </p>
-                  <!-- <a href="individual-therapy.html" class="feature-card__link">
-                    <span data-i18n="feature.readmore">Read More</span>
-                    <i class="icon-right-arrow-white"></i>
-                  </a> -->
                 </div>
               </div>
+
+              <!-- Feature 2 -->
               <div class="col-lg-3 wow fadeInUp" data-wow-delay="100ms">
                 <div class="feature-card">
                   <div class="feature-card__icon">
                     <span class="icon-hand"></span>
                   </div>
-                  <h2 class="feature-card__title">State-Recognized Therapy</h2>
-                  <p class="feature-card__text">
+                  <h2 class="feature-card__title" data-i18n="feature.two.title">
+                    State-Recognized Therapy
+                  </h2>
+                  <p class="feature-card__text" data-i18n="feature.two.text">
                     Therapy designed for people whose lives don’t fit in one
                     place.
                   </p>
-                  <!-- <a href="couple-therapy.html" class="feature-card__link">
-                    <span data-i18n="feature.readmore">Read More</span>
-                    <i class="icon-right-arrow-white"></i>
-                  </a> -->
                 </div>
               </div>
+
+              <!-- Feature 3 -->
               <div class="col-lg-3 wow fadeInUp" data-wow-delay="200ms">
                 <div class="feature-card">
                   <div class="feature-card__icon">
                     <span class="icon-family-life"></span>
                   </div>
-                  <h2 class="feature-card__title">Secure & Confidential</h2>
-                  <p class="feature-card__text">
+                  <h2
+                    class="feature-card__title"
+                    data-i18n="feature.three.title"
+                  >
+                    Secure & Confidential
+                  </h2>
+                  <p class="feature-card__text" data-i18n="feature.three.text">
                     Encrypted, private video sessions through the Expat Therapy
                     app.
                   </p>
-                  <!-- <a href="excecutive-therapy.html" class="feature-card__link">
-                    <span data-i18n="feature.readmore">Read More</span>
-                    <i class="icon-right-arrow-white"></i>
-                  </a> -->
                 </div>
               </div>
+
+              <!-- Feature 4 -->
               <div class="col-lg-3 wow fadeInUp" data-wow-delay="200ms">
                 <div class="feature-card">
                   <div class="feature-card__icon">
                     <span class="icon-idea"></span>
                   </div>
-                  <h2 class="feature-card__title">Culturally Sensitive</h2>
-                  <p class="feature-card__text">
+                  <h2
+                    class="feature-card__title"
+                    data-i18n="feature.four.title"
+                  >
+                    Culturally Sensitive
+                  </h2>
+                  <p class="feature-card__text" data-i18n="feature.four.text">
                     Expertise in the unique challenges of expat life and
                     intercultural relationships.
                   </p>
-                  <!-- <a href="excecutive-therapy.html" class="feature-card__link">
-                    <span data-i18n="feature.readmore">Read More</span>
-                    <i class="icon-right-arrow-white"></i>
-                  </a> -->
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
+
       <!-- /.about-one -->
 
       <!-- <section class="call-area-one">
@@ -702,19 +744,40 @@
                   </div>
                   <h4 class="home-services__card__count">--</h4>
                   <h2 class="home-services__card__title">
-                    <a href="#">Individual Psychotherapy</a>
+                    <a href="#" data-i18n="services.cognitive.title"
+                      >Individual Psychotherapy</a
+                    >
                   </h2>
-                  <p class="home-services__card__text">
+                  <p
+                    class="home-services__card__text"
+                    data-i18n="services.cognitive.description"
+                  >
                     It provides a safe, confidential space for self-reflection,
                     personal growth, and healing.
                   </p>
                   <ul>
-                    <li class="home-services__card__text">
+                    <li
+                      class="home-services__card__text"
+                      data-i18n="services.list.depression"
+                    >
                       Depression & anxiety
                     </li>
-                    <li class="home-services__card__text">Trauma & PTSD</li>
-                    <li class="home-services__card__text">Stress management</li>
-                    <li class="home-services__card__text">
+                    <li
+                      class="home-services__card__text"
+                      data-i18n="services.list.trauma"
+                    >
+                      Trauma & PTSD
+                    </li>
+                    <li
+                      class="home-services__card__text"
+                      data-i18n="services.list.stress"
+                    >
+                      Stress management
+                    </li>
+                    <li
+                      class="home-services__card__text"
+                      data-i18n="services.list.relationship"
+                    >
                       Relationship difficulties
                     </li>
                   </ul>
@@ -747,22 +810,45 @@
                   </div>
                   <h4 class="home-services__card__count">--</h4>
                   <h2 class="home-services__card__title">
-                    <a href="couple-therapy.html">Couples Therapy</a>
+                    <a
+                      href="couple-therapy.html"
+                      data-i18n="services.academic.title"
+                      >Couples Therapy</a
+                    >
                   </h2>
-                  <p class="home-services__card__text">
+                  <p
+                    class="home-services__card__text"
+                    data-i18n="services.academic.description"
+                  >
                     A therapist facilitates discussions to promote
                     understanding, resolve disputes, and strengthen the
                     partnership.
                   </p>
                   <ul>
-                    <li class="home-services__card__text">
+                    <li
+                      class="home-services__card__text"
+                      data-i18n="services.list.communication"
+                    >
                       Communication breakdown
                     </li>
-                    <li class="home-services__card__text">
+                    <li
+                      class="home-services__card__text"
+                      data-i18n="services.list.conflict"
+                    >
                       Conflict resolution
                     </li>
-                    <li class="home-services__card__text">Trust issues</li>
-                    <li class="home-services__card__text">Life transitions</li>
+                    <li
+                      class="home-services__card__text"
+                      data-i18n="services.list.trust"
+                    >
+                      Trust issues
+                    </li>
+                    <li
+                      class="home-services__card__text"
+                      data-i18n="services.list.transitions"
+                    >
+                      Life transitions
+                    </li>
                   </ul>
                 </div>
                 <div class="home-services__card__image">
@@ -782,45 +868,6 @@
                 </div>
               </div>
             </div>
-
-            <!-- Item 3 - Specialized Areas -->
-            <!-- <div class="item col-lg-4">
-              <div class="home-services__card">
-                <div class="home-services__card__shape--one"></div>
-                <div class="home-services__card__shape--two"></div>
-                <div class="home-services__card__content">
-                  <div class="home-services__card__icon">
-                    <i class="icon-cooperation"></i>
-                  </div>
-                  <h4 class="home-services__card__count">--</h4>
-                  <h2 class="home-services__card__title">
-                    <a href="excecutive-therapy.html">Executive Therapy</a>
-                  </h2>
-                  <p
-                    class="home-services__card__text"
-                    data-i18n="services.specialized.description"
-                  >
-                    Supporting individuals in overcoming challenges, and
-                    enhancing their quality of life whether it's
-                  </p>
-                </div>
-                <div class="home-services__card__image">
-                  <img
-                    src="assets/images/resources/service-1-3.png"
-                    data-i18n="[alt]services.specialized.image_alt"
-                    alt="Therapy room with leather sofa and warm lighting"
-                  />
-                  <div class="home-services__card__hover">
-                    <a href="#" class="home-services__card__hover-link">
-                      <i class="icon-arrow-small-right"></i>
-                    </a>
-                  </div>
-                  <a href="#" class="home-services__card__link">
-                    <i class="icon-arrow-small-right"></i>
-                  </a>
-                </div>
-              </div>
-            </div> -->
           </div>
 
           <!-- Item 2 - Academic Psychology -->
@@ -1312,7 +1359,7 @@
                   <img
                     src="assets/images/shapes/text-shape-2.png"
                     data-i18n="[alt]why_choose.shape_alt"
-                    alt="Therapy room with leather sofa and warm lighting"
+                    alt="Therapy Sync decorative shape"
                     class="why-choose-one__title__shape"
                   />
                 </div>
@@ -1321,9 +1368,9 @@
                   class="why-choose-one__text"
                   data-i18n="why_choose.description"
                 >
-                  Business tailored design, management & support
-                  services,Business business agency elit, sed do eiusmod tempor
-                  majority have in some we form, by injected humour solution.
+                  Business tailored design, management & support services,
+                  Business business agency elit, sed do eiusmod tempor majority
+                  have in some we form, by injected humour solution.
                 </p>
 
                 <ul class="list-unstyled why-choose-one__list">
@@ -1331,38 +1378,24 @@
                     <div class="why-choose-one__list__icon">
                       <img
                         src="./assets/images/icons/psychology.svg"
-                        alt="Psychology"
+                        data-i18n="[alt]why_choose.icons.psychology"
+                        alt="Psychology icon"
                         style="width: 50px"
                       />
                     </div>
                     <div class="why-choose-one__list__content">
                       <h4 class="why-choose-one__list__title">
-                        <a href="#">Cognitive Psychology</a>
+                        <a href="#" data-i18n="why_choose.cognitive.title"
+                          >Cognitive Psychology</a
+                        >
                       </h4>
-                      <p class="why-choose-one__list__text">
+                      <p
+                        class="why-choose-one__list__text"
+                        data-i18n="why_choose.cognitive.description"
+                      >
                         Supporting individuals in overcoming challenges and
                         improving their quality of life
                       </p>
-                      <!-- <ul class="list-unstyled d-flex gap-1 flex-column m-0">
-                        <li>
-                          <span class="fa fa-arrow-circle-right"></span>
-                          <a href="#" data-i18n="why_choose.bullet1"
-                            >Dating & Relationship of Psychologist</a
-                          >
-                        </li>
-                        <li>
-                          <span class="fa fa-arrow-circle-right"></span>
-                          <a href="#" data-i18n="why_choose.bullet2"
-                            >Lorem Ipsum Dolor Sit For Solution</a
-                          >
-                        </li>
-                        <li>
-                          <span class="fa fa-arrow-circle-right"></span>
-                          <a href="#" data-i18n="why_choose.bullet3"
-                            >Human Behavior and Helping lives</a
-                          >
-                        </li>
-                      </ul> -->
                     </div>
                   </li>
                 </ul>
@@ -1373,39 +1406,25 @@
                       class="why-choose-one__list__content order-2 order-lg-1"
                     >
                       <h4 class="why-choose-one__list__title">
-                        <a href="#">Dating & Relationship of Psychologist</a>
+                        <a href="#" data-i18n="why_choose.relationships.title"
+                          >Dating & Relationships</a
+                        >
                       </h4>
-                      <p class="why-choose-one__list__text">
+                      <p
+                        class="why-choose-one__list__text"
+                        data-i18n="why_choose.relationships.description"
+                      >
                         Professional solutions for modern relationship
                         challenges in multicultural contexts.
                       </p>
-                      <!-- <ul class="list-unstyled d-flex gap-1 flex-column m-0">
-                        <li>
-                          <span class="fa fa-arrow-circle-right"></span>
-                          <a href="#" data-i18n="why_choose.bullet1"
-                            >Dating & Relationship of Psychologist</a
-                          >
-                        </li>
-                        <li>
-                          <span class="fa fa-arrow-circle-right"></span>
-                          <a href="#" data-i18n="why_choose.bullet2"
-                            >Lorem Ipsum Dolor Sit For Solution</a
-                          >
-                        </li>
-                        <li>
-                          <span class="fa fa-arrow-circle-right"></span>
-                          <a href="#" data-i18n="why_choose.bullet3"
-                            >Human Behavior and Helping lives</a
-                          >
-                        </li>
-                      </ul> -->
                     </div>
                     <div
                       class="why-choose-one__list__icon me-0 ms-lg-3 order-1 order-lg-2"
                     >
                       <img
                         src="./assets/images/icons/dating.svg"
-                        alt="dating"
+                        data-i18n="[alt]why_choose.icons.dating"
+                        alt="Dating icon"
                         style="width: 50px"
                       />
                     </div>
@@ -1417,38 +1436,24 @@
                     <div class="why-choose-one__list__icon">
                       <img
                         src="./assets/images/icons/helping.svg"
-                        alt="helping"
+                        data-i18n="[alt]why_choose.icons.helping"
+                        alt="Helping icon"
                         style="width: 50px"
                       />
                     </div>
                     <div class="why-choose-one__list__content">
                       <h4 class="why-choose-one__list__title">
-                        <a href="#">Human Behavior and Helping Lives</a>
+                        <a href="#" data-i18n="why_choose.behavior.title"
+                          >Human Behavior and Helping Lives</a
+                        >
                       </h4>
-                      <p class="why-choose-one__list__text">
+                      <p
+                        class="why-choose-one__list__text"
+                        data-i18n="why_choose.behavior.description"
+                      >
                         Understanding and helping lives through psychological
                         insights and interventions.
                       </p>
-                      <!-- <ul class="list-unstyled d-flex gap-1 flex-column m-0">
-                        <li>
-                          <span class="fa fa-arrow-circle-right"></span>
-                          <a href="#" data-i18n="why_choose.bullet1"
-                            >Dating & Relationship of Psychologist</a
-                          >
-                        </li>
-                        <li>
-                          <span class="fa fa-arrow-circle-right"></span>
-                          <a href="#" data-i18n="why_choose.bullet2"
-                            >Lorem Ipsum Dolor Sit For Solution</a
-                          >
-                        </li>
-                        <li>
-                          <span class="fa fa-arrow-circle-right"></span>
-                          <a href="#" data-i18n="why_choose.bullet3"
-                            >Human Behavior and Helping lives</a
-                          >
-                        </li>
-                      </ul> -->
                     </div>
                   </li>
                 </ul>
@@ -1464,7 +1469,7 @@
                 <img
                   src="./assets/images/client/IMG_4934.JPG"
                   data-i18n="[alt]why_choose.image_alt"
-                  alt="Therapy room with leather sofa and warm lighting"
+                  alt="Therapy session in progress"
                 />
                 <div class="why-choose-one__image__content">
                   <h3>
@@ -1494,7 +1499,8 @@
               <div class="image-container">
                 <img
                   src="./assets/images/client/nachbearbeitung_cd-1-2.JPG"
-                  alt="Therapist in session creating a warm, safe environment"
+                  data-i18n="[alt]approach.image_alt"
+                  alt="Therapeut in einer Sitzung, der eine warme, sichere Umgebung schafft"
                   class="therapy-image w-100"
                 />
               </div>
@@ -1506,25 +1512,28 @@
             >
               <div class="sec-title">
                 <div class="sec-title__shape"></div>
-                <h6 class="sec-title__tagline">Our Approach</h6>
-                <h3 class="sec-title__title">
-                  We are who we are because of the impact others have had on us.
-                  Real change happens through meaningful relationships.”
+                <h6 class="sec-title__tagline" data-i18n="approach.tagline">
+                  Unser Ansatz
+                </h6>
+                <h3 class="sec-title__title" data-i18n="approach.title">
+                  Wir sind, wer wir sind, wegen der Auswirkungen, die andere auf
+                  uns hatten. Echte Veränderung geschieht durch bedeutungsvolle
+                  Beziehungen.
                 </h3>
               </div>
               <div class="quote-container">
                 <div class="explanation">
-                  <p>
-                    Our therapeutic approach is built on collaboration and
-                    mutual understanding. Through a supportive partnership, we
-                    create a space where emotional growth can flourish. Clients
-                    often discover new perspectives, develop healthier coping
-                    mechanisms, and find strength in vulnerability.
+                  <p data-i18n="approach.description1">
+                    Unser therapeutischer Ansatz basiert auf Zusammenarbeit und
+                    gegenseitigem Verständnis. Durch eine unterstützende
+                    Partnerschaft schaffen wir einen Raum, in dem emotionales
+                    Wachstum gedeihen kann.
                   </p>
-                  <p>
-                    This process leads to profound personal transformation,
-                    helping individuals build more meaningful connections and a
-                    deeper understanding of themselves.
+                  <p data-i18n="approach.description2">
+                    Dieser Prozess führt zu tiefgreifender persönlicher
+                    Transformation und hilft Einzelpersonen, bedeutungsvollere
+                    Verbindungen und ein tieferes Verständnis ihrer selbst zu
+                    entwickeln.
                   </p>
                 </div>
               </div>
@@ -1537,8 +1546,8 @@
         <img
           class="w-100"
           src="./assets/images/client/portraits_christian-9.JPG"
-          data-i18n="[alt]call.alt_shape"
-          alt="Therapy Sync decorative shape"
+          data-i18n="[alt]executive.image_alt"
+          alt="Executive Coaching für global mobile Führungskräfte"
         />
 
         <div class="container pos-custom-data">
@@ -1553,20 +1562,23 @@
                   animation-name: fadeInUp;
                 "
               >
-                <h2 class="call-area-one__title fs-1">
+                <h2
+                  class="call-area-one__title fs-1"
+                  data-i18n="executive.title"
+                >
                   Executive Coaching for Globally Mobile Leaders
                 </h2>
                 <ul>
-                  <li>
+                  <li data-i18n="executive.list1">
                     Personalized coaching strategies to help globally mobile
                     leaders navigate
                   </li>
-                  <li>
+                  <li data-i18n="executive.list2">
                     Develop skills to manage teams effectively, improve
                     communication, and foster resilience in high-pressure
                     environments.
                   </li>
-                  <li>
+                  <li data-i18n="executive.list3">
                     Support in aligning professional ambitions with personal
                     well-being
                   </li>
@@ -1577,7 +1589,7 @@
                 class="pelocis-btn d-flex flex-row gap-2 align-items-center ms-lg-4"
                 style="max-width: 200px"
               >
-                <span>Know More</span>
+                <span data-i18n="executive.cta">Know More</span>
                 <i class="icon-right-arrow-white"></i>
               </a>
             </div>
@@ -1592,10 +1604,15 @@
               <h2
                 class="display-4 playfair-display mb-4"
                 style="color: var(--neutral-text-primary)"
+                data-i18n="steps.title"
               >
                 Our 5-Step Path to Healing
               </h2>
-              <p class="lead mb-0" style="color: var(--neutral-text-secondary)">
+              <p
+                class="lead mb-0"
+                style="color: var(--neutral-text-secondary)"
+                data-i18n="steps.description"
+              >
                 Embark on a transformative journey with our structured 5-step
                 process, thoughtfully designed to guide you towards healing and
                 self-discovery in a welcoming, supportive, and compassionate
@@ -1617,10 +1634,14 @@
                 <h3
                   class="h4 fw-semibold mb-2"
                   style="color: var(--neutral-text-primary)"
+                  data-i18n="steps.step1.title"
                 >
                   Initial Consultation
                 </h3>
-                <p style="color: var(--neutral-text-secondary)">
+                <p
+                  style="color: var(--neutral-text-secondary)"
+                  data-i18n="steps.step1.description"
+                >
                   — Talk to me about your needs, no obligation
                 </p>
                 <div class="step-connector"></div>
@@ -1639,10 +1660,14 @@
                 <h3
                   class="h4 fw-semibold mb-2"
                   style="color: var(--neutral-text-primary)"
+                  data-i18n="steps.step2.title"
                 >
                   Agreement
                 </h3>
-                <p style="color: var(--neutral-text-secondary)">
+                <p
+                  style="color: var(--neutral-text-secondary)"
+                  data-i18n="steps.step2.description"
+                >
                   Choose service type, session length, and frequency.
                 </p>
                 <div class="step-connector"></div>
@@ -1661,11 +1686,15 @@
                 <h3
                   class="h4 fw-semibold mb-2"
                   style="color: var(--neutral-text-primary)"
+                  data-i18n="steps.step3.title"
                 >
                   Regular Sessions
                 </h3>
-                <p style="color: var(--neutral-text-secondary)">
-                  — Connect via the Expat Therapy app, from anywher
+                <p
+                  style="color: var(--neutral-text-secondary)"
+                  data-i18n="steps.step3.description"
+                >
+                  — Connect via the Expat Therapy app, from anywhere
                 </p>
                 <div class="step-connector"></div>
               </div>
@@ -1683,10 +1712,14 @@
                 <h3
                   class="h4 fw-semibold mb-2"
                   style="color: var(--neutral-text-primary)"
+                  data-i18n="steps.step4.title"
                 >
                   Integration
                 </h3>
-                <p style="color: var(--neutral-text-secondary)">
+                <p
+                  style="color: var(--neutral-text-secondary)"
+                  data-i18n="steps.step4.description"
+                >
                   — Apply what we uncover to daily life and relationships.
                 </p>
                 <div class="step-connector"></div>
@@ -1705,10 +1738,14 @@
                 <h3
                   class="h4 fw-semibold mb-2"
                   style="color: var(--neutral-text-primary)"
+                  data-i18n="steps.step5.title"
                 >
                   Ongoing Support
                 </h3>
-                <p style="color: var(--neutral-text-secondary)">
+                <p
+                  style="color: var(--neutral-text-secondary)"
+                  data-i18n="steps.step5.description"
+                >
                   Continue or pause as your circumstances change.
                 </p>
               </div>
@@ -1731,7 +1768,12 @@
                     >
                       WE'RE GOOD SOLUTION
                     </h6>
-                    <h3 class="sec-title__title">Professional Expertise</h3>
+                    <h3
+                      class="sec-title__title"
+                      data-i18n="professional_expertise.title"
+                    >
+                      Professional Expertise
+                    </h3>
                   </div>
                   <img
                     src="assets/images/shapes/text-shape-2.png"
@@ -1742,28 +1784,33 @@
                 </div>
 
                 <ul>
-                  <li>
+                  <li data-i18n="expertise.list1">
                     10+ years of experience in [specialty, e.g.,
                     cognitive-behavioral therapy, trauma-informed care].
                   </li>
-                  <li>
+                  <li data-i18n="expertise.list2">
                     Specialized in [areas, e.g., anxiety, depression,
                     relationship issues, LGBTQ+ affirming therapy].
                   </li>
-                  <li>
+                  <li data-i18n="expertise.list3">
                     Evidence-based approaches tailored to individual/client
                     needs.
                   </li>
-                  <li>Culturally sensitive & compassionate care.</li>
+                  <li data-i18n="expertise.list4">
+                    Culturally sensitive & compassionate care.
+                  </li>
                 </ul>
-                <b>Philosophy & Approach</b>
-                <p class="business-solutions__card__text">
+                <b data-i18n="philosophy.title">Philosophy & Approach</b>
+                <p
+                  class="business-solutions__card__text"
+                  data-i18n="philosophy.text"
+                >
                   I believe therapy should be a collaborative, empowering space
                   where clients feel heard and supported. My practice blends
                   [mention modalities, e.g., CBT, mindfulness, psychodynamic
                   theory] to foster resilience and growth. Whether navigating
                   life transitions, healing from trauma, or seeking
-                  self-discovery, I’m committed to guiding you toward meaningful
+                  self-discovery, I'm committed to guiding you toward meaningful
                   change.
                 </p>
                 <div class="business-solutions__card__btns">
@@ -2069,12 +2116,14 @@
         <section class="cta-section text-center">
           <div class="row justify-content-center">
             <div class="col-lg-8">
-              <h2 class="cta-headline">
+              <h2 class="cta-headline" data-i18n="cta.headline">
                 You don't have to wait until you're in the 'right place' to feel
                 better.
               </h2>
               <button class="cta-btn btn btn-lg">
-                Schedule Your Consultation Today
+                <span data-i18n="cta.button"
+                  >Schedule Your Consultation Today</span
+                >
               </button>
             </div>
           </div>
@@ -2098,7 +2147,10 @@
                     <li>
                       <span class="fa fa-phone"></span>
                       <div class="pl-5">
-                        <h3 class="home-contact__card__list__title">
+                        <h3
+                          class="home-contact__card__list__title"
+                          data-i18n="contact.phone_title"
+                        >
                           Get Contact Now
                         </h3>
                         <p class="home-contact__card__list__text">
@@ -2110,7 +2162,10 @@
                     <li>
                       <span class="icon-email"></span>
                       <div class="pl-5">
-                        <h3 class="home-contact__card__list__title">
+                        <h3
+                          class="home-contact__card__list__title"
+                          data-i18n="contact.email_title"
+                        >
                           Sent Email
                         </h3>
                         <p class="home-contact__card__list__text">
@@ -2124,10 +2179,16 @@
                     <li>
                       <span class="icon-location"></span>
                       <div class="pl-5">
-                        <h3 class="home-contact__card__list__title">
+                        <h3
+                          class="home-contact__card__list__title"
+                          data-i18n="contact.location_title"
+                        >
                           Location
                         </h3>
-                        <p class="home-contact__card__list__text">
+                        <p
+                          class="home-contact__card__list__text"
+                          data-i18n="contact.address"
+                        >
                           8/05 Mozilla Golden
                         </p>
                       </div>
@@ -2138,12 +2199,14 @@
                 <div class="home-contact__card__shape-one">
                   <img
                     src="assets/images/resources/home-contact-logo.png"
+                    data-i18n="[alt]contact.logo_alt"
                     alt="Therapy room with leather sofa and warm lighting"
                     class="home-contact__card__shape-three"
                   />
                 </div>
                 <img
                   src="assets/images/resources/home-contact-img-1.png"
+                  data-i18n="[alt]contact.image_alt"
                   alt="Therapy room with leather sofa and warm lighting"
                   class="home-contact__card__shape-two"
                 />
@@ -2156,12 +2219,17 @@
               >
                 <div class="appointment__form__top mb-4">
                   <div class="sec-title">
-                    <h6 class="sec-title__tagline">OUR CONTACT US</h6>
-                    <h3 class="sec-title__title">
+                    <h6 class="sec-title__tagline" data-i18n="contact.tagline">
+                      OUR CONTACT US
+                    </h6>
+                    <h3 class="sec-title__title" data-i18n="contact.form_title">
                       Contact Us Immediately For Professional Support
                     </h3>
                   </div>
-                  <p class="appointment__form__text">
+                  <p
+                    class="appointment__form__text"
+                    data-i18n="contact.form_description"
+                  >
                     Get in touch with our professional team for personalized
                     support and solutions tailored to your needs.
                   </p>
@@ -2169,7 +2237,10 @@
 
                 <div class="form-one__group row">
                   <div class="form-one__control col-md-6">
-                    <label for="name" class="appointment__form__lable"
+                    <label
+                      for="name"
+                      class="appointment__form__lable"
+                      data-i18n="contact.name_label"
                       >Name</label
                     >
                     <input
@@ -2177,12 +2248,16 @@
                       type="text"
                       name="name"
                       class="form-control"
+                      data-i18n="[placeholder]contact.name_placeholder"
                       placeholder="Enter Your Name *"
                       required
                     />
                   </div>
                   <div class="form-one__control col-md-6">
-                    <label for="email" class="appointment__form__lable"
+                    <label
+                      for="email"
+                      class="appointment__form__lable"
+                      data-i18n="contact.email_label"
                       >Email</label
                     >
                     <input
@@ -2190,12 +2265,16 @@
                       type="email"
                       name="email"
                       class="form-control"
+                      data-i18n="[placeholder]contact.email_placeholder"
                       placeholder="Enter Your Email *"
                       required
                     />
                   </div>
                   <div class="form-one__control col-md-6">
-                    <label for="phone" class="appointment__form__lable"
+                    <label
+                      for="phone"
+                      class="appointment__form__lable"
+                      data-i18n="contact.phone_label"
                       >Phone</label
                     >
                     <input
@@ -2203,28 +2282,47 @@
                       type="text"
                       name="phone"
                       class="form-control"
+                      data-i18n="[placeholder]contact.phone_placeholder"
                       placeholder="Enter Your Phone No."
                       required
                     />
                   </div>
                   <div class="form-one__control col-md-6">
-                    <label for="program" class="appointment__form__lable"
+                    <label
+                      for="program"
+                      class="appointment__form__lable"
+                      data-i18n="contact.program_label"
                       >Program</label
                     >
                     <select id="program" class="form-select" required>
-                      <option value="">Select a Program</option>
-                      <option value="individual therapy">
+                      <option value="" data-i18n="contact.program_default">
+                        Select a Program
+                      </option>
+                      <option
+                        value="individual therapy"
+                        data-i18n="contact.program1"
+                      >
                         Individual Therapy
                       </option>
-                      <option value="executive coaching">
+                      <option
+                        value="executive coaching"
+                        data-i18n="contact.program2"
+                      >
                         Executive Coaching
                       </option>
-                      <option value="Couples Therapy">Couples Therapy</option>
+                      <option
+                        value="Couples Therapy"
+                        data-i18n="contact.program3"
+                      >
+                        Couples Therapy
+                      </option>
                     </select>
                   </div>
                   <div class="form-one__control mt-3">
                     <button type="submit" class="pelocis-btn">
-                      <span>Send Your Query</span>
+                      <span data-i18n="contact.submit_button"
+                        >Send Your Query</span
+                      >
                     </button>
                   </div>
                 </div>
@@ -2238,7 +2336,6 @@
           class="main-footer__bg background-black"
           style="background-image: url(assets/images/backgrounds/footer-bg.png)"
         ></div>
-        <!-- /.main-footer__bg -->
         <div class="main-footer__top">
           <img
             src="assets/images/shapes/footer-shape.png"
@@ -2266,7 +2363,6 @@
                     teachings of the great explorer the truth, the
                     master-builder because ...
                   </p>
-                  <!-- /.footer-widget__text -->
                   <div class="footer-widget__social">
                     <a href="https://facebook.com">
                       <i class="fab fa-facebook-f" aria-hidden="true"></i>
@@ -2311,36 +2407,44 @@
                     </a>
                   </div>
                 </div>
-                <!-- /.footer-widget -->
               </div>
-              <!-- /.col-md-6 -->
               <div class="col-md-6 col-xl-3">
                 <div class="footer-widget footer-widget--links ms-lg-5">
-                  <h2 class="footer-widget__title footer-widget__title--ml-18">
+                  <h2
+                    class="footer-widget__title footer-widget__title--ml-18"
+                    data-i18n="footer.services_title"
+                  >
                     Services
                   </h2>
-                  <!-- /.footer-widget__title -->
                   <ul class="list-styled footer-widget__links">
                     <li>
-                      <a href="#">Individual Therapy</a>
+                      <a href="#" data-i18n="services.individual"
+                        >Individual Therapy</a
+                      >
                     </li>
                     <li>
-                      <a href="couple-therapy.html">Couples Therapy</a>
+                      <a href="couple-therapy.html" data-i18n="services.couples"
+                        >Couples Therapy</a
+                      >
                     </li>
                     <li>
-                      <a href="excecutive-therapy.html">Executive Therapy</a>
+                      <a
+                        href="excecutive-therapy.html"
+                        data-i18n="services.executive"
+                        >Executive Therapy</a
+                      >
                     </li>
                   </ul>
-                  <!-- /.list-unstyled footer-widget__links -->
                 </div>
-                <!-- /.footer-widget -->
               </div>
               <div class="col-md-6 col-xl-3">
                 <div class="footer-widget footer-widget--links">
-                  <h2 class="footer-widget__title footer-widget__title--ml-18">
+                  <h2
+                    class="footer-widget__title footer-widget__title--ml-18"
+                    data-i18n="footer.links_title"
+                  >
                     Important Links
                   </h2>
-                  <!-- /.footer-widget__title -->
                   <ul class="list-styled footer-widget__links">
                     <li>
                       <a href="#" data-i18n="footer.services.about">About</a>
@@ -2350,23 +2454,22 @@
                         >Make Appointment</a
                       >
                     </li>
-
                     <li>
                       <a href="#" data-i18n="footer.services.contact"
                         >Contact</a
                       >
                     </li>
                   </ul>
-                  <!-- /.list-unstyled footer-widget__links -->
                 </div>
-                <!-- /.footer-widget -->
               </div>
               <div class="col-md-6 col-xl-3">
                 <div class="footer-widget footer-widget--links">
-                  <h2 class="footer-widget__title footer-widget__title--ml-18">
+                  <h2
+                    class="footer-widget__title footer-widget__title--ml-18"
+                    data-i18n="footer.contact_title"
+                  >
                     Contact Info
                   </h2>
-                  <!-- /.footer-widget__title -->
                   <ul class="list-unstyled footer-widget__links">
                     <li>
                       <span class="fas fa-map-marker-alt"></span>
@@ -2391,26 +2494,18 @@
                       >
                     </li>
                   </ul>
-                  <!-- /.list-unstyled footer-widget__links -->
                 </div>
-                <!-- /.footer-widget -->
               </div>
             </div>
             <div
-              class="d-flex flex-column flex-lg-row justify-content-between align-items-center gap-2 w-100 position-relative z-1"
+              class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-2 w-100 position-relative z-1"
             >
-              <i>
-                Psychodynamic therapy is one of three officially
-                state-recognized modalities in Germany.
-              </i>
-              <select class="selectpicker" id="language-select">
-                <option value="en">English</option>
-                <option value="de">German</option>
-              </select>
+              <i data-i18n="footer.recognition"
+                >Psychodynamic therapy is one of three officially
+                state-recognized modalities in Germany.</i
+              >
             </div>
-            <!-- /.row -->
           </div>
-          <!-- /.container -->
           <img
             src="assets/images/shapes/footer-bg-shape.png"
             data-i18n="[alt]footer.shape2_alt"
@@ -2418,8 +2513,6 @@
             class="main-footer__shape-2"
           />
         </div>
-
-        <!-- /.main-footer__top -->
         <div
           class="main-footer__bottom d-flex flex-column flex-lg-row justify-content-between gap-3 px-1 px-lg-5"
         >
@@ -2427,7 +2520,7 @@
             Copyright Therapy Sync <span class="dynamic-year"></span>, All Right
             Reserved
           </p>
-          <p class="main-footer__copyright">
+          <p class="main-footer__copyright" data-i18n="[html]footer.developer">
             Designed & Developed by
             <a
               href="https://aayaninfotech.com/"

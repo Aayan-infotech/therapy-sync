@@ -15,21 +15,61 @@
         resources: {
           de: {
             translation: {
-                slider1: {
-      title: "Psychodynamische Therapie für Expats —",
-      title_thin: "Wo auch immer das Leben",
-      title_base: "Sie hinführt",
-      shape_alt: "Dekorative Textform",
-      text: "Spezialisierte Unterstützung für international mobile Einzelpersonen und Paare – überall auf der Welt.",
-      cta1: "Vereinbaren Sie Ihre Beratung",
-      cta2: "Mehr erfahren"
-    },
-    slider2: {
-      title: "Willkommen bei Expat Therapy!",
-      text: "Bei Expat Therapy verstehen wir die einzigartigen Herausforderungen, die mit dem Leben in einem neuen Land verbunden sind.",
-      cta1: "Vereinbaren Sie Ihre Beratung",
-      cta2: "Mehr erfahren"
-    },
+              // navbar
+              "topbar.email": "expacttheraphy@gmail.com",
+              "topbar.address": "8/05 Mozilla Golden Street",
+              "topbar.help": "Hilfe",
+              "language.english": "Englisch",
+              "language.german": "Deutsch",
+              "header.logo_alt": "Therapie Logo",
+              "menu.home": "Startseite",
+              "menu.individual": "Einzeltherapie",
+              "menu.couples": "Paartherapie",
+              "menu.executive": "Führungskräfte-Coaching",
+              "menu.about": "Über uns",
+              "menu.contact": "Kontakt",
+              "menu.book": "Beratung buchen",
+
+              "slider1.title": "Psychodynamische Therapie für Expats —",
+              "slider1.title_thin": "Wo auch immer das Leben",
+              "slider1.title_base": "Sie hinführt",
+              "slider1.shape_alt": "Dekorative Textform",
+              "slider1.text":
+                "Spezialisierte Unterstützung für international mobile Einzelpersonen und Paare – überall auf der Welt.",
+              "slider1.cta1": "Vereinbaren Sie Ihre Beratung",
+              "slider1.cta2": "Mehr erfahren",
+
+              "slider2.title": "Willkommen bei Expat Therapy!",
+              "slider2.text":
+                "Bei Expat Therapy verstehen wir die einzigartigen Herausforderungen, die mit dem Leben in einem neuen Land verbunden sind.",
+              "slider2.cta1": "Vereinbaren Sie Ihre Beratung",
+              "slider2.cta2": "Mehr erfahren",
+
+              // opening
+
+              "opening.title": "Das Leben im Ausland kann schwierig sein.",
+              "opening.intro":
+                "Wenn Sie über Grenzen hinweg leben und arbeiten, warten Ihre Herausforderungen nicht auf den „richtigen Zeitpunkt“ oder den „richtigen Ort“.",
+
+              "opening.scenario1.title":
+                "Fühlen Sie sich bei der Arbeit überfordert?",
+              "opening.scenario1.text":
+                "Eine Krise bei der Arbeit kann auftreten, während Sie zwischen den Zeitzonen pendeln – ohne Ihr gewohntes Unterstützungsnetzwerk ist das schwer zu bewältigen.",
+
+              "opening.scenario2.title": "Kämpfen Sie mit Ihrer Beziehung?",
+              "opening.scenario2.text":
+                "Spannungen mit Ihrem Partner können entstehen, weit entfernt von Ihrem gewohnten Unterstützungssystem, was Sie isoliert fühlen lässt.",
+
+              "opening.scenario3.title": "Schleicht sich Einsamkeit ein?",
+              "opening.scenario3.text":
+                "Und manchmal, trotz Ihrer Erfolge, fühlen sich Einsamkeit, Unsicherheit oder Erschöpfung überwältigend an.",
+
+              "opening.conclusion.title":
+                "Sie müssen sich dem nicht allein stellen",
+              "opening.conclusion.text":
+                'Mit <span class="emphasis">Expat Therapy</span> müssen Sie Ihre psychische Gesundheit nicht aufschieben, bis Sie wieder zu Hause sind oder sich woanders eingelebt haben.',
+              "opening.conclusion.cta": "Sie können hier und jetzt beginnen.",
+
               // Feature Section
               "feature.cognitive.title": "Kognitive Beratung",
               "feature.cognitive.description":
@@ -62,6 +102,33 @@
               "about.cta": "Mehr erfahren",
               "about.shape_alt": "Dekorative Grafik",
 
+              // feature updated
+              "feature.one.title": "Zweisprachig – Englisch & Deutsch",
+              "feature.one.text":
+                "Therapie für Menschen, deren Leben nicht in einen Ort passt.",
+
+              "feature.two.title": "Staatlich anerkannte Therapie",
+              "feature.two.text":
+                "Therapie für Menschen, deren Leben nicht in einen Ort passt.",
+
+              "feature.three.title": "Sicher & Vertraulich",
+              "feature.three.text":
+                "Verschlüsselte, private Videositzungen über die Expat-Therapie-App.",
+
+              "feature.four.title": "Kulturell Sensibel",
+              "feature.four.text":
+                "Fachwissen zu den besonderen Herausforderungen des Expat-Lebens und interkultureller Beziehungen.",
+              // approach
+
+              "approach.tagline": "Unser Ansatz",
+              "approach.title":
+                "Wir sind, wer wir sind, wegen der Auswirkungen, die andere auf uns hatten. Echte Veränderung geschieht durch bedeutungsvolle Beziehungen.",
+              "approach.description1":
+                "Unser therapeutischer Ansatz basiert auf Zusammenarbeit und gegenseitigem Verständnis. Durch eine unterstützende Partnerschaft schaffen wir einen Raum, in dem emotionales Wachstum gedeihen kann.",
+              "approach.description2":
+                "Dieser Prozess führt zu tiefgreifender persönlicher Transformation und hilft Einzelpersonen, bedeutungsvollere Verbindungen und ein tieferes Verständnis ihrer selbst zu entwickeln.",
+              "approach.image_alt":
+                "Therapeut in einer Sitzung, der eine warme, sichere Umgebung schafft",
               //call one
               "call.title":
                 "When you live and work across borders, your challenges don’t wait…”",
@@ -93,6 +160,39 @@
               "services.academic.image_alt":
                 "Illustration pädagogische Therapie",
 
+              // excecutive
+              "executive.title":
+                "Executive Coaching für global mobile Führungskräfte",
+              "executive.list1":
+                "Maßgeschneiderte Coaching-Strategien für global mobile Führungskräfte",
+              "executive.list2":
+                "Entwicklung von Fähigkeiten zur effektiven Teamführung, verbesserter Kommunikation und Resilienz in Hochdruckumgebungen",
+              "executive.list3":
+                "Unterstützung bei der Vereinbarkeit von beruflichen Ambitionen und persönlichem Wohlbefinden",
+              "executive.cta": "Mehr erfahren",
+              "executive.image_alt":
+                "Executive Coaching für global mobile Führungskräfte",
+
+              // steps
+              "steps.title": "Unser 5-Stufen-Pfad zur Heilung",
+              "steps.description":
+                "Beginnen Sie eine transformative Reise mit unserem strukturierten 5-Stufen-Prozess, der sorgfältig entwickelt wurde, um Sie in einer einladenden, unterstützenden und mitfühlenden Umgebung zu Heilung und Selbsterkenntnis zu führen.",
+              "steps.step1.title": "Erstgespräch",
+              "steps.step1.description":
+                "— Sprechen Sie mit mir über Ihre Bedürfnisse, unverbindlich",
+              "steps.step2.title": "Vereinbarung",
+              "steps.step2.description":
+                "Wählen Sie Servicetyp, Sitzungslänge und Häufigkeit.",
+              "steps.step3.title": "Regelmäßige Sitzungen",
+              "steps.step3.description":
+                "— Verbinden Sie sich über die Expat-Therapie-App, von überall",
+              "steps.step4.title": "Integration",
+              "steps.step4.description":
+                "— Wenden Sie an, was wir im täglichen Leben und in Beziehungen entdecken.",
+              "steps.step5.title": "Laufende Unterstützung",
+              "steps.step5.description":
+                "Fahren Sie fort oder pausieren Sie, wenn sich Ihre Umstände ändern.",
+
               // Specialized Areas
               "services.specialized.title": "Spezialgebiete",
               "services.specialized.description":
@@ -102,16 +202,45 @@
               // Achievements Section - German
               "achievements.tagline": "UNSERE ERFOLGE",
               "achievements.title":
-                "When you live and work across borders, your challenges don’t wait…”",
+                "Wenn Sie grenzüberschreitend leben und arbeiten, warten Ihre Herausforderungen nicht …",
               "achievements.shape_alt": "Therapie Sync dekorative Form",
               "achievements.card_shape": "Therapie Sync Karten-Dekoration",
-
+              // best service
+              "services.cognitive.title": "Individuelle Psychotherapie",
+              "services.cognitive.description":
+                "Bietet einen sicheren, vertraulichen Raum für Selbstreflexion, persönliches Wachstum und Heilung.",
+              "services.cognitive.image_alt":
+                "Therapieraum mit Ledersofa und warmem Licht",
+              "services.academic.title": "Paartherapie",
+              "services.academic.description":
+                "Ein Therapeut fördert Gespräche, um Verständnis zu vertiefen, Konflikte zu lösen und die Partnerschaft zu stärken.",
+              "services.academic.image_alt":
+                "Therapieraum mit Ledersofa und warmem Licht",
+              "services.list.depression": "Depression & Angst",
+              "services.list.trauma": "Trauma & PTBS",
+              "services.list.stress": "Stressbewältigung",
+              "services.list.relationship": "Beziehungsschwierigkeiten",
+              "services.list.communication": "Kommunikationsprobleme",
+              "services.list.conflict": "Konfliktlösung",
+              "services.list.trust": "Vertrauensprobleme",
+              "services.list.transitions": "Lebensübergänge",
               // Achievement Cards
               "achievements.projects": "Erfolgreiche Projekte",
               "achievements.customers": "Zufriedene Kunden",
               "achievements.consultants": "Berater Planung",
               "achievements.awards": "Gewonnene Auszeichnungen",
 
+              // expertise
+              "expertise.list1":
+                "10+ Jahre Erfahrung in [Spezialgebiet, z.B. kognitive Verhaltenstherapie, traumasensible Therapie]",
+              "expertise.list2":
+                "Spezialisiert auf [Bereiche, z.B. Angststörungen, Depressionen, Beziehungsprobleme, LGBTQ+-affirmative Therapie]",
+              "expertise.list3":
+                "Evidenzbasierte Ansätze, die auf individuelle Bedürfnisse zugeschnitten sind",
+              "expertise.list4": "Kultursensible und einfühlsame Betreuung",
+              "philosophy.title": "Philosophie & Ansatz",
+              "philosophy.text":
+                "Ich glaube, dass Therapie ein gemeinschaftlicher, bestärkender Raum sein sollte, in dem Klienten sich gehört und unterstützt fühlen. Meine Praxis verbindet [Methoden nennen, z.B. CBT, Achtsamkeit, psychodynamische Theorie], um Resilienz und Wachstum zu fördern. Ob Sie Lebensübergänge bewältigen, Trauma verarbeiten oder Selbstentdeckung suchen – ich begleite Sie engagiert auf dem Weg zu bedeutsamer Veränderung.",
               // Why Choose Us Section - German
               "why_choose.tagline": "WARUM EXPAT THERAPY WÄHLEN",
               "why_choose.title":
@@ -121,6 +250,28 @@
                 "Maßgeschneiderte Geschäftslösungen, Management und Support-Services. Professionelle Agenturleistungen mit modernen Ansätzen für Ihre Bedürfnisse.",
               "why_choose.list_image_alt":
                 "Therapie Sync Vorteile Illustration",
+              // why choose
+              "why_choose.tagline": "WARUM EXPAT THERAPY WÄHLEN",
+              "why_choose.title":
+                "Wir bieten entscheidende psychologische Förderung",
+              "why_choose.shape_alt": "Therapie Sync dekorative Form",
+              "why_choose.description":
+                "Maßgeschneiderte Geschäftslösungen, Management und Support-Services. Professionelle Agenturleistungen mit modernen Ansätzen für Ihre Bedürfnisse.",
+              "why_choose.icons.psychology": "Psychologie Symbol",
+              "why_choose.icons.dating": "Beziehungssymbol",
+              "why_choose.icons.helping": "Hilfe Symbol",
+              "why_choose.cognitive.title": "Kognitive Psychologie",
+              "why_choose.cognitive.description":
+                "Unterstützung bei der Bewältigung von Herausforderungen und Verbesserung der Lebensqualität",
+              "why_choose.relationships.title": "Partnerschaft & Beziehungen",
+              "why_choose.relationships.description":
+                "Professionelle Lösungen für moderne Beziehungsherausforderungen in multikulturellen Kontexten",
+              "why_choose.behavior.title":
+                "Menschliches Verhalten und Lebenshilfe",
+              "why_choose.behavior.description":
+                "Verständnis und Hilfe für das Leben durch psychologische Erkenntnisse und Interventionen",
+              "why_choose.image_alt": "Therapiesitzung im Gange",
+              "why_choose.counter_text": "KUNDENUNTERSTÜTZUNG",
 
               // Bullet Points
               "why_choose.bullet1": "Dating & Beziehungsberatung",
@@ -181,6 +332,11 @@
               "testimonials.client4_alt": "Emma Schneider Portrait",
               "testimonials.client4_thumb_alt": "Emma Schneider Vorschaubild",
 
+              // cta
+              "cta.headline":
+                "Sie müssen nicht warten, bis Sie am 'richtigen Ort' sind, um sich besser zu fühlen.",
+              "cta.button": "Vereinbaren Sie noch heute Ihre Beratung",
+
               // Business Solutions Section - German
               "solutions.tagline": "WIR SIND DIE RICHTIGE LÖSUNG",
               "solutions.title":
@@ -211,11 +367,64 @@
               "contact.phone_label": "Telefon",
               "contact.program_label": "Programm",
               "contact.program_sr": "Programm auswählen",
-a
+
+              // contact
+              "contact.phone_title": "Jetzt Kontakt aufnehmen",
+              "contact.email_title": "E-Mail senden",
+              "contact.location_title": "Standort",
+              "contact.address": "8/05 Mozilla Golden",
+              "contact.logo_alt": "Therapieraum mit Ledersofa und warmem Licht",
+              "contact.image_alt":
+                "Therapieraum mit Ledersofa und warmem Licht",
+              "contact.tagline": "KONTAKTIEREN SIE UNS",
+              "contact.form_title":
+                "Kontaktieren Sie uns umgehend für professionelle Unterstützung",
+              "contact.form_description":
+                "Nehmen Sie Kontakt mit unserem professionellen Team auf für maßgeschneiderte Unterstützung und Lösungen.",
+              "contact.name_label": "Name",
+              "contact.name_placeholder": "Ihr Name *",
+              "contact.email_label": "E-Mail",
+              "contact.email_placeholder": "Ihre E-Mail *",
+              "contact.phone_label": "Telefon",
+              "contact.phone_placeholder": "Ihre Telefonnummer",
+              "contact.program_label": "Programm",
+              "contact.program_default": "Programm auswählen",
+              "contact.program1": "Einzeltherapie",
+              "contact.program2": "Führungskräfte-Coaching",
+              "contact.program3": "Paartherapie",
+              "contact.submit_button": "Anfrage senden",
+
               // Placeholders
               "contact.name_placeholder": "Ihr Name *",
               "contact.email_placeholder": "Ihre E-Mail *",
               "contact.phone_placeholder": "Ihre Telefonnummer",
+              // footer
+              "footer.shape_alt": "Therapieraum mit Ledersofa und warmem Licht",
+              "footer.logo_alt": "Therapieraum mit Ledersofa und warmem Licht",
+              "footer.description":
+                "Wir bieten Ihnen ein umfassendes System und erläutern die Lehren der großen Entdecker der Wahrheit, des Baumeisters, weil ...",
+              "footer.social.facebook": "Facebook",
+              "footer.social.twitter": "Twitter",
+              "footer.social.google": "Google",
+              "footer.social.linkedin": "LinkedIn",
+              "footer.social.instagram": "Instagram",
+              "footer.services_title": "Dienstleistungen",
+              "services.individual": "Einzeltherapie",
+              "services.couples": "Paartherapie",
+              "services.executive": "Führungskräfte-Coaching",
+              "footer.links_title": "Wichtige Links",
+              "footer.services.about": "Über uns",
+              "footer.services.appointment": "Termin vereinbaren",
+              "footer.services.contact": "Kontakt",
+              "footer.contact_title": "Kontaktinformation",
+              "footer.recognition":
+                "Psychodynamische Therapie ist eine von drei staatlich anerkannten Therapieformen in Deutschland.",
+              "footer.shape2_alt":
+                "Therapieraum mit Ledersofa und warmem Licht",
+              "footer.copyright":
+                "Copyright Therapy Sync <span class='dynamic-year'></span>, Alle Rechte vorbehalten",
+              "footer.developer":
+                "Entworfen & Entwickelt von <a href='https://aayaninfotech.com/' class='text-decoration-none text-light' target='_blank'>Aayan Infotech</a>",
 
               // Program Options
               "contact.program_default": "Programm auswählen",
@@ -297,21 +506,57 @@ a
           },
           en: {
             translation: {
-              slider1: {
-      title: "Psychodynamic Therapy for Expats —",
-      title_thin: "Wherever Life Takes",
-      title_base: "You",
-      shape_alt: "Decorative text shape",
-      text: "Specialized support for internationally mobile individuals and couples… anywhere in the world.",
-      cta1: "Schedule Your Consultation",
-      cta2: "Learn More"
-    },
-    slider2: {
-      title: "Welcome to Expat Therapy!",
-      text: "At Expat Therapy, we understand the unique challenges that come with living in a new country.",
-      cta1: "Schedule Your Consultation",
-      cta2: "Learn More"
-    },
+              // navbar
+              "topbar.email": "expacttheraphy@gmail.com",
+              "topbar.address": "8/05 Mozilla Golden Street",
+              "topbar.help": "Help you",
+              "language.english": "English",
+              "language.german": "German",
+              "header.logo_alt": "Therapy Logo",
+              "menu.home": "Home",
+              "menu.individual": "Individual Therapy",
+              "menu.couples": "Couples Therapy",
+              "menu.executive": "Executive Coaching",
+              "menu.about": "About",
+              "menu.contact": "Contact",
+              "menu.book": "Book Consultation",
+              "slider1.title": "Psychodynamic Therapy for Expats —",
+              "slider1.title_thin": "Wherever Life Takes",
+              "slider1.title_base": "You",
+              "slider1.shape_alt": "Decorative text shape",
+              "slider1.text":
+                "Specialized support for internationally mobile individuals and couples… anywhere in the world.",
+              "slider1.cta1": "Schedule Your Consultation",
+              "slider1.cta2": "Learn More",
+
+              "slider2.title": "Welcome to Expat Therapy!",
+              "slider2.text":
+                "At Expat Therapy, we understand the unique challenges that come with living in a new country.",
+              "slider2.cta1": "Schedule Your Consultation",
+              "slider2.cta2": "Learn More",
+
+              // opening
+              "opening.title": "Navigating Life Abroad Can Be Tough.",
+              "opening.intro":
+                'When you live and work across borders, your challenges don\'t wait for the "right time" or "right place" to arise.',
+
+              "opening.scenario1.title": "Feeling Overwhelmed at Work?",
+              "opening.scenario1.text":
+                "A crisis at work can hit while you're between time zones, making it hard to cope without your usual support network.",
+
+              "opening.scenario2.title": "Struggling with Your Relationship?",
+              "opening.scenario2.text":
+                "Tension with your partner might surface miles away from your usual support system, leaving you feeling isolated.",
+
+              "opening.scenario3.title": "Is Loneliness Creeping In?",
+              "opening.scenario3.text":
+                "And sometimes, despite your achievements, the loneliness, uncertainty, or exhaustion feels overwhelming.",
+
+              "opening.conclusion.title": "You Don't Have to Face It Alone",
+              "opening.conclusion.text":
+                "With <span class=\"emphasis\">Expat Therapy</span>, you don't have to put your mental health on hold until you're back home or settled somewhere new.",
+              "opening.conclusion.cta": "You can start here, now.",
+
               // Feature Section
               "feature.cognitive.title": "Cognitive Counselling",
               "feature.cognitive.description":
@@ -344,6 +589,23 @@ a
               "about.cta": "About More",
               "about.shape_alt": "Dekorative Grafik",
 
+              // feature updated
+              "feature.one.title": "Bilingual – English & German",
+              "feature.one.text":
+                "Therapy designed for people whose lives don’t fit in one place.",
+
+              "feature.two.title": "State-Recognized Therapy",
+              "feature.two.text":
+                "Therapy designed for people whose lives don’t fit in one place.",
+
+              "feature.three.title": "Secure & Confidential",
+              "feature.three.text":
+                "Encrypted, private video sessions through the Expat Therapy app.",
+
+              "feature.four.title": "Culturally Sensitive",
+              "feature.four.text":
+                "Expertise in the unique challenges of expat life and intercultural relationships.",
+
               // call one
               "call.title":
                 "When you live and work across borders, your challenges don’t wait…”",
@@ -367,7 +629,25 @@ a
               "services.cognitive.description":
                 "Supporting individuals in overcoming challenges, and enhancing their quality of life whether it's",
               "services.cognitive.image_alt": "Cognitive therapy illustration",
-
+              // best service
+              "services.cognitive.title": "Individual Psychotherapy",
+              "services.cognitive.description":
+                "It provides a safe, confidential space for self-reflection, personal growth, and healing.",
+              "services.cognitive.image_alt":
+                "Therapy room with leather sofa and warm lighting",
+              "services.academic.title": "Couples Therapy",
+              "services.academic.description":
+                "A therapist facilitates discussions to promote understanding, resolve disputes, and strengthen the partnership.",
+              "services.academic.image_alt":
+                "Therapy room with leather sofa and warm lighting",
+              "services.list.depression": "Depression & anxiety",
+              "services.list.trauma": "Trauma & PTSD",
+              "services.list.stress": "Stress management",
+              "services.list.relationship": "Relationship difficulties",
+              "services.list.communication": "Communication breakdown",
+              "services.list.conflict": "Conflict resolution",
+              "services.list.trust": "Trust issues",
+              "services.list.transitions": "Life transitions",
               // Academic Psychology
               "services.academic.title": "Academic Psychology",
               "services.academic.description":
@@ -402,12 +682,43 @@ a
               "why_choose.description":
                 "Business tailored design, management & support services, Business business agency elit, sed do eiusmod tempor majority have in some we form, by injected humour solution.",
               "why_choose.list_image_alt": "Therapy Sync benefits illustration",
+              "why_choose.tagline": "WHY CHOOSE EXPAT THERAPY",
+              "why_choose.title":
+                "We Providing Psychology Crucial Choose of Promoting",
+              "why_choose.shape_alt": "Therapy Sync decorative shape",
+              "why_choose.description":
+                "Business tailored design, management & support services, Business business agency elit, sed do eiusmod tempor majority have in some we form, by injected humour solution.",
+              "why_choose.icons.psychology": "Psychology icon",
+              "why_choose.icons.dating": "Dating icon",
+              "why_choose.icons.helping": "Helping icon",
+              "why_choose.cognitive.title": "Cognitive Psychology",
+              "why_choose.cognitive.description":
+                "Supporting individuals in overcoming challenges and improving their quality of life",
+              "why_choose.relationships.title": "Dating & Relationships",
+              "why_choose.relationships.description":
+                "Professional solutions for modern relationship challenges in multicultural contexts",
+              "why_choose.behavior.title": "Human Behavior and Helping Lives",
+              "why_choose.behavior.description":
+                "Understanding and helping lives through psychological insights and interventions",
+              "why_choose.image_alt": "Therapy session in progress",
+              "why_choose.counter_text": "CUSTOMER SUPPORT",
 
               // Bullet Points
               "why_choose.bullet1": "Dating & Relationship of Psychologist",
               "why_choose.bullet2":
                 "Professional Solutions for Modern Challenges",
               "why_choose.bullet3": "Human Behavior and Helping Lives",
+
+              // approach
+              "approach.tagline": "Our Approach",
+              "approach.title":
+                "We are who we are because of the impact others have had on us. Real change happens through meaningful relationships.",
+              "approach.description1":
+                "Our therapeutic approach is built on collaboration and mutual understanding. Through a supportive partnership, we create a space where emotional growth can flourish.",
+              "approach.description2":
+                "This process leads to profound personal transformation, helping individuals build more meaningful connections and a deeper understanding of themselves.",
+              "approach.image_alt":
+                "Therapist in session creating a warm, safe environment",
 
               // Cognitive Psychology
               "why_choose.cognitive.title": "Cognitive Psychology",
@@ -418,6 +729,37 @@ a
               "why_choose.relationships.title": "Dating & Relationships",
               "why_choose.relationships.description":
                 "Guidance for building healthy relationships and personal connections",
+              // excecutive
+              "executive.title":
+                "Executive Coaching for Globally Mobile Leaders",
+              "executive.list1":
+                "Personalized coaching strategies to help globally mobile leaders navigate",
+              "executive.list2":
+                "Develop skills to manage teams effectively, improve communication, and foster resilience in high-pressure environments.",
+              "executive.list3":
+                "Support in aligning professional ambitions with personal well-being",
+              "executive.cta": "Know More",
+              "executive.image_alt":
+                "Executive coaching session with a professional",
+              // steps
+              "steps.title": "Our 5-Step Path to Healing",
+              "steps.description":
+                "Embark on a transformative journey with our structured 5-step process, thoughtfully designed to guide you towards healing and self-discovery in a welcoming, supportive, and compassionate environment.",
+              "steps.step1.title": "Initial Consultation",
+              "steps.step1.description":
+                "— Talk to me about your needs, no obligation",
+              "steps.step2.title": "Agreement",
+              "steps.step2.description":
+                "Choose service type, session length, and frequency.",
+              "steps.step3.title": "Regular Sessions",
+              "steps.step3.description":
+                "— Connect via the Expat Therapy app, from anywhere",
+              "steps.step4.title": "Integration",
+              "steps.step4.description":
+                "— Apply what we uncover to daily life and relationships.",
+              "steps.step5.title": "Ongoing Support",
+              "steps.step5.description":
+                "Continue or pause as your circumstances change.",
 
               // Counter
               "why_choose.counter_text": "CUSTOMER SUPPORT",
@@ -460,6 +802,17 @@ a
                 "The executive coaching sessions delivered measurable improvements in our decision-making processes and team alignment. Highly recommend their services for any leadership team.",
               "testimonials.client4_alt": "Emma Schneider portrait",
               "testimonials.client4_thumb_alt": "Emma Schneider thumbnail",
+              // expertise
+              "expertise.list1":
+                "10+ years of experience in [specialty, e.g., cognitive-behavioral therapy, trauma-informed care]",
+              "expertise.list2":
+                "Specialized in [areas, e.g., anxiety, depression, relationship issues, LGBTQ+ affirming therapy]",
+              "expertise.list3":
+                "Evidence-based approaches tailored to individual/client needs",
+              "expertise.list4": "Culturally sensitive & compassionate care",
+              "philosophy.title": "Philosophy & Approach",
+              "philosophy.text":
+                "I believe therapy should be a collaborative, empowering space where clients feel heard and supported. My practice blends [mention modalities, e.g., CBT, mindfulness, psychodynamic theory] to foster resilience and growth. Whether navigating life transitions, healing from trauma, or seeking self-discovery, I'm committed to guiding you toward meaningful change.",
 
               // Business Solutions Section - English
               "solutions.tagline": "WE'RE GOOD SOLUTION",
@@ -478,12 +831,74 @@ a
               "solutions.image_alt":
                 "Therapy Sync business solutions illustration",
 
+              // cta
+              "cta.headline":
+                "You don't have to wait until you're in the 'right place' to feel better.",
+              "cta.button": "Schedule Your Consultation Today",
+
               "contact.tagline": "CONTACT US",
               "contact.title":
                 "Contact Us Immediately For <br>Professional Support",
               "contact.shape_alt": "Therapy Sync decorative shape",
               "contact.description":
                 "Get in touch with our professional team for personalized support and solutions tailored to your needs.",
+
+              // contact
+              "contact.phone_title": "Get Contact Now",
+              "contact.email_title": "Sent Email",
+              "contact.location_title": "Location",
+              "contact.address": "8/05 Mozilla Golden",
+              "contact.logo_alt":
+                "Therapy room with leather sofa and warm lighting",
+              "contact.image_alt":
+                "Therapy room with leather sofa and warm lighting",
+              "contact.tagline": "OUR CONTACT US",
+              "contact.form_title":
+                "Contact Us Immediately For Professional Support",
+              "contact.form_description":
+                "Get in touch with our professional team for personalized support and solutions tailored to your needs.",
+              "contact.name_label": "Name",
+              "contact.name_placeholder": "Enter Your Name *",
+              "contact.email_label": "Email",
+              "contact.email_placeholder": "Enter Your Email *",
+              "contact.phone_label": "Phone",
+              "contact.phone_placeholder": "Enter Your Phone No.",
+              "contact.program_label": "Program",
+              "contact.program_default": "Select a Program",
+              "contact.program1": "Individual Therapy",
+              "contact.program2": "Executive Coaching",
+              "contact.program3": "Couples Therapy",
+              "contact.submit_button": "Send Your Query",
+
+              // footer
+              "footer.shape_alt":
+                "Therapy room with leather sofa and warm lighting",
+              "footer.logo_alt":
+                "Therapy room with leather sofa and warm lighting",
+              "footer.description":
+                "Will give you a complete account the system, and expound the teachings of the great explorer the truth, the master-builder because ...",
+              "footer.social.facebook": "Facebook",
+              "footer.social.twitter": "Twitter",
+              "footer.social.google": "Google",
+              "footer.social.linkedin": "LinkedIn",
+              "footer.social.instagram": "Instagram",
+              "footer.services_title": "Services",
+              "services.individual": "Individual Therapy",
+              "services.couples": "Couples Therapy",
+              "services.executive": "Executive Therapy",
+              "footer.links_title": "Important Links",
+              "footer.services.about": "About",
+              "footer.services.appointment": "Make Appointment",
+              "footer.services.contact": "Contact",
+              "footer.contact_title": "Contact Info",
+              "footer.recognition":
+                "Psychodynamic therapy is one of three officially state-recognized modalities in Germany.",
+              "footer.shape2_alt":
+                "Therapy room with leather sofa and warm lighting",
+              "footer.copyright":
+                "Copyright Therapy Sync <span class='dynamic-year'></span>, All Right Reserved",
+              "footer.developer":
+                "Designed & Developed by <a href='https://aayaninfotech.com/' class='text-decoration-none text-light' target='_blank'>Aayan Infotech</a>",
 
               // Form Labels
               "contact.name_label": "Name",
