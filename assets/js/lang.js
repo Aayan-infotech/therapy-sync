@@ -37,6 +37,7 @@
               "topbar.email": "expacttheraphy@gmail.com",
               "topbar.address": "8/05 Mozilla Golden Street",
               "topbar.help": "Hilfe",
+              "topbar.coaching":"contact@dombrowe.berlin",
               "language.english": "Englisch",
               "language.german": "Deutsch",
               "header.logo_alt": "Therapie Logo",
@@ -258,6 +259,7 @@
               "achievements.awards": "Gewonnene Auszeichnungen",
 
               // expertise
+              "professional_expertise.title": "Professionelle Expertise",
               "expertise.list1":
                 "Über 10 Jahre Erfahrung in der traumainformierten Pflege",
               "expertise.list2":
@@ -536,6 +538,7 @@
               // navbar
               "topbar.email": "expacttheraphy@gmail.com",
               "topbar.address": "8/05 Mozilla Golden Street",
+              "topbar.coaching":"contact@dombrowe.berlin",
               "topbar.help": "Help you",
               "language.english": "English",
               "language.german": "German",
@@ -837,6 +840,7 @@
               "testimonials.client4_alt": "Emma Schneider portrait",
               "testimonials.client4_thumb_alt": "Emma Schneider thumbnail",
               // expertise
+              "professional_expertise.title": "Professional Expertise",
               "expertise.list1":
                 "10+ years of experience in trauma-informed care",
               "expertise.list2":
