@@ -40,14 +40,14 @@
   --pelocis-border-color-rgb: 221, 221, 221;
   --pelocis-letter-space: 0.1em;
   --pelocis-letter-space-xl: 0.2em;
-     --brand-teal: #4FD1C5;
-            --brand-purple: #8B5CF6;
-            --brand-pink: #EC4899;
-            --brand-orange: #F97316;
-            --brand-lime: #84CC16;
-            --neutral-bg: #F8FAFC;
-            --neutral-text-primary: #1E293B;
-            --neutral-text-secondary: #64748B;
+  --brand-teal: #4fd1c5;
+  --brand-purple: #8b5cf6;
+  --brand-pink: #ec4899;
+  --brand-orange: #f97316;
+  --brand-lime: #84cc16;
+  --neutral-bg: #f8fafc;
+  --neutral-text-primary: #1e293b;
+  --neutral-text-secondary: #64748b;
 }
 
 /*--------------------------------------------------------------
@@ -3646,8 +3646,8 @@ h6 {
   .contact-one {
     padding: 80px 0;
   }
-  .image-background-viewer-support .pelocis-btn{
-    max-width:150px !important
+  .image-background-viewer-support .pelocis-btn {
+    max-width: 150px !important;
   }
 }
 .contact-one__form {
@@ -4751,8 +4751,6 @@ h6 {
 .main-header__btn {
   display: none;
   padding: 10px 26px;
-  /* margin-left: 40px; */
-}
 }
 @media (min-width: 1200px) and (max-width: 1300px) {
   .main-header__btn {
@@ -4772,14 +4770,13 @@ h6 {
   .main-header__right {
     margin-left: auto;
     padding: 0;
-            max-width: 100%;
   }
 }
 @media (min-width: 1200px) {
   /* .main-header__right {
     margin-left: 9px;
   } */
-    .main-header__btn {
+  .main-header__btn {
     display: inline-flex;
   }
 }
@@ -8052,6 +8049,13 @@ body.megamenu-popup-active .mobile-nav__content {
   .gallery-one__card img {
     min-height: 400px;
     object-fit: cover;
+  }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  .main-header__right {
+    margin-left: auto;
+    padding: 0;
+    max-width: 100%;
   }
 }
 .gallery-one__card__hover {
@@ -19336,10 +19340,10 @@ body.boxed-wrapper .topbar-one__inner__shape {
   }
 }
 .business-solutions__image img {
-    max-width: 100%;
-    max-height: 600px;
-    width: 100%;
-    object-fit: contain;
+  max-width: 100%;
+  max-height: 600px;
+  width: 100%;
+  object-fit: contain;
 }
 
 .counselling-solutions {
@@ -21160,7 +21164,6 @@ body.boxed-wrapper .topbar-one__inner__shape {
 }
 
 .opening-container {
-  
   margin: 0 auto;
   padding: 0 20px;
   position: relative;
@@ -21168,7 +21171,6 @@ body.boxed-wrapper .topbar-one__inner__shape {
 }
 
 .opening-content {
-
   margin: 0 auto;
   text-align: center;
 }
@@ -21203,8 +21205,6 @@ body.boxed-wrapper .topbar-one__inner__shape {
   transition: all 0.3s ease;
 }
 
-
-
 .scenario:hover {
   transform: translateX(10px);
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
@@ -21227,7 +21227,6 @@ body.boxed-wrapper .topbar-one__inner__shape {
   color: #d2b48c;
   font-weight: 600;
 }
-
 
 @keyframes slideInBottom {
   from {
@@ -21291,71 +21290,88 @@ body.boxed-wrapper .topbar-one__inner__shape {
   }
 }
 
+.step-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem;
+  text-align: center;
+  background-color: white;
+  border-radius: 1rem;
+  transition: all 0.3s ease-in-out;
+  height: 100%;
+}
 
- .step-card {
-            position: relative;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 1.5rem;
-            text-align: center;
-            background-color: white;
-            border-radius: 1rem;
-            transition: all 0.3s ease-in-out;
-            height: 100%;
-        }
-        
-        .step-card:hover {
-            transform: translateY(-0.5rem);
-            box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1) !important;
-        }
-        
-        .step-icon-wrapper {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 5rem;
-            height: 5rem;
-            border-radius: 50%;
-            margin-bottom: 1.25rem;
-            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s;
-        }
-        
-        .step-card:hover .step-icon-wrapper {
-            transform: scale(1.1);
-        }
-        
-        .step-icon {
-            font-size: 2.5rem;
-            color: white;
-        }
-        
-        .step-connector {
-            position: absolute;
-            top: 50%;
-            left: 100%;
-            width: 100%;
-            height: 2px;
-            transform: translateY(-50%);
-            background: linear-gradient(to right, var(--line-color) 50%, transparent 50%);
-            background-size: 10px 2px;
-            display: none;
-        }
-        
-        @media (min-width: 768px) {
-            .step-connector {
-                display: block;
-            }
-        }
-        
-        .step-1 .step-icon-wrapper { background-color: var(--brand-teal); }
-        .step-2 .step-icon-wrapper { background-color: var(--brand-purple); }
-        .step-3 .step-icon-wrapper { background-color: var(--brand-pink); }
-        .step-4 .step-icon-wrapper { background-color: var(--brand-orange); }
-        .step-5 .step-icon-wrapper { background-color: var(--brand-lime); }
-        
-        .step-1 { --line-color: var(--brand-teal); }
-        .step-2 { --line-color: var(--brand-purple); }
-        .step-3 { --line-color: var(--brand-pink); }
-        .step-4 { --line-color: var(--brand-orange); }
+.step-card:hover {
+  transform: translateY(-0.5rem);
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1) !important;
+}
+
+.step-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  margin-bottom: 1.25rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.step-card:hover .step-icon-wrapper {
+  transform: scale(1.1);
+}
+
+.step-icon {
+  font-size: 2.5rem;
+  color: white;
+}
+
+.step-connector {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  width: 100%;
+  height: 2px;
+  transform: translateY(-50%);
+  background: linear-gradient(to right, var(--line-color) 50%, transparent 50%);
+  background-size: 10px 2px;
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .step-connector {
+    display: block;
+  }
+}
+
+.step-1 .step-icon-wrapper {
+  background-color: var(--brand-teal);
+}
+.step-2 .step-icon-wrapper {
+  background-color: var(--brand-purple);
+}
+.step-3 .step-icon-wrapper {
+  background-color: var(--brand-pink);
+}
+.step-4 .step-icon-wrapper {
+  background-color: var(--brand-orange);
+}
+.step-5 .step-icon-wrapper {
+  background-color: var(--brand-lime);
+}
+
+.step-1 {
+  --line-color: var(--brand-teal);
+}
+.step-2 {
+  --line-color: var(--brand-purple);
+}
+.step-3 {
+  --line-color: var(--brand-pink);
+}
+.step-4 {
+  --line-color: var(--brand-orange);
+}
