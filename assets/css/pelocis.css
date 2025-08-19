@@ -18636,6 +18636,7 @@ body.boxed-wrapper .topbar-one__inner__shape {
 }
 .project-details__content {
   position: relative;
+      margin-bottom: 50px;
 }
 .project-details__summary {
   padding: 38px 30px 20px;
@@ -18682,7 +18683,7 @@ body.boxed-wrapper .topbar-one__inner__shape {
 }
 .project-details__info {
   margin-top: 48px;
-  width: 65%;
+  
 }
 @media (min-width: 1200px) {
   .project-details__info {

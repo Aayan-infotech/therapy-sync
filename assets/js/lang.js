@@ -1,17 +1,35 @@
 (function ($) {
   "use strict";
 
-  if ($(".lang-switcher").length) {
-    $(".lang-switcher").on("click", function () {
-      $(this).toggleClass("lang-switcher--active");
+if ($(".lang-switcher").length) {
+    $(".lang-switcher").on("click", function (e) {
+      try {
+        $(this).toggleClass("lang-switcher--active");
+      } catch (error) {
+        console.error("Language switcher error:", error);
+      }
     });
   }
 
   $(document).ready(function () {
     i18next.use(i18nextBrowserLanguageDetector).init(
       {
-        lng: "en", // Default to German
         fallbackLng: "en",
+        detection: {
+          order: [
+            "querystring",
+            "cookie",
+            "localStorage",
+            "sessionStorage",
+            "navigator",
+            "htmlTag",
+          ],
+          caches: ["localStorage", "cookie"],
+          lookupQuerystring: "lng",
+          lookupCookie: "i18next",
+          lookupLocalStorage: "i18nextLng",
+          lookupSessionStorage: "i18nextLng",
+        },
         resources: {
           de: {
             translation: {
@@ -241,7 +259,7 @@
 
               // expertise
               "expertise.list1":
-                "10+ Jahre Erfahrung in [Spezialgebiet, z.B. kognitive Verhaltenstherapie, traumasensible Therapie]",
+                "Über 10 Jahre Erfahrung in der traumainformierten Pflege",
               "expertise.list2":
                 "Spezialisiert auf [Bereiche, z.B. Angststörungen, Depressionen, Beziehungsprobleme, LGBTQ+-affirmative Therapie]",
               "expertise.list3":
@@ -820,7 +838,7 @@
               "testimonials.client4_thumb_alt": "Emma Schneider thumbnail",
               // expertise
               "expertise.list1":
-                "10+ years of experience in [specialty, e.g., cognitive-behavioral therapy, trauma-informed care]",
+                "10+ years of experience in trauma-informed care",
               "expertise.list2":
                 "Specialized in [areas, e.g., anxiety, depression, relationship issues, LGBTQ+ affirming therapy]",
               "expertise.list3":
@@ -1012,12 +1030,40 @@
         jqueryI18next.init(i18next, $);
         $("body").localize();
         $("#language-select").val(i18next.language);
+        updateContent();
       }
     );
 
+    function updateContent() {
+      // Your code to update page content with translations
+             $("[data-i18n]").each(function () {
+            var key = $(this).data("i18n");
+            var translation = i18next.t(key);
+            
+            // Special handling for placeholders
+            if ($(this).is('[placeholder]')) {
+                $(this).attr('placeholder', translation);
+            } 
+            // Default text/html content
+            else {
+                $(this).html(translation);
+            }
+        });
+
+    }
+
     $("#language-select").change(function () {
-      i18next.changeLanguage($(this).val(), function (err, t) {
-        $("body").localize();
+      $("#language-select").change(function () {
+         var newLang = $(this).val();
+        i18next.changeLanguage(newLang, function(err, t) {
+            if (err) console.error("Language change error:", err);
+            
+            // Update all content
+            updateContent();
+            
+            // No need to manually set the select value here - 
+            // i18next will persist the language preference automatically
+        });
       });
     });
   });
