@@ -1,7 +1,7 @@
 (function ($) {
   "use strict";
 
-if ($(".lang-switcher").length) {
+  if ($(".lang-switcher").length) {
     $(".lang-switcher").on("click", function (e) {
       try {
         $(this).toggleClass("lang-switcher--active");
@@ -1031,38 +1031,62 @@ if ($(".lang-switcher").length) {
         $("body").localize();
         $("#language-select").val(i18next.language);
         updateContent();
+
+        var currentLang = i18next.language;
+        console.log("Current language loaded:", currentLang);
+
+        // Set the select dropdown to the current language
+        $("#language-select").val(currentLang);
+
+        // If using selectpicker, refresh it
+        if (typeof $.fn.selectpicker !== "undefined") {
+          $("#language-select").selectpicker("val", currentLang);
+          $("#language-select").selectpicker("refresh");
+        }
       }
     );
 
     function updateContent() {
       // Your code to update page content with translations
-             $("[data-i18n]").each(function () {
-            var key = $(this).data("i18n");
-            var translation = i18next.t(key);
-            
-            // Special handling for placeholders
-            if ($(this).is('[placeholder]')) {
-                $(this).attr('placeholder', translation);
-            } 
-            // Default text/html content
-            else {
-                $(this).html(translation);
-            }
-        });
+      $("[data-i18n]").each(function () {
+        var key = $(this).data("i18n");
+        var translation = i18next.t(key);
 
+        // Special handling for placeholders
+        if ($(this).is("[placeholder]")) {
+          $(this).attr("placeholder", translation);
+        }
+        // Default text/html content
+        else {
+          $(this).html(translation);
+        }
+      });
     }
 
     $("#language-select").change(function () {
       $("#language-select").change(function () {
-         var newLang = $(this).val();
-        i18next.changeLanguage(newLang, function(err, t) {
-            if (err) console.error("Language change error:", err);
-            
-            // Update all content
-            updateContent();
-            
-            // No need to manually set the select value here - 
-            // i18next will persist the language preference automatically
+        var newLang = $(this).val();
+        i18next.changeLanguage(newLang, function (err, t) {
+          if (err) console.error("Language change error:", err);
+
+          // Update all content
+          updateContent();
+
+          // No need to manually set the select value here -
+          // i18next will persist the language preference automatically
+          $("#language-select").val(newLang);
+
+          // If using selectpicker, refresh it
+          if (typeof $.fn.selectpicker !== "undefined") {
+            $("#language-select").selectpicker("val", newLang);
+            $("#language-select").selectpicker("refresh");
+          }
+
+          console.log("Language successfully changed to:", newLang);
+          console.log(
+            "Stored in localStorage:",
+            localStorage.getItem("i18nextLng")
+          );
         });
       });
     });
