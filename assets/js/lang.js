@@ -901,7 +901,7 @@
               "footer.services_title": "Services",
               "services.individual": "Individual Therapy",
               "services.couples": "Couples Therapy",
-              "services.executive": "Executive Therapy",
+              "services.executive": "Executive Coaching",
               "footer.links_title": "Important Links",
               "footer.services.about": "About",
               "footer.services.appointment": "Make Appointment",
