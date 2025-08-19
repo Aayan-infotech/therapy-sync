@@ -4673,6 +4673,7 @@ h6 {
   width: 100%;
   /* top: 50px; */
   z-index: 99;
+  background-color:#000
 }
 @media (max-width: 766px) {
   .main-header {
@@ -4685,7 +4686,7 @@ h6 {
 .main-header__inner {
   display: flex;
   align-items: center;
-  background-color: #fff;
+  /* background-color: #fff; */
   padding: 30px 0;
   padding-left: 15px;
   padding-right: 15px;
@@ -5412,7 +5413,7 @@ h6 {
   font-size: 16px;
   display: flex;
   align-items: center;
-  color: var(--pelocis-black2, #333333);
+  color: #fff;
   font-weight: 600;
   text-transform: capitalize;
   letter-spacing: 0;
