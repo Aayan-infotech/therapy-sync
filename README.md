@@ -1,1 +1,1 @@
-# therapy-sync
+.# therapy-sync
