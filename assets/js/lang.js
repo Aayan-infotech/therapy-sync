@@ -88,19 +88,28 @@
 
               "about.image_alt": "Therapie Sync Team",
               "about.experience": "+ Jahre Erfahrung",
-              "about.tagline": "ÜBER UNSER UNTERNEHMEN",
-              "about.title": "Psychologie erforscht die menschliche Psyche",
+              "about.tagline": "ÜBER UNS",
+              "about.title": "Lernen Sie unseren Arzt kennen",
               "about.description":
                 "Maßgeschneiderte Geschäftslösungen, Management und Support-Services für Ihr Unternehmen. Professionelle Beratung für individuelle Bedürfnisse.",
               "about.image2_alt": "Unsere Methoden",
-              "about.bullet1":
-                "Vielfältige Ansätze in der therapeutischen Arbeit für optimale Ergebnisse.",
-              "about.bullet2":
-                "Individuelle Therapiepläne für jede Lebenssituation und Herausforderung.",
-              "about.highlight":
-                "Der richtige Therapeut hilft Ihnen, Fähigkeiten zur Bewältigung Ihrer Situation zu entwickeln.",
+
               "about.cta": "Mehr erfahren",
               "about.shape_alt": "Dekorative Grafik",
+              "credentials.title": "Dr. Christian Dombrowe",
+              "credentials.list1":
+                "Voll approbierter psychodynamischer Therapeut (staatlich anerkannt in Deutschland)",
+              "credentials.list2":
+                "Zertifiziert in relationaler und systemisch-psychodynamischer Therapie",
+              "credentials.list3":
+                "Organisationspsychologe (systemisch-psychodynamisches Führungskräfte-Coaching)",
+              "credentials.list4": "Fließend in Englisch und Deutsch",
+
+              "specializations.title": "Spezialisierungen:",
+              "specializations.item1": "✔ Psychische Gesundheit von Expats",
+              "specializations.item2": "✔ Interkulturelle Paare",
+              "specializations.item3": "✔ Trauma & Angststörungen",
+              "specializations.item4": "✔ Coaching für globale Mobilität",
 
               // feature updated
               "feature.one.title": "Zweisprachig – Englisch & Deutsch",
@@ -574,20 +583,27 @@
               // about section
               "about.image_alt": "Expact Theraphy",
               "about.experience": "+ Experience",
-              "about.tagline": "OUR ABOUT COMPANY",
-              "about.title":
-                " Psychology Seeks To Explore The About Workings of Human",
-              "about.description":
-                " Business tailored design, management & support services Business business agency elit, sed do eiusmod tempor  majority have in some we form, by injected humour solution.",
+              "about.tagline": "ABOUT US",
+              "about.title": " Meet our doctor",
+
               "about.image2_alt": "Expact Theraphy",
-              "about.bullet1":
-                " There are many variations of passages of this business magical therapy.",
-              "about.bullet2":
-                "There are many variations of passages of this business magical therapy.",
-              "about.highlight":
-                "The right therapist can help you develop the skills to manage your solution this is mental health to find them.",
+
               "about.cta": "About More",
               "about.shape_alt": "Dekorative Grafik",
+              "credentials.title": "Dr. Christian Dombrowe",
+              "credentials.list1":
+                "Fully Approbated Psychodynamic Therapist (State-Recognized in Germany)",
+              "credentials.list2":
+                "Certified in Relational & Systems-Psychodynamic Therapy",
+              "credentials.list3":
+                "Organizational Psychologist (Systems-Psychodynamic Executive Coaching)",
+              "credentials.list4": "Fluent in English & German",
+
+              "specializations.title": "Specializations:",
+              "specializations.item1": "✔ Expat Mental Health",
+              "specializations.item2": "✔ Intercultural Couples",
+              "specializations.item3": "✔ Trauma & Anxiety",
+              "specializations.item4": "✔ Global Mobility Coaching",
 
               // feature updated
               "feature.one.title": "Bilingual – English & German",
@@ -649,7 +665,7 @@
               "services.list.trust": "Trust issues",
               "services.list.transitions": "Life transitions",
               // Academic Psychology
-              
+
               "services.academic.description":
                 "Supporting individuals in overcoming challenges, and enhancing their quality of life whether it's",
               "services.academic.image_alt": "Academic therapy illustration",
