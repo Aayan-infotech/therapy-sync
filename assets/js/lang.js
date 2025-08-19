@@ -30,7 +30,7 @@
               "menu.contact": "Kontakt",
               "menu.book": "Beratung buchen",
 
-              "slider1.title": "Psychodynamische Therapie für Expats —",
+              "slider1.title": "Psychodynamische Therapie für Expats -",
               "slider1.title_thin": "Wo auch immer das Leben",
               "slider1.title_base": "Sie hinführt",
               "slider1.shape_alt": "Dekorative Textform",
@@ -39,7 +39,7 @@
               "slider1.cta1": "Vereinbaren Sie Ihre Beratung",
               "slider1.cta2": "Mehr erfahren",
 
-              "slider2.title": "Willkommen bei Expat Therapy! -",
+              "slider2.title": "Willkommen bei Die Expat Therapy! -      ",
               "slider2.text":
                 "Bei Expat Therapy verstehen wir die einzigartigen Herausforderungen, die mit dem Leben in einem neuen Land verbunden sind.",
               "slider2.cta1": "Vereinbaren Sie Ihre Beratung",
@@ -538,7 +538,7 @@
               "slider1.cta1": "Schedule Your Consultation",
               "slider1.cta2": "Learn More",
 
-              "slider2.title": "Welcome to Expat Therapy! -",
+              "slider2.title": "Welcome to the Expat Therapy! -",
               "slider2.text":
                 "At Expat Therapy, we understand the unique challenges that come with living in a new country.",
               "slider2.cta1": "Schedule Your Consultation",
