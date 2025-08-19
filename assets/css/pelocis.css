@@ -3414,9 +3414,9 @@ h6 {
     margin-bottom: 40px;
   }
 }
-.footer-widget__title--ml-18 {
+/* .footer-widget__title--ml-18 {
   margin-left: -18px;
-}
+} */
 @media (max-width: 1028px) {
   .pelocis-btn {
     font-size: 14px;

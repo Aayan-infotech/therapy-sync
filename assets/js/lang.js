@@ -154,7 +154,7 @@
               "services.cognitive.image_alt": "Illustration kognitive Therapie",
 
               // Academic Psychology
-              "services.academic.title": "Pädagogische Psychologie",
+
               "services.academic.description":
                 "Förderung von Lernprozessen und Unterstützung bei akademischen Herausforderungen",
               "services.academic.image_alt":
@@ -649,7 +649,7 @@
               "services.list.trust": "Trust issues",
               "services.list.transitions": "Life transitions",
               // Academic Psychology
-              "services.academic.title": "Academic Psychology",
+              
               "services.academic.description":
                 "Supporting individuals in overcoming challenges, and enhancing their quality of life whether it's",
               "services.academic.image_alt": "Academic therapy illustration",
