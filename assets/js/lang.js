@@ -39,7 +39,7 @@
               "slider1.cta1": "Vereinbaren Sie Ihre Beratung",
               "slider1.cta2": "Mehr erfahren",
 
-              "slider2.title": "Willkommen bei Expat Therapy!",
+              "slider2.title": "Willkommen bei Expat Therapy! -",
               "slider2.text":
                 "Bei Expat Therapy verstehen wir die einzigartigen Herausforderungen, die mit dem Leben in einem neuen Land verbunden sind.",
               "slider2.cta1": "Vereinbaren Sie Ihre Beratung",
@@ -529,7 +529,7 @@
               "menu.about": "About",
               "menu.contact": "Contact",
               "menu.book": "Book Consultation",
-              "slider1.title": "Psychodynamic Therapy for Expats —",
+              "slider1.title": "Psychodynamic Therapy for Expats -",
               "slider1.title_thin": "Wherever Life Takes",
               "slider1.title_base": "You",
               "slider1.shape_alt": "Decorative text shape",
@@ -538,7 +538,7 @@
               "slider1.cta1": "Schedule Your Consultation",
               "slider1.cta2": "Learn More",
 
-              "slider2.title": "Welcome to Expat Therapy!",
+              "slider2.title": "Welcome to Expat Therapy! -",
               "slider2.text":
                 "At Expat Therapy, we understand the unique challenges that come with living in a new country.",
               "slider2.cta1": "Schedule Your Consultation",
