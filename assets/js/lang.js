@@ -842,7 +842,7 @@
               // expertise
               "professional_expertise.title": "Professional Expertise",
               "expertise.list1":
-                "10+ years of experience in trauma-informed care",
+                "15+ years of experience in trauma-informed care",
               "expertise.list2":
                 "Specialized in [areas, e.g., anxiety, depression, relationship issues, LGBTQ+ affirming therapy]",
               "expertise.list3":

@@ -596,33 +596,41 @@ h6 {
   background-size: 60px auto;
   width: 100%;
   height: 100%;
-}
-.preloader__image img {
-  min-width: 300px;
+  margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.preloader__image img {
+  min-width: 300px;
+
   height: 100%;
   object-fit: contain;
   width: 100%;
+  max-width: 800px;
 }
 /* scroll to top */
 .scroll-to-top {
-  display: flex;
-  align-items: center;
-  width: auto;
-  height: 35px;
-  background: transparent;
-  position: fixed;
-  bottom: 60px;
-  right: -12px;
-  z-index: 99;
-  text-align: center;
-  opacity: 0;
-  visibility: hidden;
-  transform: rotate(-90deg);
-  cursor: pointer;
-  transition: all 0.2s ease;
+    display: flex
+;
+    align-items: center;
+    width: auto;
+    height: 35px;
+    background: black;
+    position: fixed;
+    bottom: 60px;
+    right: -12px;
+    z-index: 99;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transform: rotate(-90deg);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    padding: 20px;
+    border-radius: 20px;
+   
+    border: 2px solid white;
 }
 .scroll-to-top__text {
   display: inline;
@@ -631,12 +639,13 @@ h6 {
   letter-spacing: 0.1em;
   font-weight: 700;
   margin-right: 8px;
+  color:#fff
 }
 .scroll-to-top__wrapper {
   display: inline-block;
   width: 30px;
   height: 4px;
-  background-color: var(--pelocis-base, #8b5c3e);
+  background-color: #fff;
   position: relative;
   overflow: hidden;
 }
@@ -646,7 +655,7 @@ h6 {
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: var(--pelocis-black, #222222);
+  background-color: #fff;
 }
 .scroll-to-top.show {
   opacity: 1;
@@ -4673,7 +4682,7 @@ h6 {
   width: 100%;
   /* top: 50px; */
   z-index: 99;
-  background-color:#000
+  background-color: #000;
 }
 @media (max-width: 766px) {
   .main-header {
@@ -5315,6 +5324,10 @@ h6 {
   transition: 0.6s cubic-bezier(0.24, 0.74, 0.58, 1);
   visibility: hidden;
   transition: transform 500ms ease, visibility 500ms ease;
+}
+.preloader__image img {
+  width: 100%;
+  object-fit: contain;
 }
 .sticky-header--cloned.active {
   transform: translateY(0%);
@@ -18636,7 +18649,7 @@ body.boxed-wrapper .topbar-one__inner__shape {
 }
 .project-details__content {
   position: relative;
-      margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 .project-details__summary {
   padding: 38px 30px 20px;
@@ -18683,7 +18696,6 @@ body.boxed-wrapper .topbar-one__inner__shape {
 }
 .project-details__info {
   margin-top: 48px;
-  
 }
 @media (min-width: 1200px) {
   .project-details__info {
