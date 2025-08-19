@@ -37,7 +37,7 @@
               "topbar.email": "expacttheraphy@gmail.com",
               "topbar.address": "8/05 Mozilla Golden Street",
               "topbar.help": "Hilfe",
-              "topbar.coaching":"contact@dombrowe.berlin",
+              "topbar.coaching": "contact@dombrowe.berlin",
               "language.english": "Englisch",
               "language.german": "Deutsch",
               "header.logo_alt": "Therapie Logo",
@@ -272,8 +272,7 @@
                 "Ich glaube, dass Therapie ein gemeinschaftlicher, bestärkender Raum sein sollte, in dem Klienten sich gehört und unterstützt fühlen. Meine Praxis verbindet [Methoden nennen, z.B. CBT, Achtsamkeit, psychodynamische Theorie], um Resilienz und Wachstum zu fördern. Ob Sie Lebensübergänge bewältigen, Trauma verarbeiten oder Selbstentdeckung suchen – ich begleite Sie engagiert auf dem Weg zu bedeutsamer Veränderung.",
               // Why Choose Us Section - German
               "why_choose.tagline": "WARUM EXPAT THERAPY WÄHLEN",
-              "why_choose.title":
-                "Wir bieten entscheidende psychologische Förderung",
+
               "why_choose.shape_alt": "Therapie Sync dekorative Form",
               "why_choose.description":
                 "Maßgeschneiderte Geschäftslösungen, Management und Support-Services. Professionelle Agenturleistungen mit modernen Ansätzen für Ihre Bedürfnisse.",
@@ -282,26 +281,27 @@
               // why choose
               "why_choose.tagline": "WARUM EXPAT THERAPY WÄHLEN",
               "why_choose.title":
-                "Wir bieten entscheidende psychologische Förderung",
+                "Wir bieten Psychologie Entscheidende Therapie",
               "why_choose.shape_alt": "Therapie Sync dekorative Form",
               "why_choose.description":
                 "Maßgeschneiderte Geschäftslösungen, Management und Support-Services. Professionelle Agenturleistungen mit modernen Ansätzen für Ihre Bedürfnisse.",
               "why_choose.icons.psychology": "Psychologie Symbol",
               "why_choose.icons.dating": "Beziehungssymbol",
               "why_choose.icons.helping": "Hilfe Symbol",
-              "why_choose.cognitive.title": "Kognitive Psychologie",
+
               "why_choose.cognitive.description":
-                "Unterstützung bei der Bewältigung von Herausforderungen und Verbesserung der Lebensqualität",
-              "why_choose.relationships.title": "Partnerschaft & Beziehungen",
+                "Therapie für Menschen, deren Leben nicht an einen Ort passt",
+
               "why_choose.relationships.description":
-                "Professionelle Lösungen für moderne Beziehungsherausforderungen in multikulturellen Kontexten",
-              "why_choose.behavior.title":
-                "Menschliches Verhalten und Lebenshilfe",
+                "Fachwissen zu den besonderen Herausforderungen des Expat-Lebens und interkultureller Beziehungen.",
+              "why_choose.behavior.title": "Vertraulich und sicher",
               "why_choose.behavior.description":
-                "Verständnis und Hilfe für das Leben durch psychologische Erkenntnisse und Interventionen",
+                "Verschlüsselte, private Videositzungen über die Expat Therapy-App.",
               "why_choose.image_alt": "Therapiesitzung im Gange",
               "why_choose.counter_text": "KUNDENUNTERSTÜTZUNG",
-
+              "why_choose.culturally.title": "Zweisprachige Unterstützung",
+              "why_choose.culturally.description":
+                "Wir treffen Sie in Sitzungen auf Englisch oder Deutsch dort, wo es für Sie am angenehmsten ist.",
               // Bullet Points
               "why_choose.bullet1": "Dating & Beziehungsberatung",
               "why_choose.bullet2":
@@ -309,14 +309,10 @@
               "why_choose.bullet3": "Menschliches Verhalten und Lebenshilfe",
 
               // Cognitive Psychology
-              "why_choose.cognitive.title": "Kognitive Psychologie",
-              "why_choose.cognitive.description":
-                "Unterstützung bei der Bewältigung von Herausforderungen und Verbesserung der Lebensqualität",
+              "why_choose.cognitive.title": "Standortunabhängig",
 
               // Relationships
-              "why_choose.relationships.title": "Partnerschaft & Beziehungen",
-              "why_choose.relationships.description":
-                "Beratung für gesunde Beziehungen und zwischenmenschliche Verbindungen",
+              "why_choose.relationships.title": "Kulturell sensibel",
 
               // Counter
               "why_choose.counter_text": "KUNDENUNTERSTÜTZUNG",
@@ -538,7 +534,7 @@
               // navbar
               "topbar.email": "expacttheraphy@gmail.com",
               "topbar.address": "8/05 Mozilla Golden Street",
-              "topbar.coaching":"contact@dombrowe.berlin",
+              "topbar.coaching": "contact@dombrowe.berlin",
               "topbar.help": "Help you",
               "language.english": "English",
               "language.german": "German",
@@ -586,7 +582,9 @@
               "opening.conclusion.text":
                 "With <span class=\"emphasis\">Expat Therapy</span>, you don't have to put your mental health on hold until you're back home or settled somewhere new.",
               "opening.conclusion.cta": "You can start here, now.",
-
+              "why_choose.culturally.title": "Bilingual Support",
+              "why_choose.culturally.description":
+                "English or German sessions to meet you where you’re most comfortable.",
               // Feature Section
               "feature.cognitive.title": "Cognitive Counselling",
               "feature.cognitive.description":
@@ -713,30 +711,28 @@
               //why choose us
 
               "why_choose.tagline": " WHY CHOOSE EXPAT THERAPY",
-              "why_choose.title":
-                "We Providing Psychology Crucial Choose of Promoting",
+
               "why_choose.shape_alt": "Therapy Sync decorative shape",
               "why_choose.description":
                 "Business tailored design, management & support services, Business business agency elit, sed do eiusmod tempor majority have in some we form, by injected humour solution.",
               "why_choose.list_image_alt": "Therapy Sync benefits illustration",
               "why_choose.tagline": "WHY CHOOSE EXPAT THERAPY",
-              "why_choose.title":
-                "We Providing Psychology Crucial Choose of Promoting",
+              "why_choose.title": "We Providing Psychology Crucial theraphy",
               "why_choose.shape_alt": "Therapy Sync decorative shape",
               "why_choose.description":
                 "Business tailored design, management & support services, Business business agency elit, sed do eiusmod tempor majority have in some we form, by injected humour solution.",
               "why_choose.icons.psychology": "Psychology icon",
               "why_choose.icons.dating": "Dating icon",
               "why_choose.icons.helping": "Helping icon",
-              "why_choose.cognitive.title": "Cognitive Psychology",
+              "why_choose.cognitive.title": "Location Independent",
               "why_choose.cognitive.description":
-                "Supporting individuals in overcoming challenges and improving their quality of life",
-              "why_choose.relationships.title": "Dating & Relationships",
+                "Therapy designed for people whose lives don’t fit in one place",
+              "why_choose.relationships.title": "Culturally Sensitive",
               "why_choose.relationships.description":
-                "Professional solutions for modern relationship challenges in multicultural contexts",
-              "why_choose.behavior.title": "Human Behavior and Helping Lives",
+                "Expertise in the unique challenges of expat life and intercultural relationships.",
+              "why_choose.behavior.title": "Confidential & Secure",
               "why_choose.behavior.description":
-                "Understanding and helping lives through psychological insights and interventions",
+                "Encrypted, private video sessions through the Expat Therapy app.",
               "why_choose.image_alt": "Therapy session in progress",
               "why_choose.counter_text": "CUSTOMER SUPPORT",
 
@@ -757,15 +753,6 @@
               "approach.image_alt":
                 "Therapist in session creating a warm, safe environment",
 
-              // Cognitive Psychology
-              "why_choose.cognitive.title": "Cognitive Psychology",
-              "why_choose.cognitive.description":
-                "Supporting individuals in overcoming challenges and improving their quality of life",
-
-              // Relationships
-              "why_choose.relationships.title": "Dating & Relationships",
-              "why_choose.relationships.description":
-                "Guidance for building healthy relationships and personal connections",
               // excecutive
               "executive.title":
                 "Executive Coaching for Globally Mobile Leaders",
