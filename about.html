@@ -3,8 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="description" content=" Confidential, location-independent therapy for internationally mobile individuals and couples. Psychodynamic approach in English and German via the Expat Therapy app.">
-    <title>Online Psychodynamic Therapy for Expats | Individual & Couples Psychotherapy Anywhere in the World</title>
+    <meta
+      name="description"
+      content=" Confidential, location-independent therapy for internationally mobile individuals and couples. Psychodynamic approach in English and German via the Expat Therapy app."
+    />
+    <title>
+      Online Psychodynamic Therapy for Expats | Individual & Couples
+      Psychotherapy Anywhere in the World
+    </title>
     <!-- favicons Icons -->
     <link
       rel="apple-touch-icon"
@@ -180,8 +186,10 @@
               <li>
                 <a href="contact.html" data-i18n="menu.contact">Contact</a>
               </li>
-               <li class="d-block d-lg-none">
-                <a href="make-appointment.html" data-i18n="menu.book">Book Consultation</a>
+              <li class="d-block d-lg-none">
+                <a href="make-appointment.html" data-i18n="menu.book"
+                  >Book Consultation</a
+                >
               </li>
             </ul>
             <div class="main-header__right justify-content-end">
@@ -239,17 +247,19 @@
                 data-wow-delay="000ms"
               >
                 <img
-                  src="assets/images/resources/about-img-1.png"
-                  alt="pelocis"
+                  src="./assets/images/client/IMG_5332.jpg"
+                  alt="Therapy room with leather sofa and warm lighting"
+                  data-i18n="about.image_alt"
+                  class="w-100"
                 />
                 <div class="about-one__shape--one count-box">
                   <p class="about-one__experiance">
                     <span
                       class="count-text"
-                      data-stop="32"
+                      data-stop="10"
                       data-speed="2500"
                     ></span
-                    >+ Experience
+                    ><span data-i18n="about.experience">+ Experience </span>
                   </p>
                 </div>
               </div>
@@ -1723,7 +1733,9 @@
         ><span class="scroll-to-top__inner"></span
       ></span>
     </a>
-
+    <script src="https://cdn.jsdelivr.net/npm/i18next@21.6.10/i18next.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-i18next@1.2.1/jquery-i18next.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/i18next-browser-languagedetector@7.0.1/i18nextBrowserLanguageDetector.min.js"></script>
     <script src="assets/vendors/jquery/jquery-3.7.0.min.js"></script>
     <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendors/bootstrap-select/bootstrap-select.min.js"></script>
@@ -1748,5 +1760,6 @@
 
     <!-- template js -->
     <script src="assets/js/pelocis.js"></script>
+    <script src="assets/js/lang.js"></script>
   </body>
 </html>
