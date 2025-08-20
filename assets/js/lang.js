@@ -189,15 +189,11 @@
                 "Illustration pädagogische Therapie",
 
               // excecutive
-              "executive.title":
-                "Coaching-Dienste für Führungskräfte",
-              "executive.list1":
-                "Entwicklung von Führungskompetenzen",
-              "executive.list2":
-                "Psychische Gesundheit und Leistungsfähigkeit",
-              "executive.list3":
-                "Individuelle Führungskräfteentwicklung",
-                "executive.list4":"Persönliches und berufliches Wachstum",
+              "executive.title": "Coaching-Dienste für Führungskräfte",
+              "executive.list1": "Entwicklung von Führungskompetenzen",
+              "executive.list2": "Psychische Gesundheit und Leistungsfähigkeit",
+              "executive.list3": "Individuelle Führungskräfteentwicklung",
+              "executive.list4": "Persönliches und berufliches Wachstum",
               "executive.cta": "Mehr erfahren",
               "executive.image_alt":
                 "Executive Coaching für global mobile Führungskräfte",
@@ -261,14 +257,12 @@
 
               // expertise
               "professional_expertise.title": "Professionelle Expertise",
-                            "professional_expertise.text":"Organisationspsychologe, Psychotherapeut und Executive Coach mit Spezialausbildungen in:",
+              "professional_expertise.text":
+                "Organisationspsychologe, Psychotherapeut und Executive Coach mit Spezialausbildungen in:",
 
-              "expertise.list1":
-                "Methodik des Tavistock Institute",
-              "expertise.list2":
-                "Systemisch-psychodynamisches Coaching",
-              "expertise.list3":
-                "Gruppendynamik und Organisationspsychologie",
+              "expertise.list1": "Methodik des Tavistock Institute",
+              "expertise.list2": "Systemisch-psychodynamisches Coaching",
+              "expertise.list3": "Gruppendynamik und Organisationspsychologie",
               "expertise.list4": "Kultursensible und einfühlsame Betreuung",
               "philosophy.title": "Einzigartige Kombination",
               "philosophy.text":
@@ -405,10 +399,9 @@
               "contact.image_alt":
                 "Therapieraum mit Ledersofa und warmem Licht",
               "contact.tagline": "KONTAKTIEREN SIE UNS",
-              "contact.form_title":
-                "Kontaktieren Sie uns umgehend für professionelle Unterstützung",
+              "contact.form_title": "Beginnen Sie Ihre Führungsreise",
               "contact.form_description":
-                "Nehmen Sie Kontakt mit unserem professionellen Team auf für maßgeschneiderte Unterstützung und Lösungen.",
+                "Ich biete ein kostenloses Vorgespräch per Telefon oder Videokonferenz an, in dem Sie mich kennenlernen und Ihr Anliegen schildern können. Gemeinsam finden wir heraus, ob wir zueinander passen.",
               "contact.name_label": "Name",
               "contact.name_placeholder": "Ihr Name *",
               "contact.email_label": "E-Mail",
@@ -757,15 +750,11 @@
                 "Therapist in session creating a warm, safe environment",
 
               // excecutive
-              "executive.title":
-                "Executive Coaching Services",
-              "executive.list1":
-                "Leadership Authority Development",
-              "executive.list2":
-                "Psychological Health & Performance",
-              "executive.list3":
-                "One-on-One Leadership Development",
-                  "executive.list4":"Personal & Professional Growth",
+              "executive.title": "Executive Coaching Services",
+              "executive.list1": "Leadership Authority Development",
+              "executive.list2": "Psychological Health & Performance",
+              "executive.list3": "One-on-One Leadership Development",
+              "executive.list4": "Personal & Professional Growth",
               "executive.cta": "Know More",
               "executive.image_alt":
                 "Executive coaching session with a professional",
@@ -832,13 +821,11 @@
               "testimonials.client4_thumb_alt": "Emma Schneider thumbnail",
               // expertise
               "professional_expertise.title": "Professional Expertise",
-              "professional_expertise.text":"Organizational Psychologist, Psychotherapist and Executive Coach with specialized training in:",
-              "expertise.list1":
-                "Tavistock Institute methodology",
-              "expertise.list2":
-                "Systems-psychodynamic coaching",
-              "expertise.list3":
-                "Group dynamics and organizational psychology",
+              "professional_expertise.text":
+                "Organizational Psychologist, Psychotherapist and Executive Coach with specialized training in:",
+              "expertise.list1": "Tavistock Institute methodology",
+              "expertise.list2": "Systems-psychodynamic coaching",
+              "expertise.list3": "Group dynamics and organizational psychology",
               "expertise.list4": "Culturally sensitive & compassionate care",
               "philosophy.title": "Unique Combination",
               "philosophy.text":
@@ -883,10 +870,9 @@
               "contact.image_alt":
                 "Therapy room with leather sofa and warm lighting",
               "contact.tagline": "OUR CONTACT US",
-              "contact.form_title":
-                "Contact Us Immediately For Professional Support",
+              "contact.form_title": "Start Your Leadership Journey",
               "contact.form_description":
-                "Get in touch with our professional team for personalized support and solutions tailored to your needs.",
+                "I offer a free preliminary conversation by phone or videoconference, in which you can get to know me and outline the problem that you want to work on. Together we can find out if we are a good fit.",
               "contact.name_label": "Name",
               "contact.name_placeholder": "Enter Your Name *",
               "contact.email_label": "Email",
