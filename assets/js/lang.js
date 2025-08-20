@@ -357,6 +357,7 @@
               // cta
               "cta.headline":
                 "Sie müssen nicht warten, bis Sie am 'richtigen Ort' sind, um sich besser zu fühlen.",
+                "cta.headline2":"Die Therapie kann Sie genau dort erreichen, wo Sie sind – überall auf der Welt.",
               "cta.button": "Vereinbaren Sie noch heute Ihre Beratung",
 
               // Business Solutions Section - German
@@ -851,6 +852,7 @@
               // cta
               "cta.headline":
                 "You don't have to wait until you're in the 'right place' to feel better.",
+                "cta.headline2":"Therapy can meet you right where you are — anywhere in the world.",
               "cta.button": "Schedule Your Consultation Today",
 
               "contact.tagline": "CONTACT US",

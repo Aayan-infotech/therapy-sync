@@ -611,26 +611,25 @@ h6 {
 }
 /* scroll to top */
 .scroll-to-top {
-    display: flex
-;
-    align-items: center;
-    width: auto;
-    height: 35px;
-    background: black;
-    position: fixed;
-    bottom: 60px;
-    right: -12px;
-    z-index: 99;
-    text-align: center;
-    opacity: 0;
-    visibility: hidden;
-    transform: rotate(-90deg);
-    cursor: pointer;
-    transition: all 0.2s ease;
-    padding: 20px;
-    border-radius: 20px;
-   
-    border: 2px solid white;
+  display: flex;
+  align-items: center;
+  width: auto;
+  height: 35px;
+  background: black;
+  position: fixed;
+  bottom: 60px;
+  right: -12px;
+  z-index: 99;
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+  transform: rotate(-90deg);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  padding: 20px;
+  border-radius: 20px;
+
+  border: 2px solid white;
 }
 .scroll-to-top__text {
   display: inline;
@@ -639,7 +638,7 @@ h6 {
   letter-spacing: 0.1em;
   font-weight: 700;
   margin-right: 8px;
-  color:#fff
+  color: #fff;
 }
 .scroll-to-top__wrapper {
   display: inline-block;
@@ -843,6 +842,9 @@ h6 {
   .sec-title__title {
     font-size: 30px;
     line-height: 40px;
+  }
+  .scroll-to-top {
+    right: -50px;
   }
 }
 
