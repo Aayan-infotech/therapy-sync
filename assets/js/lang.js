@@ -190,13 +190,14 @@
 
               // excecutive
               "executive.title":
-                "Executive Coaching für global mobile Führungskräfte",
+                "Coaching-Dienste für Führungskräfte",
               "executive.list1":
-                "Maßgeschneiderte Coaching-Strategien für global mobile Führungskräfte",
+                "Entwicklung von Führungskompetenzen",
               "executive.list2":
-                "Entwicklung von Fähigkeiten zur effektiven Teamführung, verbesserter Kommunikation und Resilienz in Hochdruckumgebungen",
+                "Psychische Gesundheit und Leistungsfähigkeit",
               "executive.list3":
-                "Unterstützung bei der Vereinbarkeit von beruflichen Ambitionen und persönlichem Wohlbefinden",
+                "Individuelle Führungskräfteentwicklung",
+                "executive.list4":"Persönliches und berufliches Wachstum",
               "executive.cta": "Mehr erfahren",
               "executive.image_alt":
                 "Executive Coaching für global mobile Führungskräfte",
@@ -260,16 +261,18 @@
 
               // expertise
               "professional_expertise.title": "Professionelle Expertise",
+                            "professional_expertise.text":"Organisationspsychologe, Psychotherapeut und Executive Coach mit Spezialausbildungen in:",
+
               "expertise.list1":
-                "Über 10 Jahre Erfahrung in der traumainformierten Pflege",
+                "Methodik des Tavistock Institute",
               "expertise.list2":
-                "Spezialisiert auf [Bereiche, z.B. Angststörungen, Depressionen, Beziehungsprobleme, LGBTQ+-affirmative Therapie]",
+                "Systemisch-psychodynamisches Coaching",
               "expertise.list3":
-                "Evidenzbasierte Ansätze, die auf individuelle Bedürfnisse zugeschnitten sind",
+                "Gruppendynamik und Organisationspsychologie",
               "expertise.list4": "Kultursensible und einfühlsame Betreuung",
-              "philosophy.title": "Philosophie & Ansatz",
+              "philosophy.title": "Einzigartige Kombination",
               "philosophy.text":
-                "Ich glaube, dass Therapie ein gemeinschaftlicher, bestärkender Raum sein sollte, in dem Klienten sich gehört und unterstützt fühlen. Meine Praxis verbindet [Methoden nennen, z.B. CBT, Achtsamkeit, psychodynamische Theorie], um Resilienz und Wachstum zu fördern. Ob Sie Lebensübergänge bewältigen, Trauma verarbeiten oder Selbstentdeckung suchen – ich begleite Sie engagiert auf dem Weg zu bedeutsamer Veränderung.",
+                "Die seltene Kombination aus organisationspsychologischem Fachwissen und psychotherapeutischer Ausbildung bietet tiefe Einblicke sowohl in die individuelle Führungsdynamik als auch in Organisationssysteme.",
               // Why Choose Us Section - German
               "why_choose.tagline": "WARUM EXPAT THERAPY WÄHLEN",
 
@@ -755,13 +758,14 @@
 
               // excecutive
               "executive.title":
-                "Executive Coaching for Globally Mobile Leaders",
+                "Executive Coaching Services",
               "executive.list1":
-                "Personalized coaching strategies to help globally mobile leaders navigate",
+                "Leadership Authority Development",
               "executive.list2":
-                "Develop skills to manage teams effectively, improve communication, and foster resilience in high-pressure environments.",
+                "Psychological Health & Performance",
               "executive.list3":
-                "Support in aligning professional ambitions with personal well-being",
+                "One-on-One Leadership Development",
+                  "executive.list4":"Personal & Professional Growth",
               "executive.cta": "Know More",
               "executive.image_alt":
                 "Executive coaching session with a professional",
@@ -828,16 +832,17 @@
               "testimonials.client4_thumb_alt": "Emma Schneider thumbnail",
               // expertise
               "professional_expertise.title": "Professional Expertise",
+              "professional_expertise.text":"Organizational Psychologist, Psychotherapist and Executive Coach with specialized training in:",
               "expertise.list1":
-                "15+ years of experience in trauma-informed care",
+                "Tavistock Institute methodology",
               "expertise.list2":
-                "Specialized in [areas, e.g., anxiety, depression, relationship issues, LGBTQ+ affirming therapy]",
+                "Systems-psychodynamic coaching",
               "expertise.list3":
-                "Evidence-based approaches tailored to individual/client needs",
+                "Group dynamics and organizational psychology",
               "expertise.list4": "Culturally sensitive & compassionate care",
-              "philosophy.title": "Philosophy & Approach",
+              "philosophy.title": "Unique Combination",
               "philosophy.text":
-                "I believe therapy should be a collaborative, empowering space where clients feel heard and supported. My practice blends [mention modalities, e.g., CBT, mindfulness, psychodynamic theory] to foster resilience and growth. Whether navigating life transitions, healing from trauma, or seeking self-discovery, I'm committed to guiding you toward meaningful change.",
+                "The rare combination of organizational psychology expertise and psychotherapy training provides deep insight into both individual leadership dynamics and organizational systems.",
 
               // Business Solutions Section - English
               "solutions.tagline": "WE'RE GOOD SOLUTION",
