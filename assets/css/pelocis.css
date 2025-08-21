@@ -14,7 +14,7 @@
 # Client Carousel
 --------------------------------------------------------------*/
 :root {
-  --pelocis-font: "Saira", sans-serif;
+  --pelocis-font: "Montserrat", sans-serif;
   --pelocis-heading-font: "Solway", serif;
   --pelocis-special-font: "Red Hat Text", sans-serif;
   --pelocis-special-font2: "Bonheur Royale", cursive;
@@ -261,7 +261,7 @@
 # Common
 --------------------------------------------------------------*/
 body {
-  font-family: var(--pelocis-font, "Roboto", sans-serif);
+  font-family: var(--pelocis-font, "Montserrat", sans-serif);
   color: var(--pelocis-text, #838184);
   font-size: 16px;
   line-height: 2.125;
