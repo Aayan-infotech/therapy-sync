@@ -503,6 +503,7 @@
                 "Verbessern Sie Entscheidungsklarheit und Selbstvertrauen",
               "executive.growth_point5":
                 "Entwickeln Sie effektive Kommunikations- und Motivationsfähigkeiten",
+                "topbar.coachingtext":"Für Coaching",
 
               footer: {
                 shape_alt: "Therapie Sync dekorative Form",
@@ -1035,6 +1036,7 @@
                 "Improve decision-making clarity and confidence",
               "executive.growth_point5":
                 "Develop effective communication and motivation skills",
+                "topbar.coachingtext":"For contact",
 
               footer: {
                 shape_alt: "Therapy Sync decorative shape",
