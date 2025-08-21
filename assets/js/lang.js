@@ -188,15 +188,6 @@
               "services.academic.image_alt":
                 "Illustration pädagogische Therapie",
 
-              // excecutive
-              "executive.title": "Coaching-Dienste für Führungskräfte",
-              "executive.list1": "Entwicklung von Führungskompetenzen",
-              "executive.list2": "Psychische Gesundheit und Leistungsfähigkeit",
-              "executive.list3": "Individuelle Führungskräfteentwicklung",
-              "executive.list4": "Persönliches und berufliches Wachstum",
-              "executive.cta": "Mehr erfahren",
-              "executive.image_alt":
-                "Executive Coaching für global mobile Führungskräfte",
 
               // steps
               "steps.title": "Unser 5-Stufen-Pfad zur Heilung",
@@ -357,7 +348,8 @@
               // cta
               "cta.headline":
                 "Sie müssen nicht warten, bis Sie am 'richtigen Ort' sind, um sich besser zu fühlen.",
-                "cta.headline2":"Die Therapie kann Sie genau dort erreichen, wo Sie sind – überall auf der Welt.",
+              "cta.headline2":
+                "Die Therapie kann Sie genau dort erreichen, wo Sie sind – überall auf der Welt.",
               "cta.button": "Vereinbaren Sie noch heute Ihre Beratung",
 
               // Business Solutions Section - German
@@ -455,6 +447,62 @@
 
               // Button
               "contact.submit_button": "ANFRAGE SENDEN",
+
+              // excecutive theraphy
+              "executive.title": "Führungskräfte-Coaching-Dienste",
+              "executive.list1": "Entwicklung von Führungskompetenzen",
+              "executive.list2": "Psychische Gesundheit und Leistungsfähigkeit",
+              "executive.list3": "Individuelle Führungskräfteentwicklung",
+              "executive.list4": "Persönliches und berufliches Wachstum",
+              "executive.cta": "Mehr erfahren",
+              "executive.image_alt":
+                "Executive Coaching für global mobile Führungskräfte",
+
+              // Add these new keys to the German section:
+              "executive.core_focus": "Kernbereiche",
+              "executive.leadership_development":
+                "Entwicklung von Führungsautorität",
+              "executive.leadership_point1":
+                "Verstehen und Management zwischenmenschlicher Arbeitsplatzbeziehungen",
+              "executive.leadership_point2":
+                "Selbstbewusstes Übernehmen Ihrer Autorität in der Rolle",
+              "executive.leadership_point3":
+                "Übergang von reaktiver zu strategischer Führung",
+              "executive.psychological_health":
+                "Psychische Gesundheit & Leistung",
+              "executive.health_point1":
+                "Erreichen von Spitzenleistungen bei gleichzeitiger emotionaler Gesundheit",
+              "executive.health_point2":
+                "Schaffung gesundheitsfördernder Arbeitskulturen",
+              "executive.health_point3":
+                "Burnout-Prävention bei Aufrechterhaltung hoher Standards",
+              "executive.safe_space": "Sicherer Raum für Führungskräfte",
+              "executive.safe_space_text":
+                "Ich biete Unternehmern und Führungskräften einen sicheren Raum, um Dampf abzulassen und ihre Sorgen und Bedenken zu äußern, und biete die vertrauliche Unterstützung, die Führungskräften oft fehlt.",
+              "executive.individual_coaching":
+                "Individuelles Executive Coaching",
+              "executive.one_on_one": "Einzelne Führungskräfteentwicklung",
+              "executive.development_point1":
+                "Verbesserung des strategischen Denkens und der Entscheidungsfindung",
+              "executive.development_point2":
+                "Fähigkeiten im Personalmanagement und Konfliktlösung",
+              "executive.development_point3":
+                "Emotionale Intelligenz und Management zwischenmenschlicher Beziehungen",
+              "executive.development_point4":
+                "Autoritätsentwicklung und Rollenklarheit",
+              "executive.development_point5":
+                "Stressmanagement und Burnout-Prävention",
+              "executive.growth": "Persönliches & berufliches Wachstum",
+              "executive.growth_point1":
+                "Erreichen Sie optimale Leistung bei psychischer Gesundheit",
+              "executive.growth_point2":
+                "Bewältigen Sie Karriereübergänge und Entscheidungen geschickt",
+              "executive.growth_point3":
+                "Aufbau von Resilienz gegen Burnout und Überforderung",
+              "executive.growth_point4":
+                "Verbessern Sie Entscheidungsklarheit und Selbstvertrauen",
+              "executive.growth_point5":
+                "Entwickeln Sie effektive Kommunikations- und Motivationsfähigkeiten",
 
               footer: {
                 shape_alt: "Therapie Sync dekorative Form",
@@ -751,14 +799,7 @@
                 "Therapist in session creating a warm, safe environment",
 
               // excecutive
-              "executive.title": "Executive Coaching Services",
-              "executive.list1": "Leadership Authority Development",
-              "executive.list2": "Psychological Health & Performance",
-              "executive.list3": "One-on-One Leadership Development",
-              "executive.list4": "Personal & Professional Growth",
-              "executive.cta": "Know More",
-              "executive.image_alt":
-                "Executive coaching session with a professional",
+         
               // steps
               "steps.title": "Our 5-Step Path to Healing",
               "steps.description":
@@ -852,7 +893,8 @@
               // cta
               "cta.headline":
                 "You don't have to wait until you're in the 'right place' to feel better.",
-                "cta.headline2":"Therapy can meet you right where you are — anywhere in the world.",
+              "cta.headline2":
+                "Therapy can meet you right where you are — anywhere in the world.",
               "cta.button": "Schedule Your Consultation Today",
 
               "contact.tagline": "CONTACT US",
@@ -937,6 +979,62 @@
 
               // Button
               "contact.submit_button": "SEND Request",
+
+              // excecutive theraphy
+              "executive.title": "Executive Coaching Services",
+              "executive.list1": "Leadership Authority Development",
+              "executive.list2": "Psychological Health & Performance",
+              "executive.list3": "One-on-One Leadership Development",
+              "executive.list4": "Personal & Professional Growth",
+              "executive.cta": "Know More",
+              "executive.image_alt":
+                "Executive coaching session with a professional",
+
+              // Add these new keys to the English section:
+              "excecutive.core_maintitle":" Specialized coaching for entrepreneurs and executives:",
+              "executive.core_focus": "Core Focus Areas",
+              "executive.leadership_development":
+                "Leadership Authority Development",
+              "executive.leadership_point1":
+                "Understanding and managing interpersonal workplace relationships",
+              "executive.leadership_point2":
+                "Taking up your authority in role with confidence",
+              "executive.leadership_point3":
+                "Moving from reactive to strategic leadership",
+              "executive.psychological_health":
+                "Psychological Health & Performance",
+              "executive.health_point1":
+                "Achieving optimum performance alongside emotional well-being",
+              "executive.health_point2":
+                "Creating health-promoting work cultures",
+              "executive.health_point3":
+                "Preventing burnout while maintaining high standards",
+              "executive.safe_space": "Safe Space for Leaders",
+              "executive.safe_space_text":
+                "I provide entrepreneurs and business leaders with a safe space to blow off steam and air their worries and concerns, offering the confidential support that leadership often lacks.",
+              "executive.individual_coaching": "Individual Executive Coaching",
+              "executive.one_on_one": "One-on-One Leadership Development",
+              "executive.development_point1":
+                "Strategic thinking and decision-making enhancement",
+              "executive.development_point2":
+                "People management and conflict resolution skills",
+              "executive.development_point3":
+                "Emotional intelligence and interpersonal relationship management",
+              "executive.development_point4":
+                "Authority development and role clarity",
+              "executive.development_point5":
+                "Stress management and burnout prevention",
+              "executive.growth": "Personal & Professional Growth",
+              "executive.growth_point1":
+                "Achieve optimum performance with psychological health",
+              "executive.growth_point2":
+                "Manage career transitions and decisions skillfully",
+              "executive.growth_point3":
+                "Build resilience against burnout and overwhelm",
+              "executive.growth_point4":
+                "Improve decision-making clarity and confidence",
+              "executive.growth_point5":
+                "Develop effective communication and motivation skills",
 
               footer: {
                 shape_alt: "Therapy Sync decorative shape",
