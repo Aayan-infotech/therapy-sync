@@ -224,7 +224,7 @@
               // best service
               "services.cognitive.title": "Individuelle Psychotherapie",
               "services.cognitive.description":
-                "Bietet einen sicheren, vertraulichen Raum für Selbstreflexion, persönliches Wachstum und Heilung.",
+                "Gemeinsam werden wir über die Linderung der Symptome hinausgehen und uns mit den tieferen Mustern befassen, die Ihr Leben prägen.",
               "services.cognitive.image_alt":
                 "Therapieraum mit Ledersofa und warmem Licht",
               "services.academic.title": "Paartherapie",
@@ -232,10 +232,11 @@
                 "Ein Therapeut fördert Gespräche, um Verständnis zu vertiefen, Konflikte zu lösen und die Partnerschaft zu stärken.",
               "services.academic.image_alt":
                 "Therapieraum mit Ledersofa und warmem Licht",
-              "services.list.depression": "Depression & Angst",
-              "services.list.trauma": "Depression & PTBS",
-              "services.list.stress": "Stressbewältigung",
-              "services.list.relationship": "Beziehungsschwierigkeiten",
+              "services.list.depression": "Depressionen, Angstzustände und Stress",
+              "services.list.trauma": "Beziehungs- und Intimitätsprobleme",
+              "services.list.stress": "Geringes Selbstwertgefühl und Selbstwert",
+              "services.list.relationship": "Trauer, Verlust und Traumabewältigung",
+              "services.list.phobia":"Phobien und soziale Ängste",
               "services.list.communication": "Kommunikationsprobleme",
               "services.list.conflict": "Konfliktlösung",
               "services.list.trust": "Vertrauensprobleme",
@@ -713,7 +714,7 @@
               // best service
               "services.cognitive.title": "Individual Psychotherapy",
               "services.cognitive.description":
-                "It provides a safe, confidential space for self-reflection, personal growth, and healing.",
+                "Together, we’ll go beyond symptom relief to address the deeper patterns shaping your life.",
               "services.cognitive.image_alt":
                 "Therapy room with leather sofa and warm lighting",
               "services.academic.title": "Couples Therapy",
@@ -721,10 +722,11 @@
                 "A therapist facilitates discussions to promote understanding, resolve disputes, and strengthen the partnership.",
               "services.academic.image_alt":
                 "Therapy room with leather sofa and warm lighting",
-              "services.list.depression": "Depression & anxiety",
-              "services.list.trauma": "Depression & PTSD",
-              "services.list.stress": "Stress management",
-              "services.list.relationship": "Relationship difficulties",
+              "services.list.depression": "Depression, anxiety, and stress",
+              "services.list.trauma": "Relationship and intimacy issues",
+              "services.list.stress": "Low self-esteem and self-worth",
+              "services.list.relationship": "Grief, loss, and trauma recovery",
+              "services.list.phobia":"Phobias and social anxiety",
               "services.list.communication": "Communication breakdown",
               "services.list.conflict": "Conflict resolution",
               "services.list.trust": "Trust issues",
