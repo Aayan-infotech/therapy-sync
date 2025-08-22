@@ -233,7 +233,7 @@
               "services.academic.image_alt":
                 "Therapieraum mit Ledersofa und warmem Licht",
               "services.list.depression": "Depression & Angst",
-              "services.list.trauma": "Trauma & PTBS",
+              "services.list.trauma": "Depression & PTBS",
               "services.list.stress": "Stressbewältigung",
               "services.list.relationship": "Beziehungsschwierigkeiten",
               "services.list.communication": "Kommunikationsprobleme",
@@ -722,7 +722,7 @@
               "services.academic.image_alt":
                 "Therapy room with leather sofa and warm lighting",
               "services.list.depression": "Depression & anxiety",
-              "services.list.trauma": "Trauma & PTSD",
+              "services.list.trauma": "Depression & PTSD",
               "services.list.stress": "Stress management",
               "services.list.relationship": "Relationship difficulties",
               "services.list.communication": "Communication breakdown",

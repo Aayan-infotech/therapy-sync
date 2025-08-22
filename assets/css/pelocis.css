@@ -2775,9 +2775,7 @@ h6 {
   .blog-three {
     padding: 70px 0 80px;
   }
-  .mobile-nav__wrapper.expanded .main-header__logo img {
-    display: none;
-  }
+
 }
 .blog-three .blog-card-three {
   position: relative;
@@ -3325,10 +3323,14 @@ h6 {
   background-position: center center;
   width: 60%;
 }
+  .mobile-nav__wrapper.expanded .main-header__logo img {
+    display: none;
+  }
 @media (max-width: 1200px) {
   .main-footer__bg {
     width: 100%;
   }
+  
 }
 .main-footer .container {
   position: relative;
