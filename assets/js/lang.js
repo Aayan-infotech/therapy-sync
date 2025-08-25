@@ -223,14 +223,15 @@
               "achievements.shape_alt": "Therapie Sync dekorative Form",
               "achievements.card_shape": "Therapie Sync Karten-Dekoration",
               // best service
-              "services.cognitive.title": "Individuelle Psychotherapie – nachhaltige Veränderung schaffen",
+              "services.cognitive.title": "Individuelle Psychotherapie",
+               "services.cognitive.title_thin": "nachhaltige Veränderung schaffen",
               "services.cognitive.description":
                 "Gemeinsam werden wir über die Linderung der Symptome hinausgehen und uns mit den tieferen Mustern befassen, die Ihr Leben prägen.",
               "services.cognitive.image_alt":
                 "Therapieraum mit Ledersofa und warmem Licht",
               "services.academic.title": "Paartherapie",
               "services.academic.description":
-                "Ein Therapeut fördert Gespräche, um Verständnis zu vertiefen, Konflikte zu lösen und die Partnerschaft zu stärken.",
+                "Psychodynamische Paartherapie hilft Ihnen und Ihrem Partner, die verborgenen Dynamiken aufzudecken, die Ihre Beziehung beeinflussen",
               "services.academic.image_alt":
                 "Therapieraum mit Ledersofa und warmem Licht",
               "services.list.depression":
@@ -241,8 +242,8 @@
               "services.list.relationship":
                 "Trauer, Verlust und Traumabewältigung",
               "services.list.phobia": "Phobien und soziale Ängste",
-              "services.list.communication": "Kommunikationsprobleme",
-              "services.list.conflict": "Konfliktlösung",
+              "services.list.communication": "Kommunikation verbessern und Konflikte lösen",
+              "services.list.conflict": "Gemeinsam durch Lebensübergänge navigieren",
               "services.list.trust": "Vertrauensprobleme",
               "services.list.rebuild":
                 "Bauen Sie Intimität und Vertrauen wieder auf",
@@ -725,12 +726,14 @@
                 "Supporting individuals in overcoming challenges, and enhancing their quality of life whether it's",
               "services.cognitive.image_alt": "Cognitive therapy illustration",
               // best service
-              "services.cognitive.title": "Individual Psychotherapy – Creating Lasting Change",
+              "services.cognitive.title": "Individual Psychotherapy",
+              "services.cognitive.title_thin": "Creating Lasting Change",
               "services.cognitive.description":
                 "Together, we’ll go beyond symptom relief to address the deeper patterns shaping your life.",
               "services.cognitive.image_alt":
                 "Therapy room with leather sofa and warm lighting",
               "services.academic.title": "Couples Therapy",
+               "services.academic.title_thin": "Rebuilding Connection across Borders",
               "services.academic.description":
                 "A therapist facilitates discussions to promote understanding, resolve disputes, and strengthen the partnership.",
               "services.academic.image_alt":
@@ -740,8 +743,8 @@
               "services.list.stress": "Low self-esteem and self-worth",
               "services.list.relationship": "Grief, loss, and trauma recovery",
               "services.list.phobia": "Phobias and social anxiety",
-              "services.list.communication": "Communication breakdown",
-              "services.list.conflict": "Conflict resolution",
+              "services.list.communication": "Improve communication and resolve conflicts",
+              "services.list.conflict": "Navigate life transitions together",
               "services.list.trust": "Trust issues",
               "services.list.rebuild": "Rebuild intimacy and trust",
               "services.list.create":
@@ -752,7 +755,7 @@
               // Academic Psychology
 
               "services.academic.description":
-                "Supporting individuals in overcoming challenges, and enhancing their quality of life whether it's",
+                "Psychodynamic couples therapy helps you and your partner uncover the hidden dynamics influencing your relationship",
               "services.academic.image_alt": "Academic therapy illustration",
 
               // Specialized Areas
