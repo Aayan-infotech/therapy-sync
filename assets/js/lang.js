@@ -188,7 +188,6 @@
               "services.academic.image_alt":
                 "Illustration pädagogische Therapie",
 
-
               // steps
               "steps.title": "Unser 5-Stufen-Pfad zur Heilung",
               "steps.description":
@@ -232,11 +231,14 @@
                 "Ein Therapeut fördert Gespräche, um Verständnis zu vertiefen, Konflikte zu lösen und die Partnerschaft zu stärken.",
               "services.academic.image_alt":
                 "Therapieraum mit Ledersofa und warmem Licht",
-              "services.list.depression": "Depressionen, Angstzustände und Stress",
+              "services.list.depression":
+                "Depressionen, Angstzustände und Stress",
               "services.list.trauma": "Beziehungs- und Intimitätsprobleme",
-              "services.list.stress": "Geringes Selbstwertgefühl und Selbstwert",
-              "services.list.relationship": "Trauer, Verlust und Traumabewältigung",
-              "services.list.phobia":"Phobien und soziale Ängste",
+              "services.list.stress":
+                "Geringes Selbstwertgefühl und Selbstwert",
+              "services.list.relationship":
+                "Trauer, Verlust und Traumabewältigung",
+              "services.list.phobia": "Phobien und soziale Ängste",
               "services.list.communication": "Kommunikationsprobleme",
               "services.list.conflict": "Konfliktlösung",
               "services.list.trust": "Vertrauensprobleme",
@@ -504,7 +506,7 @@
                 "Verbessern Sie Entscheidungsklarheit und Selbstvertrauen",
               "executive.growth_point5":
                 "Entwickeln Sie effektive Kommunikations- und Motivationsfähigkeiten",
-                "topbar.coachingtext":"Für Coaching",
+              "topbar.coachingtext": "Für Coaching",
 
               footer: {
                 shape_alt: "Therapie Sync dekorative Form",
@@ -726,7 +728,7 @@
               "services.list.trauma": "Relationship and intimacy issues",
               "services.list.stress": "Low self-esteem and self-worth",
               "services.list.relationship": "Grief, loss, and trauma recovery",
-              "services.list.phobia":"Phobias and social anxiety",
+              "services.list.phobia": "Phobias and social anxiety",
               "services.list.communication": "Communication breakdown",
               "services.list.conflict": "Conflict resolution",
               "services.list.trust": "Trust issues",
@@ -802,7 +804,7 @@
                 "Therapist in session creating a warm, safe environment",
 
               // excecutive
-         
+
               // steps
               "steps.title": "Our 5-Step Path to Healing",
               "steps.description":
@@ -994,7 +996,8 @@
                 "Executive coaching session with a professional",
 
               // Add these new keys to the English section:
-              "excecutive.core_maintitle":" Specialized coaching for entrepreneurs and executives:",
+              "excecutive.core_maintitle":
+                " Specialized coaching for entrepreneurs and executives:",
               "executive.core_focus": "Core Focus Areas",
               "executive.leadership_development":
                 "Leadership Authority Development",
@@ -1038,7 +1041,7 @@
                 "Improve decision-making clarity and confidence",
               "executive.growth_point5":
                 "Develop effective communication and motivation skills",
-                "topbar.coachingtext":"For contact",
+              "topbar.coachingtext": "For contact",
 
               footer: {
                 shape_alt: "Therapy Sync decorative shape",
@@ -1150,30 +1153,23 @@
     }
 
     $("#language-select").change(function () {
-      $("#language-select").change(function () {
-        var newLang = $(this).val();
-        i18next.changeLanguage(newLang, function (err, t) {
-          if (err) console.error("Language change error:", err);
+      var newLang = $(this).val();
+      i18next.changeLanguage(newLang, function (err, t) {
+        if (err) console.error("Language change error:", err);
 
-          // Update all content
-          updateContent();
+        // Update all content
+        updateContent();
 
-          // No need to manually set the select value here -
-          // i18next will persist the language preference automatically
-          $("#language-select").val(newLang);
+        // Update select value
+        $("#language-select").val(newLang);
 
-          // If using selectpicker, refresh it
-          if (typeof $.fn.selectpicker !== "undefined") {
-            $("#language-select").selectpicker("val", newLang);
-            $("#language-select").selectpicker("refresh");
-          }
+        // If using selectpicker, refresh it
+        if (typeof $.fn.selectpicker !== "undefined") {
+          $("#language-select").selectpicker("val", newLang);
+          $("#language-select").selectpicker("refresh");
+        }
 
-          console.log("Language successfully changed to:", newLang);
-          console.log(
-            "Stored in localStorage:",
-            localStorage.getItem("i18nextLng")
-          );
-        });
+        console.log("Language successfully changed to:", newLang);
       });
     });
   });
