@@ -75,11 +75,11 @@
               "opening.scenario1.title":
                 "Fühlen Sie sich bei der Arbeit überfordert?",
               "opening.scenario1.text":
-                "Eine Krise bei der Arbeit kann auftreten, während Sie zwischen den Zeitzonen pendeln – ohne Ihr gewohntes Unterstützungsnetzwerk ist das schwer zu bewältigen.",
+                "Eine Krise am Arbeitsplatz kann eintreten, während Sie sich zwischen Zeitzonen befinden.",
 
               "opening.scenario2.title": "Kämpfen Sie mit Ihrer Beziehung?",
               "opening.scenario2.text":
-                "Spannungen mit Ihrem Partner können entstehen, weit entfernt von Ihrem gewohnten Unterstützungssystem, was Sie isoliert fühlen lässt.",
+                "Spannungen mit Ihrem Partner können meilenweit von Ihrem üblichen Unterstützungssystem entfernt auftreten",
 
               "opening.scenario3.title": "Schleicht sich Einsamkeit ein?",
               "opening.scenario3.text":
@@ -178,7 +178,7 @@
                 "Maßgeschneiderte Geschäftslösungen, Management und Support-Services. Professionelle Agenturleistungen mit innovativen Ansätzen für Ihre Bedürfnisse.",
 
               // Cognitive Psychology
-              "services.cognitive.title": "Kognitive Psychologie",
+              // "services.cognitive.title": "Kognitive Psychologie",
               "services.cognitive.description":
                 "Unterstützung von Personen bei der Bewältigung von Herausforderungen und Verbesserung ihrer Lebensqualität",
               "services.cognitive.image_alt": "Illustration kognitive Therapie",
@@ -223,7 +223,7 @@
               "achievements.shape_alt": "Therapie Sync dekorative Form",
               "achievements.card_shape": "Therapie Sync Karten-Dekoration",
               // best service
-              "services.cognitive.title": "Individuelle Psychotherapie",
+              "services.cognitive.title": "Individuelle Psychotherapie – nachhaltige Veränderung schaffen",
               "services.cognitive.description":
                 "Gemeinsam werden wir über die Linderung der Symptome hinausgehen und uns mit den tieferen Mustern befassen, die Ihr Leben prägen.",
               "services.cognitive.image_alt":
@@ -628,11 +628,11 @@
 
               "opening.scenario1.title": "Feeling Overwhelmed at Work?",
               "opening.scenario1.text":
-                "A crisis at work can hit while you're between time zones, making it hard to cope without your usual support network.",
+                "A crisis at work can hit while you’re between time zones.",
 
               "opening.scenario2.title": "Struggling with Your Relationship?",
               "opening.scenario2.text":
-                "Tension with your partner might surface miles away from your usual support system, leaving you feeling isolated.",
+                "Tension with your partner might surface miles away from your usual support system",
 
               "opening.scenario3.title": "Is Loneliness Creeping In?",
               "opening.scenario3.text":
@@ -720,12 +720,12 @@
                 "Business tailored design, management & support services Business business agency elit, sed do eiusmod tempor majority have in some we form, by injected humour solution.",
 
               // Cognitive Psychology
-              "services.cognitive.title": "Cognitive Psychology",
+              // "services.cognitive.title": "Cognitive Psychology",
               "services.cognitive.description":
                 "Supporting individuals in overcoming challenges, and enhancing their quality of life whether it's",
               "services.cognitive.image_alt": "Cognitive therapy illustration",
               // best service
-              "services.cognitive.title": "Individual Psychotherapy",
+              "services.cognitive.title": "Individual Psychotherapy – Creating Lasting Change",
               "services.cognitive.description":
                 "Together, we’ll go beyond symptom relief to address the deeper patterns shaping your life.",
               "services.cognitive.image_alt":
