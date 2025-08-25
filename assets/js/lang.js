@@ -65,7 +65,9 @@
               "slider2.cta2": "Mehr erfahren",
 
               // opening
-
+              "services.list.goal": "Unser Ziel",
+              "services.list.goal.individual":
+                "Emotionales Wachstum, gesündere Beziehungen und ein stärkeres Selbstbewusstsein, das Sie überallhin begleitet",
               "opening.title": "Das Leben im Ausland kann schwierig sein.",
               "opening.intro":
                 "Wenn Sie über Grenzen hinweg leben und arbeiten, warten Ihre Herausforderungen nicht auf den „richtigen Zeitpunkt“ oder den „richtigen Ort“.",
@@ -242,6 +244,12 @@
               "services.list.communication": "Kommunikationsprobleme",
               "services.list.conflict": "Konfliktlösung",
               "services.list.trust": "Vertrauensprobleme",
+              "services.list.rebuild":
+                "Bauen Sie Intimität und Vertrauen wieder auf",
+              "services.list.create":
+                "Schaffen Sie eine sicherere und erfüllendere Partnerschaft",
+              "services.list.goal.couple":
+                "Es handelt sich um eine tiefergehende Arbeit, die die Art und Weise verändert, wie Sie einander verstehen und aufeinander reagieren.",
               "services.list.transitions": "Lebensübergänge",
               // Achievement Cards
               "achievements.projects": "Erfolgreiche Projekte",
@@ -611,6 +619,9 @@
               "slider2.cta2": "Learn More",
 
               // opening
+              "services.list.goal": "Our Goal",
+              "services.list.goal.individual":
+                "Emotional growth, healthier relationships, and a stronger sense of self that travels with you wherever you go",
               "opening.title": "Navigating Life Abroad Can Be Tough.",
               "opening.intro":
                 'When you live and work across borders, your challenges don\'t wait for the "right time" or "right place" to arise.',
@@ -732,6 +743,11 @@
               "services.list.communication": "Communication breakdown",
               "services.list.conflict": "Conflict resolution",
               "services.list.trust": "Trust issues",
+              "services.list.rebuild": "Rebuild intimacy and trust",
+              "services.list.create":
+                "Create a more secure and fulfilling partnership",
+              "services.list.goal.couple":
+                " It’s deeper work that reshapes the way you understand and respond to each other.",
               "services.list.transitions": "Life transitions",
               // Academic Psychology
 
