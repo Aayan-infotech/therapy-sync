@@ -54,7 +54,7 @@
               "slider1.title_base": "Sie hinführt",
               "slider1.shape_alt": "Dekorative Textform",
               "slider1.text":
-                "Spezialisierte Unterstützung für international mobile Einzelpersonen und Paare – überall auf der Welt.",
+                "Das Leben im Ausland kann aufregend sein, aber auch isolierend, stressig und belastend für Beziehungen. Ich helfe international mobilen Einzelpersonen und Paaren, Herausforderungen zu meistern, Beziehungen zu stärken und nachhaltige Veränderungen zu bewirken – alles in der Privatsphäre Ihres eigenen Zuhauses, überall auf der Welt.",
               "slider1.cta1": "Vereinbaren Sie Ihre Beratung",
               "slider1.cta2": "Mehr erfahren",
 
@@ -608,7 +608,7 @@
               "slider1.title_base": "You",
               "slider1.shape_alt": "Decorative text shape",
               "slider1.text":
-                "Specialized support for internationally mobile individuals and couples… anywhere in the world.",
+                "Life abroad can be exciting, but it can also be isolating, stressful, and hard on relationships. I help internationally mobile individuals and couples work through challenges, strengthen connections, and create lasting change — all from the privacy of your own space, anywhere in the world",
               "slider1.cta1": "Schedule Your Consultation",
               "slider1.cta2": "Learn More",
 
@@ -1147,7 +1147,7 @@
         // If using selectpicker, refresh it
         if (typeof $.fn.selectpicker !== "undefined") {
           $("#language-select").selectpicker("val", currentLang);
-           $("#language-select-mobile").selectpicker("val", currentLang);
+          $("#language-select-mobile").selectpicker("val", currentLang);
           $("#language-select").selectpicker("refresh");
           $("#language-select-mobile").selectpicker("refresh");
         }
@@ -1192,7 +1192,7 @@
       });
     });
 
-      $("#language-select-mobile").change(function () {
+    $("#language-select-mobile").change(function () {
       var newLang = $(this).val();
       i18next.changeLanguage(newLang, function (err, t) {
         if (err) console.error("Language change error:", err);

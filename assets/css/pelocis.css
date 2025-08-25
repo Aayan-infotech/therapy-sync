@@ -20844,8 +20844,8 @@ body.boxed-wrapper .topbar-one__inner__shape {
     background-image: url(assets/images/backgrounds/slider-1-2.jpg);
   }
   .main-slider-one__bg {
-    max-height: 530px;
-    min-height: 530px;
+    max-height: 600px;
+    min-height: 600px;
   }
 }
 .call-area-four__right-shape img {
