@@ -154,9 +154,9 @@
               "approach.title":
                 "Wir sind, wer wir sind, wegen der Auswirkungen, die andere auf uns hatten. Echte Veränderung geschieht durch bedeutungsvolle Beziehungen.",
               "approach.description1":
-                "Unser therapeutischer Ansatz basiert auf Zusammenarbeit und gegenseitigem Verständnis. Durch eine unterstützende Partnerschaft schaffen wir einen Raum, in dem emotionales Wachstum gedeihen kann.",
+                "Unsere Arbeit ist kooperativ und auf Sie zugeschnitten.",
               "approach.description2":
-                "Dieser Prozess führt zu tiefgreifender persönlicher Transformation und hilft Einzelpersonen, bedeutungsvollere Verbindungen und ein tieferes Verständnis ihrer selbst zu entwickeln.",
+                "Wir erforschen die Gedanken, Gefühle und Muster, die Sie zurückhalten, und entwickeln die emotionale Fähigkeit, voranzukommen – im Leben, in Beziehungen und in sich selbst.",
               "approach.image_alt":
                 "Therapeut in einer Sitzung, der eine warme, sichere Umgebung schafft",
               //call one
@@ -816,9 +816,9 @@
               "approach.title":
                 "We are who we are because of the impact others have had on us. Real change happens through meaningful relationships.",
               "approach.description1":
-                "Our therapeutic approach is built on collaboration and mutual understanding. Through a supportive partnership, we create a space where emotional growth can flourish.",
+                "Our work is collaborative and tailored to you.",
               "approach.description2":
-                "This process leads to profound personal transformation, helping individuals build more meaningful connections and a deeper understanding of themselves.",
+                "We’ll explore the thoughts, feelings, and patterns holding you back, and develop the emotional capacity to move forward — in life, in relationships, and in yourself.",
               "approach.image_alt":
                 "Therapist in session creating a warm, safe environment",
 
