@@ -50,7 +50,7 @@
               "menu.book": "Beratung buchen",
 
               "slider1.title": "Psychodynamische Therapie für Expats -",
-              "slider1.title_thin": "Wo auch immer das Leben",
+              "slider1.title_thin": "Wohin das Leben Sie auch führt",
               "slider1.title_base": "Sie hinführt",
               "slider1.shape_alt": "Dekorative Textform",
               "slider1.text":
@@ -604,8 +604,8 @@
               "menu.contact": "Contact",
               "menu.book": "Book Consultation",
               "slider1.title": "Psychodynamic Therapy for Expats -",
-              "slider1.title_thin": "Wherever Life Takes",
-              "slider1.title_base": "You",
+              "slider1.title_thin": "Wherever Life Takes You",
+              
               "slider1.shape_alt": "Decorative text shape",
               "slider1.text":
                 "Life abroad can be exciting, but it can also be isolating, stressful, and hard on relationships. I help internationally mobile individuals and couples work through challenges, strengthen connections, and create lasting change — all from the privacy of your own space, anywhere in the world",
