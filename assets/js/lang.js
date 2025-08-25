@@ -1135,6 +1135,7 @@
         jqueryI18next.init(i18next, $);
         $("body").localize();
         $("#language-select").val(i18next.language);
+        $("#language-select-mobile").val(i18next.language);
         updateContent();
 
         var currentLang = i18next.language;
@@ -1146,7 +1147,9 @@
         // If using selectpicker, refresh it
         if (typeof $.fn.selectpicker !== "undefined") {
           $("#language-select").selectpicker("val", currentLang);
+           $("#language-select-mobile").selectpicker("val", currentLang);
           $("#language-select").selectpicker("refresh");
+          $("#language-select-mobile").selectpicker("refresh");
         }
       }
     );
@@ -1183,6 +1186,27 @@
         if (typeof $.fn.selectpicker !== "undefined") {
           $("#language-select").selectpicker("val", newLang);
           $("#language-select").selectpicker("refresh");
+        }
+
+        console.log("Language successfully changed to:", newLang);
+      });
+    });
+
+      $("#language-select-mobile").change(function () {
+      var newLang = $(this).val();
+      i18next.changeLanguage(newLang, function (err, t) {
+        if (err) console.error("Language change error:", err);
+
+        // Update all content
+        updateContent();
+
+        // Update select value
+        $("#language-select-mobile").val(newLang);
+
+        // If using selectpicker, refresh it
+        if (typeof $.fn.selectpicker !== "undefined") {
+          $("#language-select-mobile").selectpicker("val", newLang);
+          $("#language-select-mobile").selectpicker("refresh");
         }
 
         console.log("Language successfully changed to:", newLang);
