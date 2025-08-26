@@ -390,7 +390,7 @@ h6 {
   border: none;
   outline: none !important;
   color: var(--pelocis-white, #fff);
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 500;
   font-family: var(--pelocis-heading-font, "Solway", serif);
   padding: 10px 37px;
