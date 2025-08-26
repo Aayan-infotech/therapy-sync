@@ -821,9 +821,9 @@ h6 {
 .sec-title__tagline {
   margin: 0;
   font-family: var(--pelocis-font, "Saira", sans-serif);
-  color: var(--pelocis-base, #8b5c3e);
-  font-size: 18px;
-  line-height: 16px;
+  color: #000;
+  font-size: 21px;
+  line-height: 17px;
   text-transform: uppercase;
   font-weight: 500;
   display: inline-block;
@@ -4778,7 +4778,7 @@ h6 {
   margin-left: 10px;
   padding: 9.5px 0;
   width: 100%;
-  max-width: 280px;
+  max-width: 220px;
 }
 @media (min-width: 768px) {
   .main-header__right {
@@ -4957,13 +4957,22 @@ h6 {
   margin-left: 30px;
   padding: 0 23px;
 }
-@media (max-width: 1199px) {
+@media (max-width: 1299px) {
   .main-header--two .main-header__toggler {
     width: 60px;
     height: 60px;
     margin-left: 20px;
     padding: 0 15px;
   }
+  .topbar-one__info {
+
+    gap: 10px;
+    margin: 0;
+}
+  .topbar-one__inner {
+  
+    padding: 11.5px 0px;
+}
 }
 @media (max-width: 500px) {
   .main-header--two .main-header__toggler {
@@ -5426,7 +5435,7 @@ h6 {
   }
 }
 .main-menu .main-menu__list > li > a {
-  font-size: 16px;
+  font-size: 15px;
   display: flex;
   align-items: center;
   color: #fff;
@@ -7215,6 +7224,10 @@ body.megamenu-popup-active .mobile-nav__content {
   .testimonials-card__content .sec-title__tagline br {
     display: none;
   }
+  .main-menu .main-menu__list > li > a {
+  font-size: 14px;
+  
+}
 }
 .testimonials-card__content .sec-title__shape::after {
   background-color: var(--pelocis-white, #fff);
@@ -12879,7 +12892,7 @@ body.megamenu-popup-active .mobile-nav__content {
   opacity: 0;
   transition: transform 1200ms ease, opacity 1200ms ease;
   transform: translateX(200px);
-  font-size: 60px;
+  font-size: 45px;
   font-weight: 700;
   line-height: 70px;
   position: relative;
@@ -16260,13 +16273,14 @@ body.megamenu-popup-active .mobile-nav__content {
   transition: all 500ms ease;
 }
 .service-one-home .home-services__card__count {
+  display:none;
   font-size: 40px;
   font-weight: 400;
   line-height: 48px;
   color: rgba(var(--pelocis-black3-rgb, 0, 0, 0), 0.1);
   transition: all 500ms ease;
   margin-bottom: 14px;
-  display: flex;
+  /* display: flex; */
   align-items: center;
   gap: 10px;
 }

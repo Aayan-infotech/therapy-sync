@@ -35,30 +35,29 @@
             translation: {
               // navbar
               "topbar.email": "expacttheraphy@gmail.com",
-              "topbar.address": "8/05 Mozilla Golden Street",
+              "topbar.address": "Linienstraße 130 , 10115 Berlin , Germany",
               "topbar.help": "Hilfe",
               "topbar.coaching": "contact@dombrowe.berlin",
               "language.english": "Englisch",
               "language.german": "Deutsch",
               "header.logo_alt": "Therapie Logo",
               "menu.home": "Startseite",
-              "menu.individual": "Einzeltherapie",
+              "menu.individual": "Individuelle Psychotherapie",
               "menu.couples": "Paartherapie",
               "menu.executive": "Führungskräfte-Coaching",
               "menu.about": "Über uns",
               "menu.contact": "Kontakt",
               "menu.book": "Beratung buchen",
 
-              "slider1.title": "Psychodynamische Therapie für Expats -",
-              "slider1.title_thin": "Wohin das Leben Sie auch führt",
-              "slider1.title_base": "Sie hinführt",
+              "slider1.title": "Psychodynamische Therapie für Expats - Wohin das Leben Sie auch führt",
+           
               "slider1.shape_alt": "Dekorative Textform",
               "slider1.text":
-                "Das Leben im Ausland kann aufregend sein, aber auch isolierend, stressig und belastend für Beziehungen. Ich helfe international mobilen Einzelpersonen und Paaren, Herausforderungen zu meistern, Beziehungen zu stärken und nachhaltige Veränderungen zu bewirken – alles in der Privatsphäre Ihres eigenen Zuhauses, überall auf der Welt.",
+                "Das Leben im Ausland bringt Herausforderungen mit sich. Ich helfe Expats und Paaren, Klarheit, Widerstandsfähigkeit und Verbundenheit zu finden – überall auf der Welt.",
               "slider1.cta1": "Vereinbaren Sie Ihre Beratung",
               "slider1.cta2": "Mehr erfahren",
 
-              "slider2.title": "Willkommen bei Die Expat Therapy! -      ",
+              "slider2.title": "Empowering expats through therapy & coaching“ hilft potenziellen Kunden sofort zu erkennen, ob dies für sie gedacht ist",
               "slider2.text":
                 "Bei Expat Therapy verstehen wir die einzigartigen Herausforderungen, die mit dem Leben in einem neuen Land verbunden sind.",
               "slider2.cta1": "Vereinbaren Sie Ihre Beratung",
@@ -111,6 +110,7 @@
               "about.experience": "+ Jahre Erfahrung",
               "about.tagline": "ÜBER UNS",
               "about.title": "Lernen Sie unseren Arzt kennen",
+              "about.highlight":"Meine Mission ist es, Expats bei Übergängen zu unterstützen",
               "about.description":
                 "Maßgeschneiderte Geschäftslösungen, Management und Support-Services für Ihr Unternehmen. Professionelle Beratung für individuelle Bedürfnisse.",
               "about.image2_alt": "Unsere Methoden",
@@ -121,7 +121,7 @@
               "credentials.list1":
                 "Voll approbierter psychodynamischer Therapeut (staatlich anerkannt in Deutschland)",
               "credentials.list2":
-                "Zertifiziert in relationaler und systemisch-psychodynamischer Therapie",
+                "Zertifiziert in Psychodynamischer Psychotherapie",
               "credentials.list3":
                 "Organisationspsychologe (systemisch-psychodynamisches Führungskräfte-Coaching)",
               "credentials.list4": "Fließend in Englisch und Deutsch",
@@ -129,7 +129,8 @@
               "specializations.title": "Spezialisierungen:",
               "specializations.item1": "✔ Psychische Gesundheit von Expats",
               "specializations.item2": "✔ Interkulturelle Paare",
-              "specializations.item3": "✔ Trauma & Angststörungen",
+              "specializations.item3":
+                "✔ Depression, Selbstwertgefühl und Identität",
               "specializations.item4": "✔ Coaching für globale Mobilität",
 
               // feature updated
@@ -148,6 +149,17 @@
               "feature.four.title": "Kulturell Sensibel",
               "feature.four.text":
                 "Fachwissen zu den besonderen Herausforderungen des Expat-Lebens und interkultureller Beziehungen.",
+              // individual
+              "individual.overview.title": "Übersicht",
+              "individual.overview.text1":
+                "Aus psychodynamischer Sicht sind wir so, wie wir sind, aufgrund der Auswirkungen, die andere auf uns hatten. Und die einzige Möglichkeit, wie Menschen sich wirklich verändern, sind die Erfahrungen, die sie mit anderen Menschen machen. Dieser Fokus auf Beziehungen ist es, was die psychodynamische Therapie von anderen Therapien abhebt. Im Gegensatz zu anderen Behandlungsarten konzentriert sich die psychodynamische Therapie nicht nur auf die Symptomreduktion. Das Ziel der Therapie, die ich anbiete, ist auch, positives Wachstum der emotionalen Fähigkeiten zu fördern, die ein erfülltes Leben ermöglichen.",
+              "individual.overview.text2":
+                "Dazu gehören die Fähigkeit, erfüllendere Beziehungen zu gestalten, ein stabiles und realistisch fundiertes Selbstwertgefühl zu erhalten, ein breiteres Spektrum an Emotionen zu tolerieren und sich selbst und andere im Allgemeinen auf emotional nuanciertere und nützlichere Weise zu verstehen. Als in psychodynamischer Psychotherapie ausgebildeter Therapeut möchte ich Sie dabei unterstützen, Ihren eigenen Weg zu einem erfüllteren und selbstverwirklichten Leben zu finden. Dieser Prozess ist für jede Person unterschiedlich, ein kreativer Prozess, der durch die therapeutische Beziehung kultiviert wird.",
+              "individual.overview.text3":
+                "Einzelpsychotherapie kann konstruktiv sein, wenn Sie erkennen, dass Sie trotz Ihrer besten Bemühungen in wiederkehrenden belastenden Mustern feststecken, die Sie daran hindern, sich zufrieden zu fühlen und Ihr volles Potenzial in Ihren intimen Beziehungen und Ihrer Karriere auszuschöpfen. Andere Gründe können wiederkehrende emotionale Schwierigkeiten (z. B. Depressionen, Angstzustände, geringes Selbstwertgefühl), schmerzhafte und traumatische Erfahrungen oder akute Krisen sein. Egal, was Sie in die Therapie bringt, ich werde meine Arbeit entsprechend anpassen, um Ihren spezifischen Bedürfnissen gerecht zu werden.",
+              "individual.overview.text4":
+                "Ich werde mit Ihnen zusammenarbeiten, um eine Arbeitsweise zu finden, die sich für Sie angenehm und effektiv anfühlt. Ich werde Ihnen helfen, die Gedanken, Gefühle und Muster in Ihrem Leben zu identifizieren, die Sie an dem Ort des Schmerzes festhalten und Sie daran hindern, das Leben zu führen, das Sie wollen.",
+
               // approach
 
               "approach.tagline": "Unser Ansatz",
@@ -171,7 +183,7 @@
               // Services Section - German
               "services.shape_alt": "Therapie Sync dekorative Form",
               "services.text_shape_alt": "Therapie Sync Textdekoration",
-              "services.tagline": "UNSERE BESTEN DIENSTLEISTUNGEN",
+              "services.tagline": "unsere Leistungen",
               "services.title":
                 "Entwickeln Sie eine Marketingstrategie für psychologische Dienstleistungen",
               "services.description":
@@ -224,7 +236,8 @@
               "achievements.card_shape": "Therapie Sync Karten-Dekoration",
               // best service
               "services.cognitive.title": "Individuelle Psychotherapie",
-               "services.cognitive.title_thin": "nachhaltige Veränderung schaffen",
+              "services.cognitive.title_thin":
+                "nachhaltige Veränderung schaffen",
               "services.cognitive.description":
                 "Gemeinsam werden wir über die Linderung der Symptome hinausgehen und uns mit den tieferen Mustern befassen, die Ihr Leben prägen.",
               "services.cognitive.image_alt":
@@ -242,8 +255,10 @@
               "services.list.relationship":
                 "Trauer, Verlust und Traumabewältigung",
               "services.list.phobia": "Phobien und soziale Ängste",
-              "services.list.communication": "Kommunikation verbessern und Konflikte lösen",
-              "services.list.conflict": "Gemeinsam durch Lebensübergänge navigieren",
+              "services.list.communication":
+                "Kommunikation verbessern und Konflikte lösen",
+              "services.list.conflict":
+                "Gemeinsam durch Lebensübergänge navigieren",
               "services.list.trust": "Vertrauensprobleme",
               "services.list.rebuild":
                 "Bauen Sie Intimität und Vertrauen wieder auf",
@@ -381,7 +396,6 @@
               "solutions.image_alt":
                 "Therapie Sync Geschäftslösungen Illustration",
 
-              "contact.tagline": "KONTAKTIEREN SIE UNS",
               "contact.title":
                 "Kontaktieren Sie uns umgehend für <br>professionelle Unterstützung",
               "contact.shape_alt": "Therapie Sync dekorative Form",
@@ -399,14 +413,15 @@
               "contact.phone_title": "Jetzt Kontakt aufnehmen",
               "contact.email_title": "E-Mail senden",
               "contact.location_title": "Standort",
-              "contact.address": "8/05 Mozilla Golden",
+
+              "contact.address": "Linienstraße 130 , 10115 Berlin , Germany",
               "contact.logo_alt": "Therapieraum mit Ledersofa und warmem Licht",
               "contact.image_alt":
                 "Therapieraum mit Ledersofa und warmem Licht",
               "contact.tagline": "KONTAKTIEREN SIE UNS",
               "contact.form_title": "Beginnen Sie Ihre Führungsreise",
               "contact.form_description":
-                "Ich biete ein kostenloses Vorgespräch per Telefon oder Videokonferenz an, in dem Sie mich kennenlernen und Ihr Anliegen schildern können. Gemeinsam finden wir heraus, ob wir zueinander passen.",
+                "Wenn Sie Unterstützung bei Ihrer Entscheidung benötigen, biete ich Ihnen ein kurzes Vorgespräch per Telefon oder E-Mail an. Darin schildern Sie uns Ihr Problem, das Sie lösen möchten. Gemeinsam finden wir heraus, ob wir zueinander passen.",
               "contact.name_label": "Name",
               "contact.name_placeholder": "Ihr Name *",
               "contact.email_label": "E-Mail",
@@ -495,7 +510,7 @@
                 "Individuelles Executive Coaching",
               "executive.one_on_one": "Einzelne Führungskräfteentwicklung",
               "executive.development_point1":
-                "Verbesserung des strategischen Denkens und der Entscheidungsfindung",
+                "Treffen Sie klarere und sicherere Entscheidungen.",
               "executive.development_point2":
                 "Fähigkeiten im Personalmanagement und Konfliktlösung",
               "executive.development_point3":
@@ -503,7 +518,8 @@
               "executive.development_point4":
                 "Autoritätsentwicklung und Rollenklarheit",
               "executive.development_point5":
-                "Stressmanagement und Burnout-Prävention",
+                "Bleiben Sie voller Energie und vermeiden Sie ein Burnout.",
+                "cta.headline-coaching":"Ganz gleich, ob Sie Führungsherausforderungen meistern, Stress bewältigen oder Resilienz aufbauen möchten – ich unterstütze Sie dabei, beruflich und persönlich erfolgreich zu sein.",
               "executive.growth": "Persönliches & berufliches Wachstum",
               "executive.growth_point1":
                 "Erreichen Sie optimale Leistung bei psychischer Gesundheit",
@@ -516,6 +532,33 @@
               "executive.growth_point5":
                 "Entwickeln Sie effektive Kommunikations- und Motivationsfähigkeiten",
               "topbar.coachingtext": "Für Coaching",
+              // couples
+              "couples.overview_title": "Überblick",
+              "couples.overview_text":
+                "Psychodynamische Paartherapie. Wiederverbinden. Verstehen. Heilen. Jede Beziehung hat Momente des Konflikts, der Distanz oder der Trennung. Manchmal fühlen sich diese Kämpfe überwältigend an und wiederholen die gleichen Argumente ohne Lösung. Psychodynamische Paartherapie bietet einen tieferen Weg, Ihre Beziehung zu verstehen und zu transformieren. Was ist psychodynamische Paartherapie? Im Gegensatz zu Schnellschuss-Ansätzen, die sich nur auf Kommunikationsfähigkeiten konzentrieren, geht die psychodynamische Paartherapie unter die Oberfläche. Sie erforscht, wie vergangene Erfahrungen, Kindheitsbindungen und unbewusste Muster die Art und Weise prägen, wie Sie sich heute auf Ihren Partner beziehen. Oft geht es bei den Konflikten in unseren engsten Beziehungen nicht nur um das 'Hier und Jetzt' – sie wurzeln in alten Ängsten, Sehnsüchten und Wunden. In der Therapie kommen diese verborgenen Dynamiken ans Licht und helfen beiden Partnern zu verstehen, warum sie immer wieder stecken bleiben und wie sie sich anders weiterentwickeln können. Wie es hilft: Durch diesen Prozess können Sie und Ihr Partner:",
+              "couples.help_item1":
+                "Wiederkehrende Muster erkennen, die Sie in den gleichen Argumenten festhalten.",
+              "couples.help_item2":
+                "Verstehen, wie vergangene Erfahrungen Ihre aktuelle Beziehung beeinflussen.",
+              "couples.help_item3":
+                "Tiefere Empathie und emotionale Verbindung entwickeln.",
+              "couples.help_item4":
+                "Sich gegenseitig klarer sehen, jenseits von Annahmen und alten Verletzungen.",
+              "couples.help_item5":
+                "Gesündere Wege finden, Konflikte zu bewältigen und Intimität aufzubauen.",
+              "couples.expect_text":
+                "Das Ziel ist nicht nur, das Streiten einzustellen, sondern eine dauerhafte Veränderung zu fördern – Ihnen beiden dabei zu helfen, sich in Ihrer Beziehung gesehen, verstanden und unterstützt zu fühlen. Was Sie erwartet: In den Sitzungen wird Ihr Therapeut Sie und Ihren Partner sanft anleiten, die Gefühle unter den Konflikten zu erforschen. Anstatt sich nur auf das zu konzentrieren, was außerhalb der Therapie passiert, schauen wir genau auf das, was zwischen Ihnen im Raum geschieht. Dies kann eine herausfordernde Arbeit sein, aber in einer sicheren, unterstützenden Umgebung wird es zu einer kraftvollen Gelegenheit, gemeinsam zu wachsen. Im Laufe der Zeit entdecken Paare oft neue Wege des Umgangs, die sich authentischer, sicherer und erfüllender anfühlen. Ist dies das Richtige für Sie? Psychodynamische Paartherapie kann helfen bei:",
+              "couples.right_item1":
+                "Häufigen Auseinandersetzungen und Kommunikationsstörungen",
+              "couples.right_item2":
+                "Emotionaler Distanz oder Verlust von Intimität",
+              "couples.right_item3": "Genesung von Untreue oder Verrat",
+              "couples.right_item4":
+                "Sich wiederholenden, zerstörerischen Zyklen in der Beziehung",
+              "couples.right_item5":
+                "Der Bewältigung von Lebensübergängen wie Elternschaft, Karrierewechsel oder Alter. Wenn Sie und Ihr Partner bereit sind, über oberflächliche Lösungen hinauszugehen und dauerhafte Veränderungen zu schaffen, könnte dieser Ansatz der richtige für Sie sein.",
+              "couples.journey_text":
+                "Beginnen Sie Ihre gemeinsame Reise. Jedes Paar verdient die Chance, eine tiefere, verbundenere Beziehung aufzubauen. Psychodynamische Paartherapie bietet einen Weg, die verborgenen Dynamiken zu verstehen und eine Beziehung zu schaffen, in der sich beide Partner wertgeschätzt und sicher fühlen. Machen Sie heute den ersten Schritt – kontaktieren Sie uns, um eine Beratung zu vereinbaren.",
 
               footer: {
                 shape_alt: "Therapie Sync dekorative Form",
@@ -541,7 +584,7 @@
                 contact: {
                   phone: "+49 157 300 20 315",
                   email: "contact@psychotherapy-dombrowe.com",
-                  address: "8/05 Mozilla Golden",
+                  address: "Linienstraße 130 , 10115 Berlin , Germany",
                 },
                 copyright:
                   "Copyright Therapie Sync <span class='dynamic-year'></span>, Alle Rechte vorbehalten",
@@ -591,29 +634,29 @@
             translation: {
               // navbar
               "topbar.email": "expacttheraphy@gmail.com",
-              "topbar.address": "8/05 Mozilla Golden Street",
+              "topbar.address": "Linienstraße 130 , 10115 Berlin , Germany",
               "topbar.coaching": "contact@dombrowe.berlin",
               "topbar.help": "Help you",
               "language.english": "English",
               "language.german": "German",
               "header.logo_alt": "Therapy Logo",
               "menu.home": "Home",
-              "menu.individual": "Individual Therapy",
+              "menu.individual": "Individual Psychotherapy",
               "menu.couples": "Couples Therapy",
               "menu.executive": "Executive Coaching",
               "menu.about": "About",
               "menu.contact": "Contact",
               "menu.book": "Book Consultation",
-              "slider1.title": "Psychodynamic Therapy for Expats -",
-              "slider1.title_thin": "Wherever Life Takes You",
-              
+              "slider1.title": "Psychodynamic Therapy for Expats - Wherever Life Takes You",
+ 
+
               "slider1.shape_alt": "Decorative text shape",
               "slider1.text":
-                "Life abroad can be exciting, but it can also be isolating, stressful, and hard on relationships. I help internationally mobile individuals and couples work through challenges, strengthen connections, and create lasting change — all from the privacy of your own space, anywhere in the world",
+                "Life abroad brings challenges. I help expats and couples find clarity, resilience, and connection — anywhere in the world.",
               "slider1.cta1": "Schedule Your Consultation",
               "slider1.cta2": "Learn More",
 
-              "slider2.title": "Welcome to the Expat Therapy! -",
+              "slider2.title": "Empowering expats through therapy & coaching” helps potential clients immediately understand whether this is meant for them",
               "slider2.text":
                 "At Expat Therapy, we understand the unique challenges that come with living in a new country.",
               "slider2.cta1": "Schedule Your Consultation",
@@ -665,6 +708,7 @@
               "about.experience": "+ Experience",
               "about.tagline": "ABOUT US",
               "about.title": " Meet our doctor",
+              "about.highlight":"My mission is to support expats through transitions",
 
               "about.image2_alt": "Expact Theraphy",
 
@@ -673,8 +717,7 @@
               "credentials.title": "Dr. Christian Dombrowe",
               "credentials.list1":
                 "Fully Approbated Psychodynamic Therapist (State-Recognized in Germany)",
-              "credentials.list2":
-                "Certified in Relational & Systems-Psychodynamic Therapy",
+              "credentials.list2": "Certified in Psychodynamic Psychotherapy",
               "credentials.list3":
                 "Organizational Psychologist (Systems-Psychodynamic Executive Coaching)",
               "credentials.list4": "Fluent in English & German",
@@ -682,7 +725,7 @@
               "specializations.title": "Specializations:",
               "specializations.item1": "✔ Expat Mental Health",
               "specializations.item2": "✔ Intercultural Couples",
-              "specializations.item3": "✔ Trauma & Anxiety",
+              "specializations.item3": "✔ Depression, Self-Esteem and Identity",
               "specializations.item4": "✔ Global Mobility Coaching",
 
               // feature updated
@@ -714,7 +757,7 @@
               // Services Section - English
               "services.shape_alt": "Therapy Sync decorative shape",
               "services.text_shape_alt": "Therapy Sync text decoration",
-              "services.tagline": "OUR BEST SERVICE",
+              "services.tagline": "OUR SERVICES",
               "services.title":
                 "Develop a Marketing Strategy To Promote Psychology Service",
               "services.description":
@@ -733,7 +776,8 @@
               "services.cognitive.image_alt":
                 "Therapy room with leather sofa and warm lighting",
               "services.academic.title": "Couples Therapy",
-               "services.academic.title_thin": "Rebuilding Connection across Borders",
+              "services.academic.title_thin":
+                "Rebuilding Connection across Borders",
               "services.academic.description":
                 "A therapist facilitates discussions to promote understanding, resolve disputes, and strengthen the partnership.",
               "services.academic.image_alt":
@@ -743,7 +787,8 @@
               "services.list.stress": "Low self-esteem and self-worth",
               "services.list.relationship": "Grief, loss, and trauma recovery",
               "services.list.phobia": "Phobias and social anxiety",
-              "services.list.communication": "Improve communication and resolve conflicts",
+              "services.list.communication":
+                "Improve communication and resolve conflicts",
               "services.list.conflict": "Navigate life transitions together",
               "services.list.trust": "Trust issues",
               "services.list.rebuild": "Rebuild intimacy and trust",
@@ -927,20 +972,30 @@
               "contact.shape_alt": "Therapy Sync decorative shape",
               "contact.description":
                 "Get in touch with our professional team for personalized support and solutions tailored to your needs.",
+              // Individual Therapy Page
+              "individual.overview.title": "Overview",
+              "individual.overview.text1":
+                "From a psychodynamic point of view, we are the way we are because of the impact that others have had on us. And the only way that people really change is through the experiences they have with other people. This focus on relationship is what makes psychodynamic therapy stand above other therapies. In contrast to other types treatments psychodynamic therapy doesn't solely focus on symptom reduction. The goal of the therapy I offer is also to foster positive growth of the emotional capacities which make possible a satisfying life.",
+              "individual.overview.text2":
+                "These include the capacity to create more fulfilling relationships, to maintain a stable and realistically based sense of self-esteem, tolerate the wider range of emotions and generally to understand oneself and others in more emotionally nuanced and useful ways. As a therapist trained in psychodynamic psychotherapy, I would like to assist you in finding your unique path to living a more fulfilled and actualized life. This process is different for each person, a creative process that is cultivated through the therapeutic relationship.",
+              "individual.overview.text3":
+                "Individual psychotherapy can be constructive, when you recognize that despite your best efforts, you are stuck in repetitive distressing patterns that prevent you from feeling satisfied and reaching your full potential in your intimate relationships and career. Other reasons may be recurring emotional difficulties (e.g. depression, anxiety, low self-esteem), painful and traumatic experiences or acute crisis. No matter what brings you into therapy I will adjust my work accordingly to meet your specific needs.",
+              "individual.overview.text4":
+                "I will collaborate with you to find a way of working that feels comfortable and effective. I will help you to identify the thoughts, feelings and patterns in your life that are keeping you in the place of pain and block you from living the life you want.",
 
               // contact
               "contact.phone_title": "Get Contact Now",
               "contact.email_title": "Sent Email",
               "contact.location_title": "Location",
-              "contact.address": "8/05 Mozilla Golden",
+              "contact.address": "Linienstraße 130 , 10115 Berlin , Germany",
               "contact.logo_alt":
                 "Therapy room with leather sofa and warm lighting",
               "contact.image_alt":
                 "Therapy room with leather sofa and warm lighting",
-              "contact.tagline": "OUR CONTACT US",
+
               "contact.form_title": "Start Your Leadership Journey",
               "contact.form_description":
-                "I offer a free preliminary conversation by phone or videoconference, in which you can get to know me and outline the problem that you want to work on. Together we can find out if we are a good fit.",
+                "If you need support making your decision I offer a short preliminary telephone or email consultation, in which you can outline the problem that you want to resolve. Together we can find out if we are a good fit.",
               "contact.name_label": "Name",
               "contact.name_placeholder": "Enter Your Name *",
               "contact.email_label": "Email",
@@ -1013,6 +1068,33 @@
               "executive.cta": "Know More",
               "executive.image_alt":
                 "Executive coaching session with a professional",
+              // couples
+              "couples.overview_title": "Overview",
+              "couples.overview_text":
+                "Psychodynamic Couples Therapy. Reconnect. Understand. Heal. Every relationship has moments of conflict, distance, or disconnection. Sometimes those struggles feel overwhelming, repeating the same arguments without resolution. Psychodynamic couples therapy offers a deeper way of understanding and transforming your relationship. What Is Psychodynamic Couples Therapy? Unlike quick-fix approaches that only focus on communication skills, psychodynamic couples therapy goes beneath the surface. It explores how past experiences, childhood attachments, and unconscious patterns shape the way you relate to your partner today. Often, the conflicts we face in our closest relationships are not just about the “here and now”—they are rooted in old fears, longings, and wounds. In therapy, these hidden dynamics come to light, helping both partners understand why they keep getting stuck and how to move forward differently. How It Helps: Through this process, you and your partner can:",
+              "couples.help_item1":
+                "Recognize recurring patterns that keep you stuck in the same arguments.",
+              "couples.help_item2":
+                "Understand how past experiences influence your current relationship",
+              "couples.help_item3":
+                "Develop deeper empathy and emotional connection.",
+              "couples.help_item4":
+                "See each other more clearly, beyond assumptions and old hurts.",
+              "couples.help_item5":
+                "Create healthier ways of managing conflict and building intimacy.",
+              "couples.expect_text":
+                "The goal is not simply to stop fighting, but to foster lasting change—helping you both feel seen, understood, and supported in your relationship. What to Expect: In sessions, your therapist will gently guide you and your partner to explore the feelings beneath the conflicts. Instead of focusing only on what’s happening outside of therapy, we look closely at what happens between you in the room. This can be challenging work, but in a safe, supportive environment, it becomes a powerful opportunity to grow together. Over time, couples often discover new ways of relating that feel more authentic, secure, and fulfilling. Is This Right for You? Psychodynamic couples therapy can help with:",
+              "couples.right_item1":
+                "Frequent arguments and communication breakdowns",
+              "couples.right_item2": "Emotional distance or loss of intimacy",
+              "couples.right_item3": "Recovering from infidelity or betrayal",
+              "couples.right_item4":
+                "Repetitive, destructive cycles in the relationship",
+              "couples.right_item5":
+                "Navigating life transitions such as parenthood, career shifts, or aging. If you and your partner are ready to move beyond surface solutions and create lasting change, this approach may be right for you.",
+              "couples.journey_text":
+                "Begin Your Journey Together. Every couple deserves the chance to build a deeper, more connected relationship. Psychodynamic couples therapy provides a path to understanding the hidden dynamics at play and creating a relationship where both partners feel valued and secure. Take the first step today—reach out to schedule a consultation.",
+              
 
               // Add these new keys to the English section:
               "excecutive.core_maintitle":
@@ -1040,7 +1122,7 @@
               "executive.individual_coaching": "Individual Executive Coaching",
               "executive.one_on_one": "One-on-One Leadership Development",
               "executive.development_point1":
-                "Strategic thinking and decision-making enhancement",
+                "Make clearer, more confident decisions.",
               "executive.development_point2":
                 "People management and conflict resolution skills",
               "executive.development_point3":
@@ -1048,7 +1130,8 @@
               "executive.development_point4":
                 "Authority development and role clarity",
               "executive.development_point5":
-                "Stress management and burnout prevention",
+                "Stay energized and avoid burnout.",
+                "cta.headline-coaching":"Whether you’re navigating leadership challenges, managing stress, or building resilience, I’ll support you in thriving professionally and personally.",
               "executive.growth": "Personal & Professional Growth",
               "executive.growth_point1":
                 "Achieve optimum performance with psychological health",
