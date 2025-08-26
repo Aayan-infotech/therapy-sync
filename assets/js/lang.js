@@ -613,9 +613,9 @@
                   "Unsere professionelle Beratung hilft Ihnen bei der Bewältigung von Herausforderungen und verbessert Ihre Lebensqualität nachhaltig.",
                 contact_title: "Kontaktinformation:",
                 contact: {
-                  address: "85 Ketch Harbour Road Bensalem, PA 19020",
+                  address: "Linienstraße 130 , 10115 Berlin , Germany",
                   email: "contact@psychotherapy-dombrowe.com",
-                  phone: "+49 157 300 20 315",
+                  phone: "+4915730020315",
                 },
                 social: {
                   facebook: "Facebook",
@@ -1198,9 +1198,9 @@
                   "Mauris ut enim sit amet lacus ornare ullamcor. Praesent placerat nequ puru rhoncu tincidunt odio ultrices. Sed feugiat feugiat felis.",
                 contact_title: "Contact Info:",
                 contact: {
-                  address: "85 Ketch Harbour Road Bensalem, PA 19020",
+                  address: "Linienstraße 130 , 10115 Berlin , Germany",
                   email: "contact@psychotherapy-dombrowe.com",
-                  phone: "+49 157 300 20 315",
+                  phone: "+4915730020315",
                 },
                 social: {
                   facebook: "Facebook",
