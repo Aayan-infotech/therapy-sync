@@ -104,7 +104,8 @@
                  fetch(`http://34.226.30.17:5050/api/payments/update/${transactionId}`)
                     .then(res => res.json())
                     .then(data => {
-                        if (data.error) {
+                        console.log(data)
+                        if (data.paymentStatus === 'failed') {
                             showError();
                         }  else {
                         updateUI(data);
@@ -124,11 +125,6 @@
                     .catch(() => {
                         showError();
                     });
-                
-                // First, auto-update from Mollie
-               
-                    
-                // Then get payment details
                
             } else {
                 showError();
