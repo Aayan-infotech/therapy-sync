@@ -101,32 +101,32 @@
                 document.querySelector('h1').textContent = 'Loading...';
                 document.querySelector('.payment-details').innerHTML = 'Loading payment details...';
 
-                 fetch(`http://34.226.30.17:5050/api/payments/${transactionId}`)
+                 fetch(`http://34.226.30.17:5050/api/payments/update/${transactionId}`)
                     .then(res => res.json())
                     .then(data => {
                         if (data.error) {
                             showError();
-                        } else {
-                            updateUI(data);
-                        }
-                    })
+                        }  else {
+                        updateUI(data);
+                        // After showing initial data, try to update from Mollie
+                        fetch(`http://34.226.30.17:5050/api/payments/update/${transactionId}`)
+                            .then(res => res.json())
+                            // .then(updateData => {
+                            //     if (!updateData.error) {
+                            //         updateUI(updateData);
+                            //     }
+                            // })
+                            // .catch(() => {
+                            //     // Silently fail the update call, we already have the initial data
+                            // });
+                    }
+                })
                     .catch(() => {
                         showError();
                     });
                 
                 // First, auto-update from Mollie
-                fetch(`http://34.226.30.17:5050/api/payments/update/${transactionId}`)
-                    .then(res => res.json())
-                    .then(data => {
-                        if (data.error) {
-                            showError();
-                        } else {
-                            updateUI(data);
-                        }
-                    })
-                    .catch(() => {
-                        showError();
-                    });
+               
                     
                 // Then get payment details
                
