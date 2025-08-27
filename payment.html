@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Page</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, #e0a129 0%, #8b5c3e 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .payment-card {
+            background: #fff;
+            border-radius: 12px;
+            padding: 10px 30px 30px 30px;
+            max-width: 400px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        }
+        .success-icon {
+            font-size: 4rem;
+            color: green;
+            margin-bottom: 10px;
+        }
+        .failed-icon{
+        font-size:4rem;
+        color:red;
+        margin-bottom:10px;
+        display:none
+        }
+        .payment-details {
+            text-align: left;
+            background: #343434;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            font-size: 0.95rem;
+            color: #fff;
+        }
+        .btn-custom{
+        background-color:#8b5c3e!important;
+        border:1px solid #8b5c3e !important;
+        width:100%
+        }
+    </style>
+</head>
+<body>
+    <div class="payment-card">
+        <div class="success-icon"><svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16">
+  <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0"/>
+  <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z"/>
+</svg></div>
+<div class="failed-icon">
+<svg xmlns="http://www.w3.org/2000/svg"  width="80" height="80" fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16">
+  <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+  <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"></svg>
+</div>
+        <h1 class="mb-3">Payment Successful!</h1>
+        <p class="text-muted mb-4">
+            Thank you, <strong id="user-name">Customer</strong>!  
+            Your payment for <strong id="session-plan">Session Plan</strong> is confirmed.
+        </p>
+        
+        
+
+        <div class="payment-details">
+            <div><strong>Amount:</strong> €<span id="payment-amount">0.00</span></div>
+            <div><strong>Method:</strong> <span id="payment-method">N/A</span></div>
+            <div><strong>Status:</strong> <span id="payment-status">N/A</span></div>
+            <div><strong>Category:</strong> <span id="payment-category">N/A</span></div>
+            <div><strong>Date:</strong> <span id="payment-date">N/A</span></div>
+            <div><strong>Transaction ID:</strong> <span id="transaction-id">N/A</span></div>
+        </div>
+
+        <button id="home-button" class="btn btn-primary btn-custom" style="">Go to Home</button>
+    </div>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+     <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Get transaction ID from URL parameters
+            const urlParams = new URLSearchParams(window.location.search);
+            const transactionId = urlParams.get('id');
+            
+            const homeButton = document.getElementById('home-button');
+            homeButton.addEventListener('click', function() {
+                window.location.href = "/";
+            });
+            
+            if (transactionId) {
+                // Show loading state
+                document.querySelector('h1').textContent = 'Loading...';
+                document.querySelector('.payment-details').innerHTML = 'Loading payment details...';
+                
+                // First, auto-update from Mollie
+                fetch(`http://34.226.30.17:5050/api/payments/update/${transactionId}`)
+                    .then(res => res.json())
+                    .then(data => {
+                        if (data.error) {
+                            showError();
+                        } else {
+                            updateUI(data);
+                        }
+                    })
+                    .catch(() => {
+                        showError();
+                    });
+                    
+                // Then get payment details
+                fetch(`http://34.226.30.17:5050/api/payments/${transactionId}`)
+                    .then(res => res.json())
+                    .then(data => {
+                        if (data.error) {
+                            showError();
+                        } else {
+                            updateUI(data);
+                        }
+                    })
+                    .catch(() => {
+                        showError();
+                    });
+            } else {
+                showError();
+            }
+            
+            function updateUI(payment) {
+                document.getElementById('user-name').textContent = payment.userId?.name || 'Customer';
+                document.getElementById('session-plan').textContent = payment.sessionPlan || 'Session Plan';
+                document.getElementById('payment-amount').textContent = payment.price ? payment.price.toFixed(2) : '0.00';
+                document.getElementById('payment-method').textContent = payment.method || 'N/A';
+                document.getElementById('payment-status').textContent = payment.paymentStatus || 'N/A';
+                document.getElementById('payment-category').textContent = payment.category_id?.category || 'N/A';
+                document.getElementById('payment-date').textContent = payment.createdAt ? new Date(payment.createdAt).toLocaleString() : 'N/A';
+                document.getElementById('transaction-id').textContent = payment.transactionId || 'N/A';
+                
+                // Restore success UI
+                document.querySelector('h1').textContent = 'Payment Successful!';
+                document.querySelector('.failed-icon').style.display = 'block';
+            }
+            
+            function showError() {
+                document.querySelector('h1').textContent = 'Payment Failed';
+                document.querySelector('.failed-icon').style.display = "block"
+                  document.querySelector('.success-icon').style.display = "none"
+                document.querySelector('.payment-details').innerHTML = 'Payment not found or failed.';
+            }
+        });
+    </script>
+    
+   
+</body>
+</html>

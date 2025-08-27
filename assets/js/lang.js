@@ -49,15 +49,18 @@
               "menu.contact": "Kontakt",
               "menu.book": "Beratung buchen",
 
-              "slider1.title": "Psychodynamische Therapie für Expats - Wohin das Leben Sie auch führt",
-           
+              "slider1.title":
+                "Psychodynamische Therapie für Expats - Wohin das Leben Sie auch führt",
+              "menu.individual.subheader.detail":
+                "Finden Sie Klarheit, Widerstandsfähigkeit und Unterstützung im Ausland",
               "slider1.shape_alt": "Dekorative Textform",
               "slider1.text":
                 "Das Leben im Ausland bringt Herausforderungen mit sich. Ich helfe Expats und Paaren, Klarheit, Widerstandsfähigkeit und Verbundenheit zu finden – überall auf der Welt.",
               "slider1.cta1": "Vereinbaren Sie Ihre Beratung",
               "slider1.cta2": "Mehr erfahren",
 
-              "slider2.title": "Empowering expats through therapy & coaching“ hilft potenziellen Kunden sofort zu erkennen, ob dies für sie gedacht ist",
+              "slider2.title":
+                "Empowering expats through therapy & coaching“ hilft potenziellen Kunden sofort zu erkennen, ob dies für sie gedacht ist",
               "slider2.text":
                 "Bei Expat Therapy verstehen wir die einzigartigen Herausforderungen, die mit dem Leben in einem neuen Land verbunden sind.",
               "slider2.cta1": "Vereinbaren Sie Ihre Beratung",
@@ -110,7 +113,8 @@
               "about.experience": "+ Jahre Erfahrung",
               "about.tagline": "ÜBER UNS",
               "about.title": "Lernen Sie unseren Arzt kennen",
-              "about.highlight":"Meine Mission ist es, Expats bei Übergängen zu unterstützen",
+              "about.highlight":
+                "Meine Mission ist es, Expats bei Übergängen zu unterstützen",
               "about.description":
                 "Maßgeschneiderte Geschäftslösungen, Management und Support-Services für Ihr Unternehmen. Professionelle Beratung für individuelle Bedürfnisse.",
               "about.image2_alt": "Unsere Methoden",
@@ -132,6 +136,36 @@
               "specializations.item3":
                 "✔ Depression, Selbstwertgefühl und Identität",
               "specializations.item4": "✔ Coaching für globale Mobilität",
+              // individual detail
+              "individual.overview.text5":
+                "Finden Sie Klarheit, Widerstandsfähigkeit und emotionales Gleichgewicht, während Sie das Leben im Ausland meistern. Das Leben und Arbeiten in einem neuen Land bringt einzigartige Herausforderungen mit sich. Von kulturellen Anpassungen über Stress, Einsamkeit bis hin zu Identitätskonflikten — die Therapie bietet einen sicheren Raum zum Verarbeiten, Heilen und Wachsen.",
+              "individual.overview.whathelp": "Wobei ich Ihnen helfen kann",
+              "individual.overview.help1": "Angst, Stress und Burnout",
+              "individual.overview.help2":
+                "Geringes Selbstwertgefühl und Selbstwert",
+              "individual.overview.help3": "Beziehungs- und Intimitätsprobleme",
+              "individual.overview.help4":
+                "Trauer, Verlust und Traumabewältigung",
+              "individual.overview.help5":
+                "Identität, Zugehörigkeit und Lebensübergänge",
+              "individual.overview.howworks": "Wie die Therapie funktioniert",
+              "individual.overview.works1":
+                "Vertrauliche Online-Sitzungen — wo immer Sie sich auf der Welt befinden",
+              "individual.overview.works2":
+                "Maßgeschneiderte Unterstützung — psychodynamischer Ansatz, an Ihre Bedürfnisse angepasst",
+              "individual.overview.works3":
+                "Flexible Terminplanung — für verschiedene Zeitzonen geeignet",
+              "individual.overview.whatgain": "Was Sie gewinnen werden",
+              "individual.overview.gain1":
+                "Größere Widerstandsfähigkeit und Bewältigungsstrategien",
+              "individual.overview.gain2":
+                "Verbessertes Selbstverständnis und Klarheit",
+              "individual.overview.gain3":
+                "Gesündere Beziehungen und stärkeres Identitätsgefühl",
+              "individual.overview.gain4":
+                "Ein sicherer, unterstützender Raum zum Erkunden und Wachsen",
+              "individual.cta.headline":
+                "Sie müssen diese Herausforderungen nicht alleine bewältigen.",
 
               // feature updated
               "feature.one.title": "Zweisprachig – Englisch & Deutsch",
@@ -519,7 +553,8 @@
                 "Autoritätsentwicklung und Rollenklarheit",
               "executive.development_point5":
                 "Bleiben Sie voller Energie und vermeiden Sie ein Burnout.",
-                "cta.headline-coaching":"Ganz gleich, ob Sie Führungsherausforderungen meistern, Stress bewältigen oder Resilienz aufbauen möchten – ich unterstütze Sie dabei, beruflich und persönlich erfolgreich zu sein.",
+              "cta.headline-coaching":
+                "Ganz gleich, ob Sie Führungsherausforderungen meistern, Stress bewältigen oder Resilienz aufbauen möchten – ich unterstütze Sie dabei, beruflich und persönlich erfolgreich zu sein.",
               "executive.growth": "Persönliches & berufliches Wachstum",
               "executive.growth_point1":
                 "Erreichen Sie optimale Leistung bei psychischer Gesundheit",
@@ -647,16 +682,19 @@
               "menu.about": "About",
               "menu.contact": "Contact",
               "menu.book": "Book Consultation",
-              "slider1.title": "Psychodynamic Therapy for Expats - Wherever Life Takes You",
- 
+              "slider1.title":
+                "Psychodynamic Therapy for Expats - Wherever Life Takes You",
 
+              "menu.individual.subheader.detail":
+                "Find Clarity, Resilience, and Support Abroad",
               "slider1.shape_alt": "Decorative text shape",
               "slider1.text":
                 "Life abroad brings challenges. I help expats and couples find clarity, resilience, and connection — anywhere in the world.",
               "slider1.cta1": "Schedule Your Consultation",
               "slider1.cta2": "Learn More",
 
-              "slider2.title": "Empowering expats through therapy & coaching” helps potential clients immediately understand whether this is meant for them",
+              "slider2.title":
+                "Empowering expats through therapy & coaching” helps potential clients immediately understand whether this is meant for them",
               "slider2.text":
                 "At Expat Therapy, we understand the unique challenges that come with living in a new country.",
               "slider2.cta1": "Schedule Your Consultation",
@@ -708,7 +746,8 @@
               "about.experience": "+ Experience",
               "about.tagline": "ABOUT US",
               "about.title": " Meet our doctor",
-              "about.highlight":"My mission is to support expats through transitions",
+              "about.highlight":
+                "My mission is to support expats through transitions",
 
               "about.image2_alt": "Expact Theraphy",
 
@@ -727,6 +766,35 @@
               "specializations.item2": "✔ Intercultural Couples",
               "specializations.item3": "✔ Depression, Self-Esteem and Identity",
               "specializations.item4": "✔ Global Mobility Coaching",
+              // individual detail
+              "individual.overview.text5":
+                "Find clarity, resilience, and emotional balance while navigating life abroad. Living and working in a new country brings unique challenges. From cultural adjustment to stress, loneliness, or identity struggles — therapy provides a safe space to process, heal, and grow",
+              "individual.overview.whathelp": "What I Can Help You With",
+              "individual.overview.help1": "Anxiety, stress, and burnout",
+              "individual.overview.help2": "Low self-esteem and self-worth",
+              "individual.overview.help3":
+                "Relationship and intimacy difficulties",
+              "individual.overview.help4": "Grief, loss, and trauma recovery",
+              "individual.overview.help5":
+                "Identity, belonging, and life transitions",
+              "individual.overview.howworks": "How Therapy Works",
+              "individual.overview.works1":
+                "Confidential online sessions — wherever you are in the world",
+              "individual.overview.works2":
+                "Tailored support — psychodynamic approach adapted to your needs",
+              "individual.overview.works3":
+                "Flexible scheduling — to fit across time zones",
+              "individual.overview.whatgain": "What You'll Gain",
+              "individual.overview.gain1":
+                "Greater resilience and coping strategies",
+              "individual.overview.gain2":
+                "Improved self-understanding and clarity",
+              "individual.overview.gain3":
+                "Healthier relationships and stronger sense of identity",
+              "individual.overview.gain4":
+                "A safe, supportive space to explore and grow",
+              "individual.cta.headline":
+                "You don't have to face these challenges alone.",
 
               // feature updated
               "feature.one.title": "Bilingual – English & German",
@@ -1094,7 +1162,6 @@
                 "Navigating life transitions such as parenthood, career shifts, or aging. If you and your partner are ready to move beyond surface solutions and create lasting change, this approach may be right for you.",
               "couples.journey_text":
                 "Begin Your Journey Together. Every couple deserves the chance to build a deeper, more connected relationship. Psychodynamic couples therapy provides a path to understanding the hidden dynamics at play and creating a relationship where both partners feel valued and secure. Take the first step today—reach out to schedule a consultation.",
-              
 
               // Add these new keys to the English section:
               "excecutive.core_maintitle":
@@ -1131,7 +1198,8 @@
                 "Authority development and role clarity",
               "executive.development_point5":
                 "Stay energized and avoid burnout.",
-                "cta.headline-coaching":"Whether you’re navigating leadership challenges, managing stress, or building resilience, I’ll support you in thriving professionally and personally.",
+              "cta.headline-coaching":
+                "Whether you’re navigating leadership challenges, managing stress, or building resilience, I’ll support you in thriving professionally and personally.",
               "executive.growth": "Personal & Professional Growth",
               "executive.growth_point1":
                 "Achieve optimum performance with psychological health",
