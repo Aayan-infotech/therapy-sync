@@ -100,6 +100,19 @@
                 // Show loading state
                 document.querySelector('h1').textContent = 'Loading...';
                 document.querySelector('.payment-details').innerHTML = 'Loading payment details...';
+
+                 fetch(`http://34.226.30.17:5050/api/payments/${transactionId}`)
+                    .then(res => res.json())
+                    .then(data => {
+                        if (data.error) {
+                            showError();
+                        } else {
+                            updateUI(data);
+                        }
+                    })
+                    .catch(() => {
+                        showError();
+                    });
                 
                 // First, auto-update from Mollie
                 fetch(`http://34.226.30.17:5050/api/payments/update/${transactionId}`)
