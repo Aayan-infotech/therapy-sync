@@ -85,74 +85,73 @@
     <!-- Bootstrap JS Bundle -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     
-     <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            // Get transaction ID from URL parameters
-            const urlParams = new URLSearchParams(window.location.search);
-            const transactionId = urlParams.get('id');
-            
-            const homeButton = document.getElementById('home-button');
-            homeButton.addEventListener('click', function() {
-                window.location.href = "/";
-            });
-            
-            if (transactionId) {
-                // Show loading state
-                document.querySelector('h1').textContent = 'Loading...';
-                document.querySelector('.payment-details').innerHTML = 'Loading payment details...';
+    <script>
+document.addEventListener('DOMContentLoaded', function () {
+    const urlParams = new URLSearchParams(window.location.search);
+    const transactionId = urlParams.get('id');
 
-                 fetch(`http://34.226.30.17:5050/api/payments/update/${transactionId}`)
-                    .then(res => res.json())
-                    .then(data => {
-                        console.log(data)
-                        if (data.paymentStatus === 'failed') {
-                            showError();
-                        }  else {
-                        updateUI(data);
-                        // After showing initial data, try to update from Mollie
-                        fetch(`http://34.226.30.17:5050/api/payments/update/${transactionId}`)
-                            .then(res => res.json())
-                            // .then(updateData => {
-                            //     if (!updateData.error) {
-                            //         updateUI(updateData);
-                            //     }
-                            // })
-                            // .catch(() => {
-                            //     // Silently fail the update call, we already have the initial data
-                            // });
-                    }
-                })
-                    .catch(() => {
-                        showError();
-                    });
-               
+    const homeButton = document.getElementById('home-button');
+    homeButton.addEventListener('click', function () {
+        window.location.href = "/";
+    });
+
+    if (!transactionId) {
+        return showError();
+    }
+
+    // Initial loading state
+    document.querySelector('h1').textContent = 'Loading...';
+    document.querySelector('.payment-details').textContent = 'Loading payment details...';
+
+    // Fetch payment details (first API call)
+    fetch(`http://34.226.30.17:5050/api/payments/update/${transactionId}`)
+        .then(res => res.json())
+        .then(data => {
+            if (data.paymentStatus === 'paid') {
+                // Show UI with initial data
+                updateUI(data);
+
+                // Second API call to confirm/update from Mollie
+                return fetch(`http://34.226.30.17:5050/api/payments/${transactionId}`);
             } else {
-                showError();
+                throw new Error("Payment not completed");
             }
-            
-            function updateUI(payment) {
-                document.getElementById('user-name').textContent = payment.userId?.name || 'Customer';
-                document.getElementById('session-plan').textContent = payment.sessionPlan || 'Session Plan';
-                document.getElementById('payment-amount').textContent = payment.price ? payment.price.toFixed(2) : '0.00';
-                document.getElementById('payment-method').textContent = payment.method || 'N/A';
-                document.getElementById('payment-status').textContent = payment.paymentStatus || 'N/A';
-                document.getElementById('payment-category').textContent = payment.category_id?.category || 'N/A';
-                document.getElementById('payment-date').textContent = payment.createdAt ? new Date(payment.createdAt).toLocaleString() : 'N/A';
-                document.getElementById('transaction-id').textContent = payment.transactionId || 'N/A';
-                
-                // Restore success UI
-                document.querySelector('h1').textContent = 'Payment Successful!';
-                document.querySelector('.failed-icon').style.display = 'block';
-            }
-            
-            function showError() {
-                document.querySelector('h1').textContent = 'Payment Failed';
-                document.querySelector('.failed-icon').style.display = "block"
-                  document.querySelector('.success-icon').style.display = "none"
-                document.querySelector('.payment-details').innerHTML = 'Payment not found or failed.';
-            }
+        })
+        // .then(res => res?.json())
+        // .then(updateData => {
+        //     if (updateData && !updateData.error) {
+        //         updateUI(updateData); // refresh UI with updated data
+        //     }
+        // })
+        .catch(() => {
+            showError();
         });
-    </script>
+
+    function updateUI(payment) {
+        document.getElementById('user-name').textContent = payment.userId?.name || 'Customer';
+        document.getElementById('session-plan').textContent = payment.sessionPlan || 'Session Plan';
+        document.getElementById('payment-amount').textContent = payment.price ? Number(payment.price).toFixed(2) : '0.00';
+        document.getElementById('payment-method').textContent = payment.method || 'N/A';
+        document.getElementById('payment-status').textContent = payment.paymentStatus || 'N/A';
+        document.getElementById('payment-category').textContent = payment.category_id?.category || 'N/A';
+        document.getElementById('payment-date').textContent = payment.createdAt ? new Date(payment.createdAt).toLocaleString() : 'N/A';
+        document.getElementById('transaction-id').textContent = payment.transactionId || 'N/A';
+
+        // Success UI
+        document.querySelector('h1').textContent = 'Payment Successful!';
+        document.querySelector('.success-icon').style.display = 'block';
+        document.querySelector('.failed-icon').style.display = 'none';
+    }
+
+    function showError() {
+        document.querySelector('h1').textContent = 'Payment Failed';
+        document.querySelector('.failed-icon').style.display = "block";
+        document.querySelector('.success-icon').style.display = "none";
+        document.querySelector('.payment-details').textContent = 'Payment not found or failed.';
+    }
+});
+</script>
+
     
    
 </body>
