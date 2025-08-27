@@ -34,6 +34,8 @@
           de: {
             translation: {
               // navbar
+               "services.academic.title_thin":
+                "Wiederaufbau grenzüberschreitender Verbindungen",
               "topbar.email": "expacttheraphy@gmail.com",
               "topbar.address": "Linienstraße 130 , 10115 Berlin , Germany",
               "topbar.help": "Hilfe",

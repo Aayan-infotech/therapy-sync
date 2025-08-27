@@ -3930,7 +3930,7 @@ h6 {
 .home-contact-one .home-contact__card__content {
   background-color: var(--pelocis-white, #fff);
   border-radius: 40px;
-  padding: 70px 80px;
+  padding: 35px 45px;
 }
 @media (max-width: 768px) {
   .home-contact-one .home-contact__card__content {
@@ -12472,6 +12472,7 @@ body.megamenu-popup-active .mobile-nav__content {
 @media (min-width: 768px) {
   .page-header__title {
     font-size: 60px;
+    max-width:720px
   }
 }
 .page-header__shape {
