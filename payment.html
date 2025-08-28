@@ -101,33 +101,58 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Initial loading state
     document.querySelector('h1').textContent = 'Loading...';
-    document.querySelector('.payment-details').textContent = 'Loading payment details...';
+    document.querySelector('.payment-details').innerHTML = '<div style="text-align: center; color: #ccc;">Loading payment details...</div>';
 
     // Fetch payment details (first API call)
     fetch(`http://34.226.30.17:5050/api/payments/update/${transactionId}`)
-        .then(res => res.json())
+        .then(res => {
+            if (!res.ok) {
+                throw new Error(`HTTP error! status: ${res.status}`);
+            }
+            return res.json();
+        })
         .then(data => {
+            console.log('Payment data received:', data);
+            
+            // Check if payment is successful
             if (data.paymentStatus === 'paid') {
-                // Show UI with initial data
+                // Show success UI with initial data
                 updateUI(data);
 
                 // Second API call to confirm/update from Mollie
-                return fetch(`http://34.226.30.17:5050/api/payments/${transactionId}`);
+                console.log('Payment successful, making second API call...');
+                return fetch(`http://34.226.30.17:5050/api/payments/${transactionId}`)
+                    .then(res => {
+                        if (!res.ok) {
+                            console.log('Second API call failed, but payment was already successful');
+                            return null; // Don't throw error, just return null
+                        }
+                        return res.json();
+                    })
+                    .then(updateData => {
+                        if (updateData && !updateData.error) {
+                            console.log('Updated data received:', updateData);
+                            updateUI(updateData); // refresh UI with updated data
+                        }
+                        return data; // Return original data
+                    })
+                    .catch(err => {
+                        console.log('Second API call failed:', err);
+                        // Don't show error since first call was successful
+                        return data; // Return original data
+                    });
             } else {
-                throw new Error("Payment not completed");
+                throw new Error("Payment not completed - status: " + data.paymentStatus);
             }
         })
-        // .then(res => res?.json())
-        // .then(updateData => {
-        //     if (updateData && !updateData.error) {
-        //         updateUI(updateData); // refresh UI with updated data
-        //     }
-        // })
-        .catch(() => {
+        .catch(err => {
+            console.error('Error:', err);
             showError();
         });
 
     function updateUI(payment) {
+        console.log('Updating UI with:', payment);
+        
         document.getElementById('user-name').textContent = payment.userId?.name || 'Customer';
         document.getElementById('session-plan').textContent = payment.sessionPlan || 'Session Plan';
         document.getElementById('payment-amount').textContent = payment.price ? Number(payment.price).toFixed(2) : '0.00';
@@ -147,7 +172,7 @@ document.addEventListener('DOMContentLoaded', function () {
         document.querySelector('h1').textContent = 'Payment Failed';
         document.querySelector('.failed-icon').style.display = "block";
         document.querySelector('.success-icon').style.display = "none";
-        document.querySelector('.payment-details').textContent = 'Payment not found or failed.';
+        document.querySelector('.payment-details').innerHTML = '<div style="text-align: center; color: #ff6b6b;">Payment not found or failed.</div>';
     }
 });
 </script>
