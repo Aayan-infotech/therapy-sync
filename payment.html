@@ -101,10 +101,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Initial loading state
     const title = document.querySelector('h1');
-    const paymentDetails = document.querySelector('.payment-details');
     
     if (title) title.textContent = 'Loading...';
-    if (paymentDetails) paymentDetails.innerHTML = '<div style="text-align: center; color: #ccc;">Loading payment details...</div>';
 
     // Fetch payment details (first API call)
     fetch(`http://34.226.30.17:5050/api/payments/update/${transactionId}`)
@@ -155,6 +153,19 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function updateUI(payment) {
         console.log('Updating UI with:', payment);
+        
+        // Restore the payment details structure if it was replaced
+        const paymentDetails = document.querySelector('.payment-details');
+        if (paymentDetails && !document.getElementById('payment-amount')) {
+            paymentDetails.innerHTML = `
+                <div><strong>Amount:</strong> €<span id="payment-amount">0.00</span></div>
+                <div><strong>Method:</strong> <span id="payment-method">N/A</span></div>
+                <div><strong>Status:</strong> <span id="payment-status">N/A</span></div>
+                <div><strong>Category:</strong> <span id="payment-category">N/A</span></div>
+                <div><strong>Date:</strong> <span id="payment-date">N/A</span></div>
+                <div><strong>Transaction ID:</strong> <span id="transaction-id">N/A</span></div>
+            `;
+        }
         
         // Safely update each element with null checks
         const userName = document.getElementById('user-name');
@@ -207,8 +218,5 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 });
 </script>
-
-    
-   
 </body>
 </html>
