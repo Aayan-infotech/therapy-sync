@@ -100,8 +100,11 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     // Initial loading state
-    document.querySelector('h1').textContent = 'Loading...';
-    document.querySelector('.payment-details').innerHTML = '<div style="text-align: center; color: #ccc;">Loading payment details...</div>';
+    const title = document.querySelector('h1');
+    const paymentDetails = document.querySelector('.payment-details');
+    
+    if (title) title.textContent = 'Loading...';
+    if (paymentDetails) paymentDetails.innerHTML = '<div style="text-align: center; color: #ccc;">Loading payment details...</div>';
 
     // Fetch payment details (first API call)
     fetch(`http://34.226.30.17:5050/api/payments/update/${transactionId}`)
@@ -153,26 +156,54 @@ document.addEventListener('DOMContentLoaded', function () {
     function updateUI(payment) {
         console.log('Updating UI with:', payment);
         
-        document.getElementById('user-name').textContent = payment.userId?.name || 'Customer';
-        document.getElementById('session-plan').textContent = payment.sessionPlan || 'Session Plan';
-        document.getElementById('payment-amount').textContent = payment.price ? Number(payment.price).toFixed(2) : '0.00';
-        document.getElementById('payment-method').textContent = payment.method || 'N/A';
-        document.getElementById('payment-status').textContent = payment.paymentStatus || 'N/A';
-        document.getElementById('payment-category').textContent = payment.category_id?.category || 'N/A';
-        document.getElementById('payment-date').textContent = payment.createdAt ? new Date(payment.createdAt).toLocaleString() : 'N/A';
-        document.getElementById('transaction-id').textContent = payment.transactionId || 'N/A';
+        // Safely update each element with null checks
+        const userName = document.getElementById('user-name');
+        if (userName) userName.textContent = payment.userId?.name || 'Customer';
+        
+        const sessionPlan = document.getElementById('session-plan');
+        if (sessionPlan) sessionPlan.textContent = payment.sessionPlan || 'Session Plan';
+        
+        const paymentAmount = document.getElementById('payment-amount');
+        if (paymentAmount) paymentAmount.textContent = payment.price ? Number(payment.price).toFixed(2) : '0.00';
+        
+        const paymentMethod = document.getElementById('payment-method');
+        if (paymentMethod) paymentMethod.textContent = payment.method || 'N/A';
+        
+        const paymentStatus = document.getElementById('payment-status');
+        if (paymentStatus) paymentStatus.textContent = payment.paymentStatus || 'N/A';
+        
+        const paymentCategory = document.getElementById('payment-category');
+        if (paymentCategory) paymentCategory.textContent = payment.category_id?.category || 'N/A';
+        
+        const paymentDate = document.getElementById('payment-date');
+        if (paymentDate) paymentDate.textContent = payment.createdAt ? new Date(payment.createdAt).toLocaleString() : 'N/A';
+        
+        const transactionId = document.getElementById('transaction-id');
+        if (transactionId) transactionId.textContent = payment.transactionId || 'N/A';
 
         // Success UI
-        document.querySelector('h1').textContent = 'Payment Successful!';
-        document.querySelector('.success-icon').style.display = 'block';
-        document.querySelector('.failed-icon').style.display = 'none';
+        const title = document.querySelector('h1');
+        if (title) title.textContent = 'Payment Successful!';
+        
+        const successIcon = document.querySelector('.success-icon');
+        if (successIcon) successIcon.style.display = 'block';
+        
+        const failedIcon = document.querySelector('.failed-icon');
+        if (failedIcon) failedIcon.style.display = 'none';
     }
 
     function showError() {
-        document.querySelector('h1').textContent = 'Payment Failed';
-        document.querySelector('.failed-icon').style.display = "block";
-        document.querySelector('.success-icon').style.display = "none";
-        document.querySelector('.payment-details').innerHTML = '<div style="text-align: center; color: #ff6b6b;">Payment not found or failed.</div>';
+        const title = document.querySelector('h1');
+        if (title) title.textContent = 'Payment Failed';
+        
+        const failedIcon = document.querySelector('.failed-icon');
+        if (failedIcon) failedIcon.style.display = "block";
+        
+        const successIcon = document.querySelector('.success-icon');
+        if (successIcon) successIcon.style.display = "none";
+        
+        const paymentDetails = document.querySelector('.payment-details');
+        if (paymentDetails) paymentDetails.innerHTML = '<div style="text-align: center; color: #ff6b6b;">Payment not found or failed.</div>';
     }
 });
 </script>
